@@ -57,6 +57,7 @@
 
 .navbar .menu-list{
   display: inline-flex;
+  margin-top: 15px;
 }
 .menu-list li{
   

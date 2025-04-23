@@ -23,7 +23,7 @@
     <!-- Training -->
     <section class="container mx-auto training">
         <h2 class="text-center">Tanfolyamaink</h2>
-        <div class="row g-4">
+        <div class="row g-4 mt-3">
             <div class="col-md-4 ScrollDownLeft">
                 <div>
                     <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
@@ -87,7 +87,7 @@
                     <img src="imgs/two-guys-talking-about-work-work-garage-near-truck-transfer-documents-with-goods.jpg" alt="">
                 </div>
                 <div class="col-md-6 ScrollDownRight">
-                    <h2>Miért válassza ezt az iskolát?</h2>
+                    <h2>Miért válassza a RDR2003-at?</h2>
                     <div>
                         <div>
                             <span>Tapasztalt oktatók</span>

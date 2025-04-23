@@ -1,5 +1,5 @@
 @import url(default.css);
-@import url(animation.css);
+@import url(scrollanimation.css);
 
 header {
     height: 100vh;
@@ -40,6 +40,9 @@ header .text span {
 
 
 /* Training */
+.training h2{
+    margin: 45px 0 23px 0;
+}
 .training div div div{
     background-color: var(--white);
     border-radius: 12px;
