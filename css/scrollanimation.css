@@ -1,0 +1,62 @@
+/* Down */
+.ScrollDownDown {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .ScrollDownDown.activeDown {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Up */
+.ScrollDownUp {
+  position: relative;
+  transform: translateY(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.ScrollDownUp.activeUp {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Left */
+.ScrollDownLeft {
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.ScrollDownLeft.activeLeft {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Right */
+.ScrollDownRight {
+  position: relative;
+  transform: translateX(200px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.ScrollDownRight.activeRight {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Transparent */
+.ScrollDownTransparent{
+  position: relative;
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.ScrollDownTransparent.activeTransparent {
+  opacity: 1;
+}
