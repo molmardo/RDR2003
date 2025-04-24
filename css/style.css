@@ -214,11 +214,15 @@ header .text span {
 
 .logos {
     overflow: hidden;
-    padding: 0 0 60px 0;
+    padding: 35px 0 75px 0;;
     background: var(--main-hover);
     white-space: nowrap;
     position: relative;
     color: var(--white);
+}
+
+.logos h2{
+    margin-bottom: 3.8rem !important;
 }
 
 .logos:before,

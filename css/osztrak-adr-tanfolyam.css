@@ -1,12 +1,23 @@
 @import url(default.css);
 
-.container {
+.adr {
     margin-top: 150px;
     margin-bottom: 45px;
-    padding: 2rem;
+    /* padding: 2rem; */
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 0px 9px 1px rgba(0, 0, 0, 0.25);
+}
+
+.adr-data{
+    padding: 1.5rem;
+}
+
+.adr img{
+    width: 100%;
+    height: 300px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
 }
 
 h1,
@@ -20,6 +31,10 @@ h1{
 
 ul {
     padding-left: 1.2rem;
+}
+
+.adr section:nth-child(3) ul{
+    list-style-type: none;
 }
 
 .highlight {
