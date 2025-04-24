@@ -21,7 +21,7 @@
         </div>
     </header>
     <!-- Training -->
-    <section class="container mx-auto training">
+    <section class="container mx-auto training" id="tanfolyamok">
         <h2 class="text-center">Tanfolyamaink</h2>
         <div class="row g-4 mt-3">
             <div class="col-md-4 ScrollDownLeft">
@@ -71,7 +71,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga harum ad nihil alias est sint. Dolores, totam? Aliquam consequuntur et, corporis architecto mollitia illo illum consequatur excepturi blanditiis inventore?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa necessitatibus eius, asperiores aliquid adipisci, nostrum vitae voluptatibus, soluta fuga est vero quo? Quam facere officiis harum soluta ipsum! Consectetur, harum!
                     </p>
-                    <a href="">Elolvasom</a>
+                    <a href="rolunk.php">Oktatóinkról</a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
                     <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">
@@ -146,7 +146,7 @@
 
     </section>
     <!-- contact -->
-    <section class="container">
+    <section class="container" id="kapcsolat">
         <div class="row align-items-center ScrollDownDown">
             <div class="col-md-6">
                 <h2 class="mt-3 mb-3">Kapcsolat</h2>

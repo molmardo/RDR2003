@@ -18,13 +18,13 @@
           <i class="fas fa-times"></i>
         </div>
         <li><a href="./" class="nav-a-black">Kezdőlap</a></li>
-        <li><a href="kapcsolat" class="nav-a-black">Oktatás</a></li>
+        <li><a href="./#tanfolyamok" class="nav-a-black">Tanfolyamok</a></li>
         <!-- <li><a href="kapcsolat" class="nav-a-black">Tanácsadás</a></li> -->
         <li><a href="kapcsolat" class="nav-a-black">Bérbeadás</a></li>
         <!-- <li><a href="kapcsolat" class="nav-a-black">Audit</a></li> -->
         <!-- <li><a href="kapcsolat" class="nav-a-black">Bérbeadás</a></li> -->
         <li><a href="rolunk" class="nav-a-black">Rólunk</a></li>
-        <li><a href="kapcsolat" class="nav-a-black">Kapcsolat</a></li>
+        <li><a href="./#kapcsolat" class="nav-a-black">Kapcsolat</a></li>
         <li><a href="https://www.facebook.com/rdr2003.hu" class="nav-a-black" target="_blank"><i class="fa fa-facebook"></i></a></li>
         <li><a href="mailto:rdr2003@rdr2003.hu" class="nav-a-black"><i class="fas fa-envelope"></i></a></li>
 
