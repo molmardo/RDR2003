@@ -71,7 +71,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga harum ad nihil alias est sint. Dolores, totam? Aliquam consequuntur et, corporis architecto mollitia illo illum consequatur excepturi blanditiis inventore?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa necessitatibus eius, asperiores aliquid adipisci, nostrum vitae voluptatibus, soluta fuga est vero quo? Quam facere officiis harum soluta ipsum! Consectetur, harum!
                     </p>
-                    <a href="">Tovább</a>
+                    <a href="">Elolvasom</a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
                     <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">
@@ -145,6 +145,7 @@
         </div>
 
     </section>
+    <!-- contact -->
     <section class="container">
         <div class="row align-items-center ScrollDownDown">
             <div class="col-md-6">
@@ -166,7 +167,7 @@
                         <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="floatingTextarea2" style="height: 100px"></textarea>
                         <label for="floatingTextarea2">Üzenet</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Küldés</button>
+                    <button type="submit" class="send-btn">Küldés</button>
                 </form>
             </div>
             <div class="col-md-6">
@@ -177,6 +178,7 @@
                             Lépjen velünk kapcsolatba
                         </h3>
                         <span><i class="fas fa-envelope"></i> <a href="mailto:rdr2003@rdr2003.hu">rdr2003@rdr2003.hu</a></span>
+                        <span><br><i class="fas fa-mobile fa-xl"></i> +36 30 878 9488</span>
                         <h3>Helyszín</h3>
                         <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045</span>
                         <h3>Nyitvatartás</h3>

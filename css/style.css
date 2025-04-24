@@ -104,6 +104,7 @@ header .text span {
     border-radius: 5px;
     text-decoration: none;
     font-size: 130%;
+    margin: 15px 0;
     transition: 0.3s;
 }
 
@@ -142,8 +143,10 @@ header .text span {
     cursor: pointer;
 }
 
+/* Contact */
+
 .contact-info{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.208);
     border-radius: 12px;
 }
 
@@ -178,11 +181,26 @@ header .text span {
     width: 100px;
 }
 
+.contact-info div span{
+    font-size: 120%;
+}
 
 
+.send-btn{
+    border: none;
+    background-color: var(--main);
+    padding: 8px 25px;
+    border-radius: 4px;
+    color: var(--white);
+    margin: 15px 0;
+    transition: 0.3s;
+}
 
+.send-btn:hover{
+    background-color: var(--main-hover);
+}
 
-
+/* Contatcts */
 
 @keyframes slide {
     from {
