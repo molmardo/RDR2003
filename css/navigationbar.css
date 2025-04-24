@@ -119,6 +119,15 @@
   display: none;
 }
 
+nav #languageSwitcher{
+  padding: 0 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: none;
+  color: var(--white);
+}
+
+
 @media (max-width: 1230px) {
   .content{
     padding: 0 60px;

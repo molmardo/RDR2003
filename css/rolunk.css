@@ -1,12 +1,36 @@
 @import url(default.css);
 
+.employees{
+    margin: 175px 0 20px 0;
+}
+
+.employees div{
+    border-radius: 12px;
+}
+
 .employees img{
     height: 200px;
     width: 100%;
     object-fit: cover;
+    border-radius: 12px 12px 0 0;
 }
 
-.employees div div{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.employee-card{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     border-radius: 12px;
+}
+
+.employee-card div{
+    padding: 14px;
+}
+
+
+.employee-card div span:first-child{
+    font-size: 125%;
+    color: var(--main);
+    font-weight: bold;
+}
+
+.employee-card span:nth-child(3){
+    font-style: italic;
 }

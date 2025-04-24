@@ -2,12 +2,9 @@
 <html lang="hu">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include "include/head.php";?>
     <title>RDR2003</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -61,7 +58,7 @@
 
     </section>
     <!-- About US -->
-    <section class="about_us">
+    <section class="about_us" id="rolunk">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 ScrollDownLeft">
@@ -71,7 +68,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga harum ad nihil alias est sint. Dolores, totam? Aliquam consequuntur et, corporis architecto mollitia illo illum consequatur excepturi blanditiis inventore?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa necessitatibus eius, asperiores aliquid adipisci, nostrum vitae voluptatibus, soluta fuga est vero quo? Quam facere officiis harum soluta ipsum! Consectetur, harum!
                     </p>
-                    <a href="rolunk.php">Oktatóinkról</a>
+                    <a href="munkatarsak.php">Munkatársainkról</a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
                     <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">
