@@ -19,13 +19,13 @@
     </header>
     <!-- Training -->
     <section class="container mx-auto training" id="tanfolyamok">
-        <h2 class="text-center">Tanfolyamaink</h2>
+        <h2 class="text-center">Tanfolyamok</h2>
         <div class="row g-4 mt-3">
             <div class="col-md-4 ScrollDownLeft">
                 <div>
                     <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
                     <div>
-                        <a href="">
+                        <a href="osztrak-adr-tanfolyam">
                             <h3>Osztrák ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ratione repellat praesentium accusamus inventore at autem, labore ducimus animi eius ex veritatis incidunt ab esse sed. Possimus praesentium ducimus qui.</p>
@@ -36,7 +36,7 @@
                 <div>
                     <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
                     <div>
-                        <a href="">
+                        <a href="magyarorszagi-tanfolyamok">
                             <h3>Magyarországi Tanfolyamok <i class="fa fa-angle-right"></i></h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, assumenda. Mollitia assumenda, impedit magni at incidunt perspiciatis praesentium delectus quidem deleniti ducimus eveniet fugiat ut libero minima, dolore necessitatibus similique.</p>
@@ -47,7 +47,7 @@
                 <div>
                     <img src="imgs/pexels-quintingellar-2199293.jpg">
                     <div>
-                        <a href="">
+                        <a href="magyar-adr-tanfolyam">
                             <h3>Magyarországi ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit voluptatibus, facere unde fuga inventore quod dolorem autem nam. Impedit in maxime quisquam voluptatum beatae cumque fugiat facilis ex. Magnam.</p>
@@ -68,7 +68,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga harum ad nihil alias est sint. Dolores, totam? Aliquam consequuntur et, corporis architecto mollitia illo illum consequatur excepturi blanditiis inventore?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa necessitatibus eius, asperiores aliquid adipisci, nostrum vitae voluptatibus, soluta fuga est vero quo? Quam facere officiis harum soluta ipsum! Consectetur, harum!
                     </p>
-                    <a href="munkatarsak.php">Munkatársainkról</a>
+                    <a href="munkatarsak.php">Munkatársaink</a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
                     <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">

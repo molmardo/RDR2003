@@ -3,11 +3,7 @@
 $isHomepage = basename($_SERVER['SCRIPT_NAME']) === 'index.php';
 ?>
 
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="css/navigationbar.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 <nav class="navbar <?php echo $isHomepage ? 'navbar-index' : 'navbar-default'; ?>">
   <div class="content">
     <div class="logo">
@@ -44,27 +40,4 @@ $isHomepage = basename($_SERVER['SCRIPT_NAME']) === 'index.php';
   </div>
 </nav>
 
-<script>
-  const body = document.querySelector("body");
-  const navbar = document.querySelector(".navbar");
-  const menuBtn = document.querySelector(".menu-btn");
-  const cancelBtn = document.querySelector(".cancel-btn");
-  const nav_a_black = document.querySelector(".nav-a-black");
-  menuBtn.onclick = () => {
-    navbar.classList.add("show");
-    menuBtn.classList.add("hide");
-    body.classList.add("disabled");
-    nav_a_black.classList.add("nav-a-white")
-  }
-  cancelBtn.onclick = () => {
-    body.classList.remove("disabled");
-    navbar.classList.remove("show");
-    menuBtn.classList.remove("hide");
-    // menuBtn.classList.remove("nav-a-white");
-  }
-  window.onscroll = () => {
-    this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-  }
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/6416005539.js" crossorigin="anonymous"></script>
+<script src="js/navigationbar.js"></script>
