@@ -36,11 +36,11 @@ $isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '
       <li><a href="https://www.facebook.com/rdr2003.hu" class="nav-a-black" target="_blank"><i class="fa fa-facebook"></i></a></li>
       <li><a href="mailto:rdr2003@rdr2003.hu" class="nav-a-black"><i class="fas fa-envelope"></i></a></li>
       <li>
-        <select id="languageSwitcher" class="form-select form-select-sm" onchange="changeLanguage(this.value)">
+        <select id="languageSwitcher" class="">
           <option value="en">EN</option>
           <option value="de">DE</option>
           <option value="hu">HU</option>
-          <option value="vi">VN</option>
+          <option value="vn">VN</option>
         </select>
       </li>
     </ul>
