@@ -51,5 +51,9 @@ return [
     'impressum' => [
         'path' => '/impressum',
         'file' => 'dokumentumok/impressum.php'
+    ],
+    'rolunk' => [
+        'path' => '/munkatarsaink',
+        'file' => '/rolunk.php'
     ]
 ];

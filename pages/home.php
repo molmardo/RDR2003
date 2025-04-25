@@ -70,7 +70,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga harum ad nihil alias est sint. Dolores, totam? Aliquam consequuntur et, corporis architecto mollitia illo illum consequatur excepturi blanditiis inventore?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa necessitatibus eius, asperiores aliquid adipisci, nostrum vitae voluptatibus, soluta fuga est vero quo? Quam facere officiis harum soluta ipsum! Consectetur, harum!
                     </p>
-                    <a href="munkatarsak.php">Munkatársaink</a>
+                    <a href="<?= BASE_URL . $routes['rolunk']['path'] ?>">Munkatársaink</a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
                     <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">
