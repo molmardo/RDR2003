@@ -8,8 +8,8 @@
             <h3>Oldalak</h3>
             <ul class="pages-links">
                 <li><a href="./">Kezdőlap</a></li>
-                <li><a href="./">Tanfolyamok</a></li>
-                <li><a href="./">Bérbeadás</a></li>
+                <li><a href="<?= BASE_URL . $routes['tanfolyamok']['path'] ?>">Tanfolyamok</a></li>
+                <li><a href="<?= BASE_URL . $routes['berbeadas']['path'] ?>">Bérbeadás</a></li>
                 <li><a href="./">Rólunk</a></li>
                 <li><a href="./">Kapcsolat</a></li>
             </ul>

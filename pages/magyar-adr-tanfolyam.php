@@ -4,7 +4,7 @@
 <head>
     <?php include "include/head.php"; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magyarorszagi Tanfolyamok | RDR2003</title>
+    <title>Magyarorszagi ADR Tanfolyamok | RDR2003</title>
     <link rel="stylesheet" href="css/magyar-adr-tanfolyam.css">ss
 </head>
 
