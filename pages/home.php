@@ -10,11 +10,13 @@
 <body>
     <?php include "include/navigationbar.php"; ?>
     <header>
-        <img src="imgs/header.jpg" alt="Kép">
-        <!-- <img src="imgs/saigon-stock.jpg" alt="Kép"> -->
-        <div class="text">
-            <h1>"A biztonságos közlekedés az alapos képzésnél kezdődik."</h1>
-
+        <div class="container">
+            <h1>Ismerje meg tanfolyamainkat!</h1>
+            <p class="subtitle">"A biztonságos közlekedés az alapos képzésnél kezdődik."</p>
+            <div class="cta-buttons">
+                <a href="#courses" class="btn primary-btn">Tanfolyamok megtekintése</a>
+                <a href="#contact" class="btn secondary-btn">Jelentkezzen most</a>
+            </div>
         </div>
     </header>
     <!-- Training -->

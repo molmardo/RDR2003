@@ -1,85 +1,116 @@
 @import url(scrollanimation.css);
 
+
 header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/header.jpg');
+    background-size: cover;
+    background-position: center;
     height: 100vh;
-    position: relative;
-}
-
-header img {
-    height: calc(100vh);
-    width: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
-
-header .text {
-    z-index: 4;
-    top: 26%;
-    right: 80px;
-    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: var(--white);
-    background-color: rgba(152, 71, 0, 0.8);
-    padding: 15px 10px;
-    border-radius: 15px;
 }
 
-header .text h1 {
-    font-size: 1.3rem;
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
 }
 
-/* 
-  header .text p{
-    font-weight: bold;
-  } */
-
-
-header .text span {
-    font-size: 80%;
+header .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 494px) {
+    .cta-buttons{
+        display: block;
+    }
+
+    .cta-buttons .btn{
+        margin-top: 15px;
+    }
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.primary-btn {
+    border: 2px solid var(--main);
+    background-color: var(--main);
+    color: var(--white);
+}
+
+.secondary-btn {
+    border: 2px solid var(--white);
+    color: var(--white);
+    background-color: transparent;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background-color: var(--main-hover-dark);
+    color: var(--white);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 /* Training */
-.training h2{
+.training h2 {
     margin: 45px 0 23px 0;
 }
-.training div div div{
+
+.training div div div {
     background-color: var(--white);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: 0.4s;
 }
 
-.training div div div:first-child:hover{
-    transform: scale(1.05);   
+.training div div div:first-child:hover {
+    transform: scale(1.05);
 }
 
-.training div div img{
+.training div div img {
     height: 250px;
     width: 100%;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
 
-.training div div div div{
+.training div div div div {
     padding: 18px 15px;
 }
 
-.training div div div div a{
+.training div div div div a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     transition: 0.33s;
 }
 
-.training div div div div a:hover i{
+.training div div div div a:hover i {
     margin-left: 4px;
 }
 
-.training div div div div a:hover{
+.training div div div div a:hover {
     color: var(--main);
 }
 
-.training div div div div h3{
+.training div div div div h3 {
     font-size: 155%;
     margin-top: 1rem;
 }
@@ -99,13 +130,14 @@ header .text span {
 }
 
 .card-text {
-    flex-grow: 1; /* Kitölti a helyet, hogy az alsó tartalom fixen lent legyen */
+    flex-grow: 1;
+    /* Kitölti a helyet, hogy az alsó tartalom fixen lent legyen */
 }
 
 
 /* About US */
 
-.about_us div div div:last-child img{
+.about_us div div div:last-child img {
     width: 100%;
     max-height: 600px;
     object-fit: cover;
@@ -113,7 +145,7 @@ header .text span {
 }
 
 
-.about_us div div div:first-child a{
+.about_us div div div:first-child a {
     display: inline-block;
     border: 2px solid var(--main);
     color: var(--main);
@@ -127,19 +159,19 @@ header .text span {
 }
 
 
-.about_us div div div:first-child a:hover{
+.about_us div div div:first-child a:hover {
     background-color: var(--main);
     color: var(--white);
 }
 
 /* Why choose */
 
-.why-choose div div:last-child div{
+.why-choose div div:last-child div {
     padding: 8px 13px;
     border-radius: 12px;
 }
 
-.why-choose div div:first-child img{
+.why-choose div div:first-child img {
     border-radius: 12px;
     width: 100%;
     height: 500px;
@@ -147,64 +179,64 @@ header .text span {
 }
 
 
-.why-choose div div:last-child div span{
+.why-choose div div:last-child div span {
     font-weight: bold;
     font-size: 140%;
 }
 
-.why-choose div div:last-child div p{
+.why-choose div div:last-child div p {
     font-size: 130%;
 }
 
-.why-choose div div:last-child div div:hover{
+.why-choose div div:last-child div div:hover {
     background-color: rgba(141, 141, 141, 0.221);
     cursor: pointer;
 }
 
 /* Contact */
 
-.contact-info{
+.contact-info {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.208);
     border-radius: 12px;
 }
 
-.contact-info div{
+.contact-info div {
     padding: 15px;
 }
 
-.contact-info div h3{
+.contact-info div h3 {
     margin-top: 18px;
     font-size: 155%;
 }
 
-.contact-info div span{
+.contact-info div span {
     font-size: 120%;
 }
 
-.contact-info div a{
+.contact-info div a {
     text-decoration: underline;
     color: black;
     transition: 0.2s;
 }
 
-.contact-info div a:hover{
+.contact-info div a:hover {
     color: var(--main);
 }
 
-.contact-info table tr td:first-child{
+.contact-info table tr td:first-child {
     font-weight: bold;
 }
 
-.contact-info table td{
+.contact-info table td {
     width: 100px;
 }
 
-.contact-info div span{
+.contact-info div span {
     font-size: 120%;
 }
 
 
-.send-btn{
+.send-btn {
     border: none;
     background-color: var(--main);
     padding: 8px 25px;
@@ -214,23 +246,24 @@ header .text span {
     transition: 0.3s;
 }
 
-.send-btn:hover{
+.send-btn:hover {
     background-color: var(--main-hover);
 }
 
-.openHours{
+.openHours {
     color: rgb(9, 151, 9);
 }
 
-.closeHours{
+.closeHours {
     color: rgb(255, 30, 30);
 }
 
-.openingSoon, .closingSoon{
+.openingSoon,
+.closingSoon {
     color: rgb(255, 145, 0);
 }
 
-.openingTime{
+.openingTime {
     font-size: 70% !important;
     font-style: italic;
 }
@@ -249,14 +282,15 @@ header .text span {
 
 .logos {
     overflow: hidden;
-    padding: 35px 0 75px 0;;
+    padding: 35px 0 75px 0;
+    ;
     background: var(--main-hover);
     white-space: nowrap;
     position: relative;
     color: var(--white);
 }
 
-.logos h2{
+.logos h2 {
     margin-bottom: 3.8rem !important;
 }
 
@@ -298,5 +332,3 @@ header .text span {
     text-align: center;
     margin: 25px 10px;
 }
-
-
