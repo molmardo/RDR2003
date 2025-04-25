@@ -1,3 +1,7 @@
+.impressum-full{
+    margin-top: 150px;
+}
+
 h1, h2 {
     font-family: 'Playfair Display', serif;
     color: var(--main);
