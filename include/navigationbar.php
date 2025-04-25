@@ -2,7 +2,13 @@
 <?php require_once 'config.php';
 $routes = require 'routes.php'; ?>
 <?php
-$isHomepage = ($route === '' || $route === '/' || $route === '/home');
+$currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$basePath = parse_url(BASE_URL, PHP_URL_PATH) ?? '';
+if (!empty($basePath) && str_starts_with($currentPath, $basePath)) {
+  $currentPath = substr($currentPath, strlen($basePath));
+}
+
+$isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '/home' || $currentPath === '/index.php');
 ?>
 
 <link rel="stylesheet" href="<?= BASE_URL ?>/css/navigationbar.css">
@@ -32,7 +38,7 @@ $isHomepage = ($route === '' || $route === '/' || $route === '/home');
       <li>
         <select id="languageSwitcher" class="form-select form-select-sm" onchange="changeLanguage(this.value)">
           <option value="en">EN</option>
-          <option value="vi">DE</option>
+          <option value="de">DE</option>
           <option value="hu">HU</option>
           <option value="vi">VN</option>
         </select>

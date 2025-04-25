@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>RDR2003</title>
+    <title>Osztrák ADR Tanfolyam</title>
     <link rel="stylesheet" href="css/osztrak-adr-tanfolyam.css">
 </head>
 
@@ -12,23 +12,33 @@
 
     <div class="container">
         <div class="adr">
-            <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
+            <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="" class="header-img">
             <div class="adr-data">
                 <h1 class="text-center">Osztrák ADR Tanfolyam</h1>
                 <section>
                     <h2>Szabad időpontjaink</h2>
-                    <p><strong>Május 29 - Június 1</strong><br>
-                        <strong>Június 5 - 8</strong><br>
-                        <strong>Június 12 - 15</strong>
+                    <p>
+                        <strong>2025 Május 29 - Június 1</strong><br>
+                        <strong>2025 Június 5 - 8</strong><br>
+                        <strong>2025 Június 12 - 15</strong>
                     </p>
                 </section>
                 <section>
                     <h2>Fontos információk</h2>
-                    <ul>
-                        <li class="highlight">Csak magyarul beszélő, olvasó és író hallgatókat tudunk fogadni.</li>
-                        <li class="highlight">Nem magyar születésű jelentkező esetén szükséges a személyi igazolvány másolata.</li>
-                        <li class="highlight">Magyar nyelvű oktatás és vizsga, osztrák ADR bizonyítvánnyal (5 évig érvényes).</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <ul>
+                                <li class="highlight">Csak magyarul beszélő, olvasó és író hallgatókat tudunk fogadni.</li>
+                                <li class="highlight">Nem magyar születésű jelentkező esetén szükséges a személyi igazolvány másolata.</li>
+                                <li class="highlight">Magyar nyelvű oktatás és vizsga, osztrák ADR bizonyítvánnyal (5 évig érvényes).</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="text-center">
+                                <img src="imgs/adr.png" alt="ADR" class="adr-img">
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section>
                     <h2>Utazás</h2>
@@ -103,7 +113,7 @@
                         <li>Kapcsolattartó neve és elérhetősége</li>
                     </ul>
                     <button class="application">Jelentkezési űrlap kitöltése</button>
-        
+
                 </section>
             </div>
         </div>

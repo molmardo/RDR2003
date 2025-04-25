@@ -4,12 +4,19 @@
 <head>
     <?php include "include/head.php"; ?>
     <title>ERROR 404</title>
+    <style>
+        h2{
+            margin-top: 200px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <?php include "include/navigationbar.php"; ?>
 
     <h2>
+        404
         <br>
         Úgy tűnik nem található semmi ezen a helyen.
         <br>

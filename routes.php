@@ -4,10 +4,6 @@ return [
         'path' => '/',
         'file' => 'home.php'
     ],
-    'tanfolyamok' => [
-        'path' => '/tanfolyamainkra',
-        'file' => 'tanfolyamok.php'
-    ],
     'tanacsadas' => [
         'path' => '/tanacsadas',
         'file' => 'tanacsadas.php'
@@ -26,14 +22,22 @@ return [
     ],
     'osztakAdrTanfolyam' => [
         'path' => '/osztak-adr-tanfolyam',
-        'file' => '/osztrak-adr-tanfolyam.php'
+        'file' => 'tanfolyamok/osztrak-adr-tanfolyam.php'
     ],
     'magyarAdrTanfolyam' => [
         'path' => '/magyar-adr-tanfolyam',
-        'file' => '/magyar-adr-tanfolyam.php'
+        'file' => 'tanfolyamok/magyar-adr-tanfolyam.php'
     ],
     'magyarorszagiTanfolyamok' => [
-        'path' => '/magyarorszagi-tanfolyam',
-        'file' => '/magyarorszagi-tanfolyamok.php'
+        'path' => '/magyarorszagi-tanfolyamok',
+        'file' => 'tanfolyamok/magyarorszagi-tanfolyamok.php'
+    ],
+    'szakmaiIranyito' => [
+        'path' => '/szakmai-tanfolyamok',
+        'file' => 'tanfolyamok/szakmaiIranyito.php'
+    ],
+    'magyarOGki' => [
+        'path' => '/magyarorszagi-gki-tanfolyam',
+        'file' => 'tanfolyamok/gki.php'
     ]
 ];
