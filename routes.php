@@ -39,5 +39,17 @@ return [
     'magyarOGki' => [
         'path' => '/magyarorszagi-gki-tanfolyam',
         'file' => 'tanfolyamok/gki.php'
+    ],
+    'privacy-policy' => [
+        'path' => '/privacy-policy',
+        'file' => 'dokumentumok/privacy-policy.php'
+    ],
+    'cookie' => [
+        'path' => '/cookie',
+        'file' => 'dokumentumok/cookie-policy.php'
+    ],
+    'impressum' => [
+        'path' => '/impressum',
+        'file' => 'dokumentumok/impressum.php'
     ]
 ];

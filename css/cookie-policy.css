@@ -1,0 +1,28 @@
+@import url(default.css);
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+
+}
+.cookie-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+.section {
+    margin-bottom: 2rem;
+}
+.browser-links a {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--blue);
+    text-decoration: none;
+}
+.browser-links a:hover {
+    text-decoration: underline;
+}

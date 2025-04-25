@@ -8,10 +8,11 @@
             <h3>Oldalak</h3>
             <ul class="pages-links">
                 <li><a href="./">Kezdőlap</a></li>
-                <li><a href="<?= BASE_URL . $routes['tanfolyamok']['path'] ?>">Tanfolyamok</a></li>
+                <li><a href="./#tanfolyamok">Tanfolyamok</a></li>
                 <li><a href="<?= BASE_URL . $routes['berbeadas']['path'] ?>">Bérbeadás</a></li>
-                <li><a href="./">Rólunk</a></li>
-                <li><a href="./">Kapcsolat</a></li>
+                <li><a href="<?= BASE_URL . $routes['tanacsadas']['path'] ?>">Tanácsadás</a></li>
+                <li><a href="./#rolunk">Rólunk</a></li>
+                <li><a href="./#kapcsolat">Kapcsolat</a></li>
             </ul>
         </div>
         <div class="footer-section">
@@ -26,9 +27,9 @@
         <div class="footer-section">
             <h3>Dokumentumok</h3>
             <ul class="docs">
-                <li><a href="">Adatkezelési tájékoztató</a></li>
-                <li><a href="">Cookie tájékoztató</a></li>
-                <li><a href="">Impresszum</a></li>
+                <li><a href="<?= BASE_URL . $routes['privacy-policy']['path'] ?>">Adatkezelési tájékoztató</a></li>
+                <li><a href="<?= BASE_URL . $routes['cookie']['path'] ?>">Cookie tájékoztató</a></li>
+                <li><a href="<?= BASE_URL . $routes['impressum']['path'] ?>">Impresszum</a></li>
             </ul>
             <h3>Adatok</h3>
             <ul>
