@@ -4,7 +4,7 @@
 <head>
     <?php include "include/head.php"; ?>
     <title>Osztrák ADR Tanfolyam</title>
-    <link rel="stylesheet" href="css/osztrak-adr-tanfolyam.css">
+    <link rel="stylesheet" href="css/tanfolyamok-css.css">
 </head>
 
 <body>
@@ -112,8 +112,9 @@
                         <li>Számlázási adatok</li>
                         <li>Kapcsolattartó neve és elérhetősége</li>
                     </ul>
-                    <button class="application">Jelentkezési űrlap kitöltése</button>
-
+                    <div class="text-center">
+                        <button class="application">Jelentkezési űrlap kitöltése</button>
+                    </div>
                 </section>
             </div>
         </div>

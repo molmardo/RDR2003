@@ -1,7 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url(default.css);
+
 .content{
   max-width: 1250px;
   margin: auto;
@@ -85,7 +83,7 @@
   font-weight: bold;
 }
 .menu-list a:hover{
-  color: #007bff;
+  color: var(--main-hover);
 }
 
 
@@ -97,7 +95,7 @@
 
 
 .navbar.sticky .menu-list li a:hover{
-  color: #007bff;
+  color: var(--main-hover);
 }
 .icon{
   color: #fff;

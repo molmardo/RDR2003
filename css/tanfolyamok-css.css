@@ -1,5 +1,3 @@
-@import url(default.css);
-
 .adr {
     margin-top: 150px;
     margin-bottom: 45px;
@@ -81,7 +79,7 @@ th {
 
 
 section{
-    margin: 0   ;
+    margin: 0 !important;
 }
 
 .application{
