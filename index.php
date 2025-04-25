@@ -2,7 +2,7 @@
 <html lang="hu">
 
 <head>
-    <?php include "include/head.php";?>
+    <?php include "include/head.php"; ?>
     <title>RDR2003</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,35 +22,35 @@
         <h2 class="text-center">Tanfolyamok</h2>
         <div class="row g-4 mt-3">
             <div class="col-md-4 ScrollDownLeft">
-                <div>
-                    <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
-                    <div>
+                <div class="card">
+                    <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
+                    <div class="card-body d-flex flex-column">
                         <a href="osztrak-adr-tanfolyam">
-                            <h3>Osztrák ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
+                            <h3 class="card-title">Osztrák ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ratione repellat praesentium accusamus inventore at autem, labore ducimus animi eius ex veritatis incidunt ab esse sed. Possimus praesentium ducimus qui.</p>
+                        <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium ea mollitia molestiae incidunt dicta reprehenderit rerum. Cumque, obcaecati dolorum labore et consequatur aliquam, unde praesentium quos, ipsam quasi culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 ScrollDownDown">
-                <div>
-                    <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
-                    <div>
-                        <a href="magyarorszagi-tanfolyamok">
-                            <h3>Magyarországi Tanfolyamok <i class="fa fa-angle-right"></i></h3>
+                <div class="card">
+                    <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <a href="osztrak-adr-tanfolyam">
+                            <h3 class="card-title">Magyarországi Tanfolyamok <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, assumenda. Mollitia assumenda, impedit magni at incidunt perspiciatis praesentium delectus quidem deleniti ducimus eveniet fugiat ut libero minima, dolore necessitatibus similique.</p>
+                        <p class="card-tex">ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ratione repellat praesentium accusamus inventore at autem, labore ducimus animi eius ex veritatis incidunt ab esse sed. Possimus praesentium ducimus qui.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 ScrollDownRight">
-                <div>
-                    <img src="imgs/pexels-quintingellar-2199293.jpg">
-                    <div>
-                        <a href="magyar-adr-tanfolyam">
-                            <h3>Magyarországi ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
+                <div class="card">
+                    <img src="imgs/pexels-quintingellar-2199293.jpg" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <a href="osztrak-adr-tanfolyam">
+                            <h3 class="card-title">Magyarországi ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit voluptatibus, facere unde fuga inventore quod dolorem autem nam. Impedit in maxime quisquam voluptatum beatae cumque fugiat facilis ex. Magnam.</p>
+                        <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium ea mollitia molestiae incidunt dicta reprehenderit rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ratione repellat praesentium accusamus inventore at autem, labore ducimus animi eius ex veritatis incidunt ab esse sed. Possimus praesentium ducimus qui.</p>
                     </div>
                 </div>
             </div>
@@ -147,13 +147,13 @@
         <div class="row align-items-center ScrollDownDown">
             <div class="col-md-6">
                 <h2 class="mt-3 mb-3">Kapcsolat</h2>
-                <form action="">
+                <form action="" method="post">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
                         <label for="floatingInput">Név</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                         <label for="floatingInput">Email</label>
                     </div>
                     <div class="form-floating mb-3">
@@ -161,9 +161,12 @@
                         <label for="floatingInput">Telefonszám</label>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="floatingTextarea2" style="height: 100px" required></textarea>
                         <label for="floatingTextarea2">Üzenet</label>
                     </div>
+                    <br>
+                    <div class="g-recaptcha" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div>
+
                     <button type="submit" class="send-btn">Küldés</button>
                 </form>
             </div>
@@ -178,7 +181,45 @@
                         <span><br><i class="fas fa-mobile fa-xl"></i> +36 30 878 9488</span>
                         <h3>Helyszín</h3>
                         <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045</span>
-                        <h3>Nyitvatartás</h3>
+                        <?php
+                        date_default_timezone_set('Europe/Budapest');
+                        $nyitvatartas = [
+                            'Monday'    => ['08:00', '16:00'],
+                            'Tuesday'   => ['08:00', '16:00'],
+                            'Wednesday' => ['08:00', '16:00'],
+                            'Thursday'  => ['08:00', '16:00'],
+                            'Friday'    => ['08:00', '15:00'],
+                            'Saturday'  => null,
+                            'Sunday'    => null,
+                        ];
+
+                        $nap = date('l');
+                        $idoMost = new DateTime();
+
+                        $valasz = ">Zárva";
+
+                        if (isset($nyitvatartas[$nap]) && $nyitvatartas[$nap] !== null) {
+                            [$nyit, $zar] = $nyitvatartas[$nap];
+                            $nyitas = DateTime::createFromFormat('H:i', $nyit);
+                            $zaras  = DateTime::createFromFormat('H:i', $zar);
+                            $elotte30 = (clone $nyitas)->modify('-30 minutes');
+                            $elotteZaras30 = (clone $zaras)->modify('-30 minutes');
+
+                            if ($idoMost < $elotte30) {
+                                $valasz = "<span class='closeHours'>Zárva</span>";
+                            } elseif ($idoMost >= $elotte30 && $idoMost < $nyitas) {
+                                $valasz = "<span class='openingSoon'>Hamarosan nyit";
+                            } elseif ($idoMost >= $nyitas && $idoMost < $elotteZaras30) {
+                                $valasz = "<span class='openHours'>Nyitva";
+                            } elseif ($idoMost >= $elotteZaras30 && $idoMost < $zaras) {
+                                $valasz = "<span class='closingSoon'>Hamarosan zár";
+                            } else {
+                                $valasz = "<span class='closeHours'>Zárva</span>";
+                            }
+                        }
+                        ?>
+
+                        <h3>Nyitvatartás: <span class="openingTime"><?php echo $valasz; ?></span></h3>
                         <table>
                             <tr>
                                 <td>Hétfő</td>
@@ -216,7 +257,7 @@
 
         </div>
     </section>
-    <?php include "include/footer.php";?>
+    <?php include "include/footer.php"; ?>
 </body>
 
 </html>
@@ -226,15 +267,15 @@
     document.querySelector(".logos").appendChild(copy);
 </script>
 <script>
-// JavaScript kód
-const toggleButton = document.querySelector('.toggleButton');
-const additionalContent = document.querySelector('.additionalContent');
+    // JavaScript kód
+    const toggleButton = document.querySelector('.toggleButton');
+    const additionalContent = document.querySelector('.additionalContent');
 
-toggleButton.addEventListener('click', function(event) {
-    event.preventDefault();
-    additionalContent.classList.toggle('show');
-    toggleButton.classList.toggle('less');
-});
-    
+    toggleButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        additionalContent.classList.toggle('show');
+        toggleButton.classList.toggle('less');
+    });
 </script>
 <script src="js/scrollAnimation.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

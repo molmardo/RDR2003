@@ -5,7 +5,7 @@
     <?php include "include/head.php"; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magyarorszagi Tanfolyamok | RDR2003</title>
-    <link rel="stylesheet" href="css/magyar-adr-tanfolyam.css">ss
+    <link rel="stylesheet" href="css/Tanácsaadás.css">ss
 </head>
 
 <body>
@@ -13,7 +13,7 @@
 
     
     <div class="container hu-courses">
-        <h1 class="text-center">Magyarországi Tanfolyamok</h1>
+        <h1 class="text-center">Tanácsadás</h1>
         <div class="row g-3">
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div>

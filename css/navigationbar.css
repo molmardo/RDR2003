@@ -61,7 +61,8 @@
 }
 
 .navbar .logo a img{
-  width: 35%;
+  max-width: 150px;
+  height: 60px;
 }
 
 .navbar .menu-list{
@@ -137,7 +138,6 @@ nav #languageSwitcher{
 .navbar .logo{
   padding-right: 170px;
 }
-
 
 
 }

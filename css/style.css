@@ -82,6 +82,25 @@ header .text span {
 
 .training div div div div h3{
     font-size: 155%;
+    margin-top: 1rem;
+}
+
+.training p {
+    margin-top: 0.5rem;
+    flex-grow: 1;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1; /* Kitölti a helyet, hogy az alsó tartalom fixen lent legyen */
 }
 
 
@@ -198,6 +217,23 @@ header .text span {
 
 .send-btn:hover{
     background-color: var(--main-hover);
+}
+
+.openHours{
+    color: rgb(9, 151, 9);
+}
+
+.closeHours{
+    color: rgb(255, 30, 30);
+}
+
+.openingSoon, .closingSoon{
+    color: rgb(255, 145, 0);
+}
+
+.openingTime{
+    font-size: 70% !important;
+    font-style: italic;
 }
 
 /* Contatcts */

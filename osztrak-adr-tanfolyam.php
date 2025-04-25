@@ -12,7 +12,7 @@
 
     <div class="container">
         <div class="adr">
-            <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
+            <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
             <div class="adr-data">
                 <h1 class="text-center">Osztrák ADR Tanfolyam</h1>
                 <section>
@@ -22,7 +22,6 @@
                         <strong>Június 12 - 15</strong>
                     </p>
                 </section>
-        
                 <section>
                     <h2>Fontos információk</h2>
                     <ul>
@@ -31,18 +30,15 @@
                         <li class="highlight">Magyar nyelvű oktatás és vizsga, osztrák ADR bizonyítvánnyal (5 évig érvényes).</li>
                     </ul>
                 </section>
-        
                 <section>
                     <h2>Utazás</h2>
                     <p>Képzési napokon reggel 7:00-kor indulás <strong>Törökbálint, Spar parkolóból</strong>. Megállók: Tata (Shell kút), Győr (MOL kút).</p>
                 </section>
-        
                 <section>
                     <h2>Képzés helyszíne</h2>
                     <p><strong>EDER PANSION</strong><br>2460 Bruck ad Leitha, Altstadt 19., Österreich</p>
                     <p>Visszaérkezés kb. 18:30 (vasárnap kb. 17:30). Képzés minden napon, az utolsó napon vizsga.</p>
                 </section>
-        
                 <section>
                     <h2>Tanfolyam előnyei</h2>
                     <ul>
@@ -51,7 +47,6 @@
                         <li>30 tesztkérdés, magyar nyelvű segédanyag használata megengedett.</li>
                     </ul>
                 </section>
-        
                 <section>
                     <h2>Árak</h2>
                     <table>
@@ -86,8 +81,6 @@
                     </table>
                     <a class="pdf-link" href="pdf/RDR_Tanfolyami díjak_Ausztria_2024_szeptembertől.pdf" target="_blank">Tanfolyami díjak (PDF letöltése)</a>
                 </section>
-        
-        
                 <section>
                     <h2>Szállás</h2>
                     <p><strong>EDER PANSION</strong> – reggelivel</p>
@@ -98,12 +91,10 @@
                     </ul>
                     <p class="highlight">Lemondási határidő: a képzés hetében, hétfőn.</p>
                 </section>
-        
                 <section>
                     <h2>Kérdése van?</h2>
                     <p>Forduljon hozzánk bizalommal az elérhetőségeink egyikén!</p>
                 </section>
-        
                 <section>
                     <h2>Jelentkezés</h2>
                     <ul>
@@ -116,7 +107,6 @@
                 </section>
             </div>
         </div>
-
     </div>
     <?php include "include/footer.php"; ?>
 </body>

@@ -19,7 +19,7 @@ $isHomepage = basename($_SERVER['SCRIPT_NAME']) === 'index.php';
       </div>
       <li><a href="./" class="nav-a-black">Kezdőlap</a></li>
       <li><a href="./#tanfolyamok" class="nav-a-black">Tanfolyamok</a></li>
-      <!-- <li><a href="kapcsolat" class="nav-a-black">Tanácsadás</a></li> -->
+      <li><a href="tanacsadas" class="nav-a-black">Tanácsadás</a></li>
       <li><a href="berbeadas" class="nav-a-black">Bérbeadás</a></li>
       <!-- <li><a href="kapcsolat" class="nav-a-black">Audit</a></li> -->
       <!-- <li><a href="kapcsolat" class="nav-a-black">Bérbeadás</a></li> -->
@@ -27,12 +27,14 @@ $isHomepage = basename($_SERVER['SCRIPT_NAME']) === 'index.php';
       <li><a href="./#kapcsolat" class="nav-a-black">Kapcsolat</a></li>
       <li><a href="https://www.facebook.com/rdr2003.hu" class="nav-a-black" target="_blank"><i class="fa fa-facebook"></i></a></li>
       <li><a href="mailto:rdr2003@rdr2003.hu" class="nav-a-black"><i class="fas fa-envelope"></i></a></li>
-      <select id="languageSwitcher" onchange="changeLanguage(this.value)">
-        <option value="en">EN</option>
-        <option value="vi">DE</option>
-        <option value="hu">HU</option>
-        <option value="vi">VN</option>
-      </select>
+      <li>
+        <select id="languageSwitcher" class="form-select form-select-sm" onchange="changeLanguage(this.value)">
+          <option value="en">EN</option>
+          <option value="vi">DE</option>
+          <option value="hu">HU</option>
+          <option value="vi">VN</option>
+        </select>
+      </li>
     </ul>
     <div class="icon menu-btn">
       <i class="fas fa-bars"></i>
