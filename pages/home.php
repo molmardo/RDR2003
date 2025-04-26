@@ -198,7 +198,7 @@
                         $nap = date('l');
                         $idoMost = new DateTime();
 
-                        $valasz = ">Zárva";
+                        $valasz = "<span class='closeHours'>Zárva</span>";
 
                         if (isset($nyitvatartas[$nap]) && $nyitvatartas[$nap] !== null) {
                             [$nyit, $zar] = $nyitvatartas[$nap];

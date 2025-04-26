@@ -87,7 +87,7 @@
         <div class="section">
             <h2>9. Cookie-k (sütik)</h2>
             <p>Weboldalunk sütiket (cookie-kat) használ a felhasználói élmény javítása érdekében. Az elengedhetetlenül szükséges cookie-k biztosítják az oldal működését, míg a statisztikai vagy marketing célú cookie-k csak az Ön kifejezett hozzájárulásával aktiválódnak.</p>
-            <p>A sütik kezeléséről részletesen tájékoztatjuk Önt külön dokumentumban: <a href="cookie-policy.php">Cookie (sütik) tájékoztató</a></p>
+            <p>A sütik kezeléséről részletesen tájékoztatjuk Önt külön dokumentumban: <a href="<?= BASE_URL . $routes['cookie']['path'] ?>">Cookie (sütik) tájékoztató</a></p>
         </div>
 
         <div class="seciton">

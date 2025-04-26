@@ -16,5 +16,6 @@
     <!-- Additional SEO Meta Tags -->
     <meta name="language" content="Hungarian">
     <meta name="revisit-after" content="7 days">
-    <meta name="theme-color" content="#fe9901">
+    <!-- <meta name="theme-color" content="#fe9901"> -->
+    <meta name="theme-color" content="#000">
     <!-- Canonical URL -->
