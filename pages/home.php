@@ -269,7 +269,6 @@
     document.querySelector(".logos").appendChild(copy);
 </script>
 <script>
-    // JavaScript kód
     const toggleButton = document.querySelector('.toggleButton');
     const additionalContent = document.querySelector('.additionalContent');
 
