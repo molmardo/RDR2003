@@ -144,7 +144,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12">
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
+                                <input type="date" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
                                 <label for="floatingInput">Születési idő (éééé.hh.nn.)</label>
                             </div>
                         </div>

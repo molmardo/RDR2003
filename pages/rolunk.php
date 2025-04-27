@@ -14,7 +14,7 @@
         <div class="employees">
             <h2>Munkatársaink</h2>
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
                         <div>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
                         <div>
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
                         <div>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
                         <div>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
                         <div>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
                         <div>
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
                         <div>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
                         <div>

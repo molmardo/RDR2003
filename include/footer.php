@@ -17,8 +17,12 @@
         </div>
         <div class="footer-section">
             <h3>Kapcsolat</h3>
-            <p>Email: rdr2003@rdr2003.hu</p>
-            <p>Telefon: +36 30 878 9488</p>
+            <p><b>Email: </b></p>
+
+                <p>rdr2003@rdr2003.hu</p>
+
+            <p><b>Telefon: </b></p>
+                <p>+36 30 258 7749</p>
             <h3>Kövess minket</h3>
             <ul class="social-links">
                 <li><a href="https://www.facebook.com/rdr2003.hu" target="_blank">Facebook</a></li>   
@@ -33,8 +37,8 @@
             </ul>
             <h3>Adatok</h3>
             <ul>
-                <li>ÁKÓ: 1</li>
-                <li>VSM: 1</li>
+                <li>ÁKÓ: 1%</li>
+                <li>VSM: 1%</li>
             </ul>
         </div>
     </div>
