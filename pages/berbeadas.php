@@ -16,26 +16,8 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <a href="">
                     <div class="rental">
-                        <img src="imgs/pexels-pavel-danilyuk-9143455.jpg" alt="">
-                        <h3 class="mt-3">Lakóautó</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <a href="">
-                    <div class="rental">
                         <img src="imgs/pexels-norma-mortenson-4391475.jpg" alt="">
                         <h3 class="mt-3">Furgon</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <a href="">
-                    <div class="rental">
-                        <img src="imgs/pexels-pixabay-163236.jpg" alt="">
-                        <h3 class="mt-3">Hajó</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </a>

@@ -30,7 +30,7 @@
                         <a href="<?= BASE_URL . $routes['osztakAdrTanfolyam']['path'] ?>">
                             <h3 class="card-title">Osztrák ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium ea mollitia molestiae incidunt dicta reprehenderit rerum. Cumque, obcaecati dolorum labore et consequatur aliquam, unde praesentium quos, ipsam quasi culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p class="card-tex">Ausztriában végzett, hivatalos veszélyesáru-szállítási képzések magyar nyelven.</p>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                         <a href="<?= BASE_URL . $routes['magyarorszagiTanfolyamok']['path'] ?>">
                             <h3 class="card-title">Magyarországi Tanfolyamok <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex">ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ratione repellat praesentium accusamus inventore at autem, labore ducimus animi eius ex veritatis incidunt ab esse sed. Possimus praesentium ducimus qui.</p>
+                        <p class="card-tex">Magyarországon elérhető felnőttképzések a közlekedési, fuvarozási szektor számára.</p>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                         <a href="<?= BASE_URL . $routes['magyarAdrTanfolyam']['path'] ?>">
                             <h3 class="card-title">Magyarországi ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium ea mollitia molestiae incidunt dicta reprehenderit rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ratione repellat praesentium accusamus inventore at autem, labore ducimus animi eius ex veritatis incidunt ab esse sed. Possimus praesentium ducimus qui.</p>
+                        <p class="card-tex">Az ADR 1.3. fejezete szerinti „kisadr” képzés</p>
                     </div>
                 </div>
             </div>
@@ -66,9 +66,10 @@
                 <div class="col-md-6 ScrollDownLeft">
                     <h2 class="mb-4">Rólunk</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam ex quis, quidem ut, perferendis voluptatibus natus fugiat quae harum laboriosam reiciendis mollitia accusamus rerum aliquid non, ratione minus similique.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga harum ad nihil alias est sint. Dolores, totam? Aliquam consequuntur et, corporis architecto mollitia illo illum consequatur excepturi blanditiis inventore?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa necessitatibus eius, asperiores aliquid adipisci, nostrum vitae voluptatibus, soluta fuga est vero quo? Quam facere officiis harum soluta ipsum! Consectetur, harum!
+                        Több mint két évtizedes tapasztalatunkkal nem csupán szolgáltatást, hanem valódi, értékalapú partnerséget kínálunk. Minden ügyfelünkkel egyedi úton járunk: megértjük működésüket, céljaikat és a hozzájuk vezető legbiztonságosabb utat. Hiszünk abban, hogy az igazi szakmaiság nem sablonokban, hanem személyre szabott megoldásokban mutatkozik meg.
+                    </p>
+                    <p>
+                        <q>Szakértelem, amely előnyt teremt.</q>
                     </p>
                     <a href="<?= BASE_URL . $routes['rolunk']['path'] ?>">Munkatársaink</a>
                 </div>
@@ -113,33 +114,31 @@
         <div class="logos ScrollDownTransparent">
             <h2>Partnereink</h2>
             <div class="logos-slide">
-                <img src="partners/knorr-bremse.svg" />
-                <img src="partners/technical_parts_ag.jpg" />
-                <img src="partners/valiti_logo-with-text.svg" />
-                <img src="partners/Rheinmetall_logo_2016.svg.png" />
-                <img src="partners/sbs_logo_rgb.png" />
-                <img src="partners/multipack-logo.png" />
-                <img src="partners/sapa-logo-png-transparent.png" />
-                <img src="partners/Hilti-Logo.png" />
-                <img src="partners/1200px-Honeywell_logo.svg.png" />
-                <img src="partners/1280px-Johnson_Electric_logo.svg.png" />
-                <img src="partners/paslode-logo.png" />
-                <img src="partners/Bombardier_Logo.svg.png" />
+                <img src="partners/BTlogo_100.png" alt="ceglogo">
+                <img src="partners/Calderys_Orange-Noir_1.png.png" alt="ceglogo">
+                <img src="partners/ecorisk_logo.svg" alt="ceglogo">
+                <img src="partners/GSSA-Logo-schief.svg" alt="ceglogo">
+                <img src="partners/klacska_group-logo.png" alt="ceglogo">
+                <img src="partners/logo-terravia.png" alt="ceglogo">
+                <img src="partners/mavrec.png" alt="ceglogo">
+                <img src="partners/tako_logo_feher_k.png" alt="ceglogo">
+                <img src="partners/transintertop.png" alt="ceglogo">
+                <img src="partners/unitranscoop.png" alt="ceglogo">
+                <img src="partners/westbridge.png" alt="ceglogo">
             </div>
 
             <div class="logos-slide">
-                <img src="partners/knorr-bremse.svg" />
-                <img src="partners/technical_parts_ag.jpg" />
-                <img src="partners/valiti_logo-with-text.svg" />
-                <img src="partners/Rheinmetall_logo_2016.svg.png" />
-                <img src="partners/sbs_logo_rgb.png" />
-                <img src="partners/multipack-logo.png" />
-                <img src="partners/sapa-logo-png-transparent.png" />
-                <img src="partners/Hilti-Logo.png" />
-                <img src="partners/1200px-Honeywell_logo.svg.png" />
-                <img src="partners/1280px-Johnson_Electric_logo.svg.png" />
-                <img src="partners/paslode-logo.png" />
-                <img src="partners/Bombardier_Logo.svg.png" />
+                <img src="partners/BTlogo_100.png" alt="ceglogo">
+                <img src="partners/Calderys_Orange-Noir_1.png.png" alt="ceglogo">
+                <img src="partners/ecorisk_logo.svg" alt="ceglogo">
+                <img src="partners/GSSA-Logo-schief.svg" alt="ceglogo">
+                <img src="partners/klacska_group-logo.png" alt="ceglogo">
+                <img src="partners/logo-terravia.png" alt="ceglogo">
+                <img src="partners/mavrec.png" alt="ceglogo">
+                <img src="partners/tako_logo_feher_k.png" alt="ceglogo">
+                <img src="partners/transintertop.png" alt="ceglogo">
+                <img src="partners/unitranscoop.png" alt="ceglogo">
+                <img src="partners/westbridge.png" alt="ceglogo">
             </div>
         </div>
 

@@ -18,9 +18,9 @@
                     <div class="employee-card">
                         <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
                         <div>
-                            <span>Fisher Carpenter</span><br>
-                            <span>+36 1 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>Erdei Péter</span><br>
+                            <span>erdei.peter@rdr2003.hu</span><br>
+                            <span>ügyvezető igazgató</span><br>
                         </div>
                     </div>
                 </div>
@@ -28,9 +28,9 @@
                     <div class="employee-card">
                         <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
                         <div>
-                            <span>Jair Houston</span><br>
-                            <span>+36 2 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>dr. Erdei Péter</span><br>
+                            <span>drerdeipeter@rdr2003.hu</span><br>
+                            <span>jogi szakértő, biztonsági tanácsadó</span><br>
                         </div>
                     </div>
                 </div>
@@ -38,39 +38,9 @@
                     <div class="employee-card">
                         <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
                         <div>
-                            <span>Braxton Schultz</span><br>
-                            <span>+36 3 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
-                        <div>
-                            <span>Fisher Carpenter</span><br>
-                            <span>+36 1 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
-                        <div>
-                            <span>Jair Houston</span><br>
-                            <span>+36 2 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
-                        <div>
-                            <span>Braxton Schultz</span><br>
-                            <span>+36 3 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>Kardos-Gál Anetta</span><br>
+                            <span>kardos-gal.anett@rdr2003.hu</span><br>
+                            <span>irodavezető</span><br>
                         </div>
                     </div>
                 </div>
@@ -78,9 +48,9 @@
                     <div class="employee-card">
                         <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
                         <div>
-                            <span>Fisher Carpenter</span><br>
-                            <span>+36 1 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>Sándor Orsolya</span><br>
+                            <span>sandor.orsolya@rdr2003.hu</span><br>
+                            <span>tanfolyamszervező</span><br>
                         </div>
                     </div>
                 </div>
@@ -88,109 +58,39 @@
                     <div class="employee-card">
                         <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
                         <div>
-                            <span>Jair Houston</span><br>
-                            <span>+36 2 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>Előházi Regina</span><br>
+                            <span>elohazi.regina@rdr2003.hu</span><br>
+                            <span>tanfolyamszervező</span><br>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
                         <div>
-                            <span>Braxton Schultz</span><br>
-                            <span>+36 3 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>Raffai Péter</span><br>
+                            <span>raffai.peter@rdr2003.hu</span><br>
+                            <span>biztonsági tanácsadó</span><br>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
                         <div>
-                            <span>Fisher Carpenter</span><br>
-                            <span>+36 1 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>Pósa Gergely</span><br>
+                            <span>posa.gergely@rdr2003.hu</span><br>
+                            <span>biztonsági tanácsadó</span><br>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
                         <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
                         <div>
-                            <span>Jair Houston</span><br>
-                            <span>+36 2 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
-                        <div>
-                            <span>Braxton Schultz</span><br>
-                            <span>+36 3 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
-                        <div>
-                            <span>Fisher Carpenter</span><br>
-                            <span>+36 1 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
-                        <div>
-                            <span>Jair Houston</span><br>
-                            <span>+36 2 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
-                        <div>
-                            <span>Braxton Schultz</span><br>
-                            <span>+36 3 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/attractive-1869761_1280.jpg" alt="">
-                        <div>
-                            <span>Fisher Carpenter</span><br>
-                            <span>+36 1 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/beard-1845166_1280.jpg" alt="">
-                        <div>
-                            <span>Jair Houston</span><br>
-                            <span>+36 2 234 56789</span><br>
-                            <span>Oktató</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/dolgozok/woman-3055841_1280.jpg" alt="">
-                        <div>
-                            <span>Braxton Schultz</span><br>
-                            <span>+36 3 234 56789</span><br>
-                            <span>Oktató</span><br>
+                            <span>Eckert Vilmos</span><br>
+                            <span></span><br>
+                            <span>jármű – és képzési koordinátor</span><br>
                         </div>
                     </div>
                 </div>

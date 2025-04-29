@@ -284,7 +284,7 @@ header .subtitle {
     overflow: hidden;
     padding: 35px 0 75px 0;
     ;
-    background: var(--main-hover);
+    background: #292929;
     white-space: nowrap;
     position: relative;
     color: var(--white);
