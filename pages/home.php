@@ -14,8 +14,8 @@
             <h1>Ismerje meg tanfolyamainkat!</h1>
             <p class="subtitle">"A biztonságos közlekedés az alapos képzésnél kezdődik."</p>
             <div class="cta-buttons">
-                <a href="#courses" class="btn primary-btn">Tanfolyamok megtekintése</a>
-                <a href="#contact" class="btn secondary-btn">Jelentkezzen most</a>
+                <a href="#tanfolyamok" class="btn primary-btn">Tanfolyamok megtekintése</a>
+                <a href="#kapcsolat" class="btn secondary-btn">Jelentkezzen most</a>
             </div>
         </div>
     </header>
