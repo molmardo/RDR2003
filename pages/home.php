@@ -11,24 +11,23 @@
     <?php include "include/navigationbar.php"; ?>
     <header>
         <div class="container">
-            <h1>Ismerje meg tanfolyamainkat!</h1>
-            <p class="subtitle">"A biztonságos közlekedés az alapos képzésnél kezdődik."</p>
+            <h1 data-i18n="header.mainTitle">Ismerje meg tanfolyamainkat!</h1>
+            <p class="subtitle" data-i18n="header.subtitle">"A biztonságos közlekedés az alapos képzésnél kezdődik."</p>
             <div class="cta-buttons">
-                <a href="#tanfolyamok" class="btn primary-btn">Tanfolyamok megtekintése</a>
-                <a href="#kapcsolat" class="btn secondary-btn">Jelentkezzen most</a>
+                <a href="#tanfolyamok" class="btn primary-btn" data-i18n="header.courseButton">Tanfolyamaink</a>
             </div>
         </div>
     </header>
     <!-- Training -->
     <section class="container mx-auto training" id="tanfolyamok">
-        <h2 class="text-center">Tanfolyamok</h2>
+        <h2 class="text-center">Tanfolyamaink</h2>
         <div class="row g-4 mt-3">
             <div class="col-md-4 ScrollDownLeft">
                 <div class="card">
                     <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
                     <div class="card-body d-flex flex-column">
                         <a href="<?= BASE_URL . $routes['osztakAdrTanfolyam']['path'] ?>">
-                            <h3 class="card-title">Osztrák ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
+                            <h3 class="card-title">Osztrák ADR tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
                         <p class="card-tex">Ausztriában végzett, hivatalos veszélyesáru-szállítási képzések magyar nyelven.</p>
                     </div>
@@ -39,7 +38,7 @@
                     <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
                     <div class="card-body d-flex flex-column">
                         <a href="<?= BASE_URL . $routes['magyarorszagiTanfolyamok']['path'] ?>">
-                            <h3 class="card-title">Magyarországi Tanfolyamok <i class="fa fa-angle-right"></i></h3>
+                            <h3 class="card-title">Magyarországi tanfolyamok <i class="fa fa-angle-right"></i></h3>
                         </a>
                         <p class="card-tex">Magyarországon elérhető felnőttképzések a közlekedési, fuvarozási szektor számára.</p>
                     </div>
@@ -50,7 +49,7 @@
                     <img src="imgs/pexels-quintingellar-2199293.jpg" alt="">
                     <div class="card-body d-flex flex-column">
                         <a href="<?= BASE_URL . $routes['magyarAdrTanfolyam']['path'] ?>">
-                            <h3 class="card-title">Magyarországi ADR Tanfolyam <i class="fa fa-angle-right"></i></h3>
+                            <h3 class="card-title">Magyarországi ADR tanfolyam <i class="fa fa-angle-right"></i></h3>
                         </a>
                         <p class="card-tex">Az ADR 1.3. fejezete szerinti „kisadr” képzés</p>
                     </div>
@@ -147,7 +146,7 @@
     <section class="container" id="kapcsolat">
         <div class="row align-items-center ScrollDownDown">
             <div class="col-md-6">
-                <h2 class="mt-3 mb-3">Kapcsolat</h2>
+                <h2 class="mt-3 mb-3">Lépjen velünk kapcsolatba</h2>
                 <form action="" method="post">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
@@ -176,7 +175,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.8863595940325!2d18.901858076867352!3d47.45315459856045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0728216be49%3A0x2a972f42c44fc056!2zVMO2csO2a2LDoWxpbnQsIFTDs3BhcmsgdS4gMWEsIDIwNDU!5e0!3m2!1shu!2shu!4v1745434769485!5m2!1shu!2shu" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div>
                         <h3>
-                            Lépjen velünk kapcsolatba
+                            Elérhetőségek
                         </h3>
                         <span><i class="fas fa-envelope"></i> <a href="mailto:rdr2003@rdr2003.hu">rdr2003@rdr2003.hu</a></span>
                         <span><br><i class="fas fa-mobile fa-xl"></i> +36 30 878 9488</span>

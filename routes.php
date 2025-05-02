@@ -13,12 +13,8 @@ return [
         'file' => 'berbeadas.php'
     ],
     'rolunk' => [
-        'path' => '/rolunk',
+        'path' => './#rolunk',
         'file' => 'rolunk.php'
-    ],
-    'kapcsolat' => [
-        'path' => '/kapcsolat',
-        'file' => 'kapcsolat.php'
     ],
     'osztakAdrTanfolyam' => [
         'path' => '/osztak-adr-tanfolyam',

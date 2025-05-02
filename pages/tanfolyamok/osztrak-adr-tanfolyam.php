@@ -18,9 +18,9 @@
                 <section>
                     <h2>Szabad időpontjaink</h2>
                     <p>
-                        <strong>2025 Május 29 - Június 1</strong><br>
-                        <strong>2025 Június 5 - 8</strong><br>
-                        <strong>2025 Június 12 - 15</strong>
+                        <strong>2025. május 29 - Június 1.</strong><br>
+                        <strong>2025. június 5 - 8.</strong><br>
+                        <strong>2025. június 12 - 15.</strong>
                     </p>
                 </section>
                 <section>
@@ -104,14 +104,9 @@
                 <section>
                     <h2>Kérdése van?</h2>
                     <p>Forduljon hozzánk bizalommal az elérhetőségeink egyikén!</p>
+                    <a href="./#kapcsolat">Elérhetőségeink</a>
                 </section>
                 <section>
-                    <h2>Jelentkezés</h2>
-                    <ul>
-                        <li>Melyik képzésre jelentkezik</li>
-                        <li>Számlázási adatok</li>
-                        <li>Kapcsolattartó neve és elérhetősége</li>
-                    </ul>
                     <div class="text-center">
                         <button class="application" id="myBtn">Jelentkezési űrlap kitöltése</button>
                     </div>

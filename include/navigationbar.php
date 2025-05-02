@@ -36,11 +36,7 @@ $isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '
       <li><a href="https://www.facebook.com/rdr2003.hu" class="nav-a-black" target="_blank"><i class="fa fa-facebook"></i></a></li>
       <li><a href="mailto:rdr2003@rdr2003.hu" class="nav-a-black"><i class="fas fa-envelope"></i></a></li>
       <li>
-        <select id="languageSwitcher" class="">
-          <option value="en">EN</option>
-          <option value="de">DE</option>
-          <option value="hu">HU</option>
-          <option value="vn">VN</option>
+        <select id="languageSwitcher" class="" onchange="changeLanguage(this.value)">
         </select>
       </li>
     </ul>
@@ -51,3 +47,4 @@ $isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '
 </nav>
 
 <script src="js/navigationbar.js"></script>
+<script src="js/translation_script.js"></script>
