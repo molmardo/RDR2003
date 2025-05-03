@@ -27,27 +27,27 @@
         <div class="services">
             <div class="service">
                 <img src="imgs/pexels-mikebirdy-192364.jpg" alt="Oktatás">
-                <h3>ADR 1.3 fejezete szerinti oktatás</h3>
+                <h4>ADR 1.3 fejezete szerinti oktatás</h4>
             </div>
             <div class="service">
                 <img src="imgs/pexels-pavel-danilyuk-9143455.jpg" alt="Tanácsadás">
-                <h3>Tanácsadás</h3>
+                <h4>Tanácsadás</h4>
             </div>
             <div class="service">
                 <img src="imgs/pexels-eduardo199o9-178988127-17824889.jpg" alt="Jogszabályok vizsgálata">
-                <h3>Jogszabályoknak való megfelelés vizsgálata</h3>
+                <h4>Jogszabályoknak való megfelelés vizsgálata</h4>
             </div>
             <div class="service">
                 <img src="imgs/pexels-quintingellar-2199293.jpg" alt="Telephelyi bejárás">
-                <h3>Telephelyi bejárások</h3>
+                <h4>Telephelyi bejárások</h4>
             </div>
             <div class="service">
                 <img src="imgs/two-guys-talking-about-work-work-garage-near-truck-transfer-documents-with-goods.jpg" alt="Csomagolóeszközök tanácsadás">
-                <h3>Csomagolóeszközök minősítésével kapcsolatos tanácsadás</h3>
+                <h4>Csomagolóeszközök minősítésével kapcsolatos tanácsadás</h4>
             </div>
             <div class="service">
                 <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="Felszerelések beszerzése">
-                <h3>ADR felszerelések, bárcák, táblák, jelölések beszerzése</h3>
+                <h4>ADR felszerelések, bárcák, táblák, jelölések beszerzése</h4>
             </div>
         </div>
 
@@ -55,23 +55,23 @@
         <div class="when-needed">
             <div class="need">
                 <img src="imgs/pexels-mikebirdy-192364.jpg" alt="Szállítás">
-                <p>Veszélyes áru telephelyen kívüli szállítása</p>
+                <h4>Veszélyes áru telephelyen kívüli szállítása</h4>
             </div>
             <div class="need">
                 <img src="imgs/pexels-pavel-danilyuk-9143455.jpg" alt="Feladás">
-                <p>Veszélyes áru feladása</p>
+                <h4>Veszélyes áru feladása</h4>
             </div>
             <div class="need">
                 <img src="imgs/pexels-eduardo199o9-178988127-17824889.jpg" alt="Tárolás">
-                <p>Veszélyes áru ideiglenes tárolása</p>
+                <h4>Veszélyes áru ideiglenes tárolása</h4>
             </div>
             <div class="need">
                 <img src="imgs/pexels-quintingellar-2199293.jpg" alt="Becsomagolás">
-                <p>A veszélyes áru becsomagolása, töltése, be- és kirakodása, ürítése</p>
+                <h4>A veszélyes áru becsomagolása, töltése, be- és kirakodása, ürítése</h4>
             </div>
             <div class="need">
                 <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="Hulladék">
-                <p>Veszélyes hulladékok csomagolása, szállítása, begyűjtése, kirakodása</p>
+                <h4>Veszélyes hulladékok csomagolása, szállítása, begyűjtése, kirakodása</h4>
             </div>
         </div>
 

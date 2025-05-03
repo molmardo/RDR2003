@@ -7,7 +7,7 @@ section {
 h1{
     color: var(--main);
     text-align: center;
-    font-size: 3rem !important;   
+    font-size: 3.6rem !important;   
     margin-bottom: 25px;
 }
 
@@ -40,7 +40,7 @@ h2 {
 
 }
 
-.service h3, .when-needed h3{
+.service h4, .when-needed h4{
     padding: 13px;
 }
 

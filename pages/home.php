@@ -14,7 +14,7 @@
             <h1 data-i18n="header.mainTitle">Ismerje meg tanfolyamainkat!</h1>
             <p class="subtitle" data-i18n="header.subtitle">"A biztonságos közlekedés az alapos képzésnél kezdődik."</p>
             <div class="cta-buttons">
-                <a href="#tanfolyamok" class="btn primary-btn" data-i18n="header.courseButton">Tanfolyamaink</a>
+                <a href="#tanfolyamok" class="main-button" data-i18n="header.courseButton">Tanfolyamaink</a>
             </div>
         </div>
     </header>
@@ -175,7 +175,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.8863595940325!2d18.901858076867352!3d47.45315459856045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0728216be49%3A0x2a972f42c44fc056!2zVMO2csO2a2LDoWxpbnQsIFTDs3BhcmsgdS4gMWEsIDIwNDU!5e0!3m2!1shu!2shu!4v1745434769485!5m2!1shu!2shu" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div>
                         <h3>
-                            Elérhetőségek
+                            Elérhetőségeink
                         </h3>
                         <span><i class="fas fa-envelope"></i> <a href="mailto:rdr2003@rdr2003.hu">rdr2003@rdr2003.hu</a></span>
                         <span><br><i class="fas fa-mobile fa-xl"></i> +36 30 878 9488</span>
