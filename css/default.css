@@ -25,7 +25,7 @@ body {
     --green: rgb(0, 125, 0);
     --button: #fe9901;
     --button-hover: #da4500;
-    --layout: #000;
+    --layout: #fe9901;
 }
 
 ::-webkit-scrollbar {
