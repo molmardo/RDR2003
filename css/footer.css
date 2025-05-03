@@ -1,5 +1,5 @@
 .footer {
-    background-color: black;
+    background-color: var(--layout);
     color: white;
     padding: 20px 0;
     position: relative;

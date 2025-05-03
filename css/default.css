@@ -25,6 +25,7 @@ body {
     --green: rgb(0, 125, 0);
     --button: #fe9901;
     --button-hover: #da4500;
+    --layout: #000;
 }
 
 ::-webkit-scrollbar {
@@ -32,15 +33,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--main);
+    background: var(--layout);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--white);
+    background: var(--dark-gray);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--main-hover-dark);
+    background: var(--gray);
 }
 
 section{
