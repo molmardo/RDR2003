@@ -1,9 +1,32 @@
 {
-    "header": {
-      "mainTitle": "Ismerje meg tanfolyamainkat!",
-      "subtitle": "A biztonságos közlekedés az alapos képzésnél kezdődik.",
-      "courseButton": "Tanfolyamok megtekintése",
-      "applyButton": "Jelentkezzen most"
+  "header": {
+    "mainTitle": "Ismerje meg tanfolyamainkat!",
+    "subtitle": "A biztonságos közlekedés az alapos képzésnél kezdődik.",
+    "courseButton": "Tanfolyamok megtekintése",
+    "applyButton": "Jelentkezzen most"
+  },
+  "training": {
+    "mainTitle": "Tanfolyamaink",
+    "trainingADRAT": {
+      "h3": "Osztrák ADR tanfolyam",
+      "information": "Ausztriában végzett, hivatalos veszélyesáru-szállítási képzések magyar nyelven."
+    },
+    "trainingHU": {
+      "h3": "Magyarországi tanfolyamok",
+      "information": "Magyarországon elérhető felnőttképzések a közlekedési, fuvarozási szektor számára."
+    },
+    "trainingADRHU": {
+      "h3": "Magyarországi ADR tanfolyam",
+      "information": "Az ADR 1.3. fejezete szerinti „kisadr” képzés"
     }
+  },
+  "aboutUs": {
+    "h2": "Rólunk",
+    "information": "Több mint két évtizedes tapasztalatunkkal nem csupán szolgáltatást, hanem valódi, értékalapú partnerséget kínálunk. Minden ügyfelünkkel egyedi úton járunk: megértjük működésüket, céljaikat és a hozzájuk vezető legbiztonságosabb utat. Hiszünk abban, hogy az igazi szakmaiság nem sablonokban, hanem személyre szabott megoldásokban mutatkozik meg.",
+    "quote": "Szakértelem, amely előnyt teremt.",
+    "button": "Munkatársaink"
+  },
+  "whyChoose":{
+    "h2":"Miért válassza a RDR2003-at?"
   }
-  
+}

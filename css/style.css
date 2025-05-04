@@ -291,7 +291,7 @@ header .subtitle {
     overflow: hidden;
     padding: 35px 0 75px 0;
     ;
-    background: #292929;
+    background: var(--dark-layout);
     white-space: nowrap;
     position: relative;
     color: var(--white);

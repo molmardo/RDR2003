@@ -20,16 +20,16 @@
     </header>
     <!-- Training -->
     <section class="container mx-auto training" id="tanfolyamok">
-        <h2 class="text-center">Tanfolyamaink</h2>
+        <h2 class="text-center" data-i18n="training.mainTitle">Tanfolyamaink</h2>
         <div class="row g-4 mt-3">
             <div class="col-md-4 ScrollDownLeft">
                 <div class="card">
                     <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
                     <div class="card-body d-flex flex-column">
                         <a href="<?= BASE_URL . $routes['osztakAdrTanfolyam']['path'] ?>">
-                            <h3 class="card-title">Osztrák ADR tanfolyam <i class="fa fa-angle-right"></i></h3>
+                            <h3 class="card-title"><span data-i18n="training.trainingADRAT.h3">Osztrák ADR tanfolyam</span> <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex">Ausztriában végzett, hivatalos veszélyesáru-szállítási képzések magyar nyelven.</p>
+                        <p class="card-tex" data-i18n="training.trainingADRAT.information">Ausztriában végzett, hivatalos veszélyesáru-szállítási képzések magyar nyelven.</p>
                     </div>
                 </div>
             </div>
@@ -38,9 +38,9 @@
                     <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
                     <div class="card-body d-flex flex-column">
                         <a href="<?= BASE_URL . $routes['magyarorszagiTanfolyamok']['path'] ?>">
-                            <h3 class="card-title">Magyarországi tanfolyamok <i class="fa fa-angle-right"></i></h3>
+                            <h3 class="card-title"><span data-i18n="training.trainingHU.h3">Magyarországi tanfolyamok</span> <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex">Magyarországon elérhető felnőttképzések a közlekedési, fuvarozási szektor számára.</p>
+                        <p class="card-tex" data-i18n="training.trainingHU.information">Magyarországon elérhető felnőttképzések a közlekedési, fuvarozási szektor számára.</p>
                     </div>
                 </div>
             </div>
@@ -49,9 +49,9 @@
                     <img src="imgs/pexels-quintingellar-2199293.jpg" alt="">
                     <div class="card-body d-flex flex-column">
                         <a href="<?= BASE_URL . $routes['magyarAdrTanfolyam']['path'] ?>">
-                            <h3 class="card-title">Magyarországi ADR tanfolyam <i class="fa fa-angle-right"></i></h3>
+                            <h3 class="card-title"><span data-i18n="training.trainingADRHU.h3">Magyarországi ADR tanfolyam</span> <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex">Az ADR 1.3. fejezete szerinti „kisadr” képzés</p>
+                        <p class="card-tex" data-i18n="training.trainingADRHU.information">Az ADR 1.3. fejezete szerinti „kisadr” képzés</p>
                     </div>
                 </div>
             </div>
@@ -63,14 +63,14 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 ScrollDownLeft">
-                    <h2 class="mb-4">Rólunk</h2>
-                    <p>
+                    <h2 class="mb-4" data-i18n="aboutUs.h2">Rólunk</h2>
+                    <p data-i18n="aboutUs.information">
                         Több mint két évtizedes tapasztalatunkkal nem csupán szolgáltatást, hanem valódi, értékalapú partnerséget kínálunk. Minden ügyfelünkkel egyedi úton járunk: megértjük működésüket, céljaikat és a hozzájuk vezető legbiztonságosabb utat. Hiszünk abban, hogy az igazi szakmaiság nem sablonokban, hanem személyre szabott megoldásokban mutatkozik meg.
                     </p>
                     <p>
-                        <q>Szakértelem, amely előnyt teremt.</q>
+                        <q data-i18n="aboutUs.quote">Szakértelem, amely előnyt teremt.</q>
                     </p>
-                    <a href="<?= BASE_URL . $routes['rolunk']['path'] ?>">Munkatársaink</a>
+                    <a href="<?= BASE_URL . $routes['rolunk']['path'] ?>" data-i18n="aboutUs.button">Munkatársaink</a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
                     <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">
