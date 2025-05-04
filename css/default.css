@@ -61,7 +61,7 @@ section{
     vertical-align: middle;
     cursor: pointer;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 25px;
     transition: all 0.2s ease;
 }
 

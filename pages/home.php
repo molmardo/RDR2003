@@ -11,8 +11,8 @@
     <?php include "include/navigationbar.php"; ?>
     <header>
         <div class="container">
-            <h1 data-i18n="header.mainTitle">Ismerje meg tanfolyamainkat!</h1>
-            <p class="subtitle" data-i18n="header.subtitle">"A biztonságos közlekedés az alapos képzésnél kezdődik."</p>
+            <h1 data-i18n="header.mainTitle">Komplex képzési megoldások fuvarozóknak</h1>
+            <p class="subtitle" data-i18n="header.subtitle"> GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen</p>
             <div class="cta-buttons">
                 <a href="#tanfolyamok" class="main-button" data-i18n="header.courseButton">Tanfolyamaink</a>
             </div>
