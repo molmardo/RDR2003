@@ -1,22 +1,21 @@
 let translations = {};
-let fallbackTranslations = {}; // Angol fordításokat ide töltjük
+let fallbackTranslations = {}; // English fallback
 
-const availableLanguages = ['en', 'hu', 'vn', 'de']; // Itt adhatod meg, milyen nyelvek legyenek elérhetők
+const availableLanguages = ['en', 'hu', 'vn', 'de']; // Available languages
 
 function setCookie(name, value, days) {
   const d = new Date();
   d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
   const expires = "expires=" + d.toUTCString();
-  document.cookie = name + "=" + value + ";" + expires + ";path=/";
+  document.cookie = `${name}=${value};${expires};path=/`;
 }
 
 function getCookie(name) {
-  const nameEQ = name + "=";
+  const nameEQ = `${name}=`;
   const ca = document.cookie.split(';');
-  for (let i = 0; i < ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+  for (let c of ca) {
+    c = c.trim();
+    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length);
   }
   return null;
 }
@@ -34,11 +33,7 @@ async function loadJSON(language) {
 
 async function loadTranslations(language) {
   translations = await loadJSON(language);
-  if (language !== 'en') {
-    fallbackTranslations = await loadJSON('en');
-  } else {
-    fallbackTranslations = translations; // Ha az angol az aktuális, ne töltsük kétszer
-  }
+  fallbackTranslations = (language !== 'en') ? await loadJSON('en') : translations;
   updateText();
 }
 
@@ -49,34 +44,24 @@ function getTranslationValue(path, obj) {
 function updateText() {
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
-    let value = getTranslationValue(key, translations);
+    let value = getTranslationValue(key, translations) || getTranslationValue(key, fallbackTranslations);
 
-    if (!value) {
-      value = getTranslationValue(key, fallbackTranslations);
-    }
-
-    if (value) {
-      element.textContent = value;
-    } else {
-      element.textContent = `[${key}]`; // Kulcs hibajelzés
-    }
+    element.textContent = value || `[${key}]`;
   });
 }
-
 
 async function changeLanguage(language) {
   if (availableLanguages.includes(language)) {
     await loadTranslations(language);
     setCookie('language', language, 30);
   } else {
-    console.warn(`Language '${language}' is not available.`);
+    console.warn(`Language '${language}' is not supported.`);
   }
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
   const languageSwitcher = document.getElementById('languageSwitcher');
 
-  // Dinamikusan létrehozzuk az opciókat
   availableLanguages.forEach(lang => {
     const option = document.createElement('option');
     option.value = lang;
@@ -88,10 +73,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   const browserLang = (navigator.language || navigator.userLanguage).slice(0, 2);
   const defaultLang = availableLanguages.includes(browserLang) ? browserLang : 'en';
 
-  languageSwitcher.value = savedLang || defaultLang;
-  await loadTranslations(savedLang || defaultLang);
+  const initialLang = savedLang || defaultLang;
+  languageSwitcher.value = initialLang;
 
-  languageSwitcher.addEventListener('change', (e) => {
-    changeLanguage(e.target.value);
+  await loadTranslations(initialLang);
+
+  languageSwitcher.addEventListener('change', async (e) => {
+    await changeLanguage(e.target.value);
   });
 });

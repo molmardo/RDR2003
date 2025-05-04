@@ -1,6 +1,14 @@
 {
+  "navbar": {
+    "home": "Kezdőlap",
+    "training": "Tanfolyamok",
+    "counseling": "Tanácsadás",
+    "rental": "Bérlés",
+    "aboutus": "Rólunk",
+    "contact": "Kapcsolat"
+  },
   "header": {
-    "mainTitle": "Ismerje meg tanfolyamainkat!",
+    "mainTitle": "Komplex képzési megoldások fuvarozóknak",
     "subtitle": "A biztonságos közlekedés az alapos képzésnél kezdődik.",
     "courseButton": "Tanfolyamok megtekintése",
     "applyButton": "Jelentkezzen most"
@@ -26,7 +34,84 @@
     "quote": "Szakértelem, amely előnyt teremt.",
     "button": "Munkatársaink"
   },
-  "whyChoose":{
-    "h2":"Miért válassza a RDR2003-at?"
+  "whyChoose": {
+    "h2": "Miért válassza a RDR2003-at?",
+    "info1": {
+      "span": "Tapasztalt oktatók",
+      "p": "Szakértő oktatóink naprakész tudással rendelkeznek."
+    },
+    "info2": {
+      "span": "Szórakoztató tanulás",
+      "p": "Modern, interaktív oktatási módszerek."
+    },
+    "info3": {
+      "span": "Rugalmas időpontok",
+      "p": "Az Ön időbeosztásához igazodó tanfolyamok."
+    },
+    "info4": {
+      "span": "Több helyszín",
+      "p": "Több helyszínen is ott vagyunk."
+    }
+  },
+  "partners": {
+    "h2": "Partnereink"
+  },
+  "contact": {
+    "h2": "Lépjen velünk kapcsolatba",
+    "form": {
+      "name": "Név",
+      "email": "Email",
+      "phone": "Telefonszám",
+      "msg": "Üzenet",
+      "button": "Küldés"
+    },
+    "informations": {
+      "contactDetails": {
+        "h3": "Elérhetőségeink"
+      },
+      "location": {
+        "h3": "Helyszín"
+      },
+      "openingHours": {
+        "h3": "Nyitvatartás",
+        "open": "Nyitva",
+        "close": "Zárva",
+        "openingSoon": "Hamarosan nyit",
+        "closingSoon": "Hamarosan zár",
+        "monday": "Hétfő",
+        "tuesday": "Kedd",
+        "wednesday": "Szerda",
+        "thursady": "Csütörtök",
+        "friday": "Péntek",
+        "saturday": "Szombat",
+        "sunday": "Vasárnap"
+      }
+    }
+  },
+  "footer": {
+    "pages": {
+      "page:": "Oldalak",
+      "home": "Kezdőlap",
+      "training": "Tanfolyamok",
+      "counseling": "Tanácsadás",
+      "rental": "Bérlés",
+      "aboutus": "Rólunk",
+      "contact": "Kapcsolat"
+    },
+    "contact": {
+      "h3": "Kapcsolat",
+      "phone": "Telefon",
+      "follow_us": "Kövess minket"
+    },
+    "documents": {
+      "h3": "Dokumentumok",
+      "privacy-policy": "Adatkezelési tájékoztató",
+      "cookie": "Cookie tájékoztató",
+      "impressum": "Impresszum"
+    },
+    "data": {
+      "h3": "Adatok"
+    },
+    "rights": "Minden jog fenntartva."
   }
 }

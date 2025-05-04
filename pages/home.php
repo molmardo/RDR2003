@@ -86,23 +86,23 @@
                     <img src="imgs/two-guys-talking-about-work-work-garage-near-truck-transfer-documents-with-goods.jpg" alt="">
                 </div>
                 <div class="col-md-6 ScrollDownRight">
-                    <h2>Miért válassza a RDR2003-at?</h2>
+                    <h2 data-i18n="whyChoose.h2">Miért válassza a RDR2003-at?</h2>
                     <div>
                         <div>
-                            <span>Tapasztalt oktatók</span>
-                            <p>Szakértő oktatóink naprakész tudással rendelkeznek.</p>
+                            <span data-i18n="whyChoose.info1.span">Tapasztalt oktatók</span>
+                            <p data-i18n="whyChoose.info1.p">Szakértő oktatóink naprakész tudással rendelkeznek.</p>
                         </div>
                         <div>
-                            <span>Szórakoztató tanulás</span>
-                            <p>Modern, interaktív oktatási módszerek.</p>
+                            <span data-i18n="whyChoose.info2.span">Szórakoztató tanulás</span>
+                            <p data-i18n="whyChoose.info2.p">Modern, interaktív oktatási módszerek.</p>
                         </div>
                         <div>
-                            <span>Rugalmas időpontok</span>
-                            <p>Az Ön időbeosztásához igazodó tanfolyamok.</p>
+                            <span data-i18n="whyChoose.info3.span">Rugalmas időpontok</span>
+                            <p data-i18n="whyChoose.info3.p">Az Ön időbeosztásához igazodó tanfolyamok.</p>
                         </div>
                         <div>
-                            <span>Több helyszín</span>
-                            <p>Több helyszínen is ott vagyunk.</p>
+                            <span data-i18n="whyChoose.info4.span">Több helyszín</span>
+                            <p data-i18n="whyChoose.info4.p">Több helyszínen is ott vagyunk.</p>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
     </section>
     <section>
         <div class="logos ScrollDownTransparent">
-            <h2>Partnereink</h2>
+            <h2 data-i18n="partners.h2">Partnereink</h2>
             <div class="logos-slide">
                 <img src="partners/BTlogo_100.png" alt="ceglogo">
                 <img src="partners/Calderys_Orange-Noir_1.png.png" alt="ceglogo">
@@ -146,42 +146,42 @@
     <section class="container" id="kapcsolat">
         <div class="row align-items-center ScrollDownDown">
             <div class="col-md-6">
-                <h2 class="mt-3 mb-3">Lépjen velünk kapcsolatba</h2>
+                <h2 class="mt-3 mb-3" data-i18n="contact.h2">Lépjen velünk kapcsolatba</h2>
                 <form action="" method="post">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                        <label for="floatingInput">Név</label>
+                        <label for="floatingInput" data-i18n="contact.form.name">Név</label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                        <label for="floatingInput">Email</label>
+                        <label for="floatingInput" data-i18n="contact.form.email">Email</label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="" class="form-control" id="floatingInput" placeholder="+36123456789">
-                        <label for="floatingInput">Telefonszám</label>
+                        <label for="floatingInput" data-i18n="contact.form.phone">Telefonszám</label>
                     </div>
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="floatingTextarea2" style="height: 100px" required></textarea>
-                        <label for="floatingTextarea2">Üzenet</label>
+                        <label for="floatingTextarea2" data-i18n="contact.form.msg">Üzenet</label>
                     </div>
                     <br>
                     <div class="g-recaptcha" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div>
 
-                    <button type="submit" class="send-btn">Küldés</button>
+                    <button type="submit" class="send-btn" data-i18n="contact.form.button">Küldés</button>
                 </form>
             </div>
             <div class="col-md-6">
                 <div class="contact-info">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.8863595940325!2d18.901858076867352!3d47.45315459856045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0728216be49%3A0x2a972f42c44fc056!2zVMO2csO2a2LDoWxpbnQsIFTDs3BhcmsgdS4gMWEsIDIwNDU!5e0!3m2!1shu!2shu!4v1745434769485!5m2!1shu!2shu" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div>
-                        <h3>
+                        <h3 data-i18n="contact.informations.contactDetails.h3">
                             Elérhetőségeink
                         </h3>
                         <span><i class="fas fa-envelope"></i> <a href="mailto:rdr2003@rdr2003.hu">rdr2003@rdr2003.hu</a></span>
                         <span><br><i class="fas fa-mobile fa-xl"></i> +36 30 878 9488</span>
                         <span><br><i class="fas fa-mobile fa-xl"></i> +36 30 258 7749</span>
                         <span><br><i class="fas fa-mobile fa-xl"></i> +36 30 664 2530</span>
-                        <h3>Helyszín</h3>
+                        <h3 data-i18n="contact.informations.location.h3">Helyszín</h3>
                         <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045</span>
                         <?php
                         date_default_timezone_set('Europe/Budapest');
@@ -198,7 +198,7 @@
                         $nap = date('l');
                         $idoMost = new DateTime();
 
-                        $valasz = "<span class='closeHours'>Zárva</span>";
+                        $valasz = "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
 
                         if (isset($nyitvatartas[$nap]) && $nyitvatartas[$nap] !== null) {
                             [$nyit, $zar] = $nyitvatartas[$nap];
@@ -208,47 +208,48 @@
                             $elotteZaras30 = (clone $zaras)->modify('-30 minutes');
 
                             if ($idoMost < $elotte30) {
-                                $valasz = "<span class='closeHours'>Zárva</span>";
+                                $valasz =
+                                "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
                             } elseif ($idoMost >= $elotte30 && $idoMost < $nyitas) {
-                                $valasz = "<span class='openingSoon'>Hamarosan nyit";
+                                $valasz = "<span class='openingSoon' data-i18n='contact.informations.openingHours.openingSoon'>Hamarosan nyit";
                             } elseif ($idoMost >= $nyitas && $idoMost < $elotteZaras30) {
-                                $valasz = "<span class='openHours'>Nyitva";
+                                $valasz = "<span class='openHours' data-i18n='contact.informations.openingHours.open'>Nyitva";
                             } elseif ($idoMost >= $elotteZaras30 && $idoMost < $zaras) {
-                                $valasz = "<span class='closingSoon'>Hamarosan zár";
+                                $valasz = "<span class='closingSoon' data-i18n='contact.informations.openingHours.closingSoon'>Hamarosan zár";
                             } else {
-                                $valasz = "<span class='closeHours'>Zárva</span>";
+                                $valasz = "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
                             }
                         }
                         ?>
 
-                        <h3>Nyitvatartás: <span class="openingTime"><?php echo $valasz; ?></span></h3>
+                        <h3><span data-i18n="contact.informations.openingHours.h3">Nyitvatartás:</span> <span class="openingTime"><?php echo $valasz; ?></span></h3>
                         <table>
                             <tr>
-                                <td>Hétfő</td>
+                                <td data-i18n="contact.informations.openingHours.monday">Hétfő</td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td>Kedd</td>
+                                <td data-i18n="contact.informations.openingHours.tuesday">Kedd</td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td>Szerda</td>
+                                <td data-i18n="contact.informations.openingHours.wednesday">Szerda</td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td>Csütörtök</td>
+                                <td data-i18n="contact.informations.openingHours.thursady">Csütörtök</td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td>Péntek</td>
+                                <td data-i18n="contact.informations.openingHours.friday">Péntek</td>
                                 <td>8:00-15:00</td>
                             </tr>
                             <tr>
-                                <td>Szombat</td>
+                                <td data-i18n="contact.informations.openingHours.saturday">Szombat</td>
                                 <td>Zárva</td>
                             </tr>
                             <tr>
-                                <td>Vasárnap</td>
+                                <td data-i18n="contact.informations.openingHours.sunday">Vasárnap</td>
                                 <td>Zárva</td>
                             </tr>
                         </table>

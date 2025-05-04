@@ -1,6 +1,117 @@
 {
-  "header-main-title": "Discover Our Courses!",
-  "header-subtitle": "Safe driving starts with thorough training.",
-  "header-course": "View Courses",
-  "header-apply": "Apply Now"
+  "navbar": {
+    "home": "Home",
+    "training": "Courses",
+    "counseling": "Consulting",
+    "rental": "Rental",
+    "aboutus": "About Us",
+    "contact": "Contact"
+  },
+  "header": {
+    "mainTitle": "Comprehensive Training Solutions for Transporters",
+    "subtitle": "Safe driving starts with thorough training.",
+    "courseButton": "View Courses",
+    "applyButton": "Apply Now"
+  },
+  "training": {
+    "mainTitle": "Our Courses",
+    "trainingADRAT": {
+      "h3": "Austrian ADR Course",
+      "information": "Official hazardous materials transport training in Austria, available in Hungarian."
+    },
+    "trainingHU": {
+      "h3": "Courses in Hungary",
+      "information": "Adult education programs available in Hungary for the transportation sector."
+    },
+    "trainingADRHU": {
+      "h3": "Hungarian ADR Course",
+      "information": "‘Mini ADR’ training according to section 1.3 of the ADR."
+    }
+  },
+  "aboutUs": {
+    "h2": "About Us",
+    "information": "With over two decades of experience, we offer more than just a service—we offer genuine, value-based partnerships. We walk a unique path with each of our clients: understanding their operations, goals, and the safest way to reach them. We believe true professionalism is shown not through templates, but through tailored solutions.",
+    "quote": "Expertise that creates an advantage.",
+    "button": "Our Team"
+  },
+  "whyChoose": {
+    "h2": "Why Choose RDR2003?",
+    "info1": {
+      "span": "Experienced Instructors",
+      "p": "Our expert instructors possess up-to-date knowledge."
+    },
+    "info2": {
+      "span": "Fun Learning",
+      "p": "Modern, interactive teaching methods."
+    },
+    "info3": {
+      "span": "Flexible Scheduling",
+      "p": "Courses tailored to fit your schedule."
+    },
+    "info4": {
+      "span": "Multiple Locations",
+      "p": "We are present in several locations."
+    }
+  },
+  "partners": {
+    "h2": "Our Partners"
+  },
+  "contact": {
+    "h2": "Get in Touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "msg": "Message",
+      "button": "Send"
+    },
+    "informations": {
+      "contactDetails": {
+        "h3": "Contact Details"
+      },
+      "location": {
+        "h3": "Location"
+      },
+      "openingHours": {
+        "h3": "Opening Hours",
+        "open": "Open",
+        "close": "Closed",
+        "openingSoon": "Opening Soon",
+        "closingSoon": "Closing Soon",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursady": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    }
+  },
+  "footer": {
+    "pages": {
+      "page:": "Pages",
+      "home": "Home",
+      "training": "Courses",
+      "counseling": "Consulting",
+      "rental": "Rental",
+      "aboutus": "About Us",
+      "contact": "Contact"
+    },
+    "contact": {
+      "h3": "Contact",
+      "phone": "Phone",
+      "follow_us": "Follow Us"
+    },
+    "documents": {
+      "h3": "Documents",
+      "privacy-policy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "impressum": "Legal Notice"
+    },
+    "data": {
+      "h3": "Data"
+    },
+    "rights": "All rights reserved."
+  }
 }

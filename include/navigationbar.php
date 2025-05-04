@@ -25,14 +25,14 @@ $isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '
       <div class="icon cancel-btn">
         <i class="fas fa-times"></i>
       </div>
-      <li><a href="<?= BASE_URL . array_search('home.php', $routes) ?>" class="nav-a-black">Kezdőlap</a></li>
-      <li><a href="./#tanfolyamok" class="nav-a-black">Tanfolyamok</a></li>
-      <li><a href="<?= BASE_URL . $routes['tanacsadas']['path'] ?>" class="nav-a-black">Tanácsadás</a></li>
-      <li><a href="<?= BASE_URL . $routes['berbeadas']['path'] ?>" class="nav-a-black">Bérbeadás</a></li>
+      <li><a href="<?= BASE_URL . array_search('home.php', $routes) ?>" class="nav-a-black" data-i18n="navbar.home">Kezdőlap</a></li>
+      <li><a href="./#tanfolyamok" class="nav-a-black" data-i18n="navbar.training">Tanfolyamok</a></li>
+      <li><a href="<?= BASE_URL . $routes['tanacsadas']['path'] ?>" class="nav-a-black" data-i18n="navbar.counseling">Tanácsadás</a></li>
+      <li><a href="<?= BASE_URL . $routes['berbeadas']['path'] ?>" class="nav-a-black" data-i18n="navbar.rental">Bérlés</a></li>
       <!-- <li><a href="kapcsolat" class="nav-a-black">Audit</a></li> -->
       <!-- <li><a href="kapcsolat" class="nav-a-black">Bérbeadás</a></li> -->
-      <li><a href="./#rolunk" class="nav-a-black">Rólunk</a></li>
-      <li><a href="./#kapcsolat" class="nav-a-black">Kapcsolat</a></li>
+      <li><a href="./#rolunk" class="nav-a-black" data-i18n="navbar.aboutus">Rólunk</a></li>
+      <li><a href="./#kapcsolat" class="nav-a-black" data-i18n="navbar.contact">Kapcsolat</a></li>
       <li><a href="https://www.facebook.com/rdr2003.hu" class="nav-a-black" target="_blank"><i class="fa fa-facebook"></i></a></li>
       <li><a href="mailto:rdr2003@rdr2003.hu" class="nav-a-black"><i class="fas fa-envelope"></i></a></li>
       <li>

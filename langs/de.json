@@ -1,7 +1,117 @@
 {
-    "header-main-title": "Entdecken Sie unsere Kurse!",
-    "header-subtitle": "Sicheres Fahren beginnt mit einer gründlichen Ausbildung.",
-    "header-course": "Kurse ansehen",
-    "header-apply": "Jetzt anmelden"
+    "navbar": {
+        "home": "Startseite",
+        "training": "Kurse",
+        "counseling": "Beratung",
+        "rental": "Vermietung",
+        "aboutus": "Über uns",
+        "contact": "Kontakt"
+    },
+    "header": {
+        "mainTitle": "Komplexe Schulungslösungen für Transportunternehmen",
+        "subtitle": "Sicherer Verkehr beginnt mit gründlicher Ausbildung.",
+        "courseButton": "Kurse ansehen",
+        "applyButton": "Jetzt anmelden"
+    },
+    "training": {
+        "mainTitle": "Unsere Kurse",
+        "trainingADRAT": {
+            "h3": "Österreichischer ADR-Kurs",
+            "information": "Offizielle Schulungen zum Gefahrguttransport in Österreich auf Ungarisch."
+        },
+        "trainingHU": {
+            "h3": "Kurse in Ungarn",
+            "information": "Erwachsenenbildung für den Verkehrs- und Transportsektor in Ungarn."
+        },
+        "trainingADRHU": {
+            "h3": "Ungarischer ADR-Kurs",
+            "information": "„Mini-ADR“-Schulung gemäß Abschnitt 1.3 des ADR"
+        }
+    },
+    "aboutUs": {
+        "h2": "Über uns",
+        "information": "Mit über zwei Jahrzehnten Erfahrung bieten wir nicht nur Dienstleistungen, sondern echte, wertorientierte Partnerschaften. Wir gehen mit jedem Kunden einen individuellen Weg: Wir verstehen ihre Arbeitsweise, Ziele und den sichersten Weg dorthin. Wir glauben, dass wahre Professionalität nicht in Schablonen, sondern in maßgeschneiderten Lösungen liegt.",
+        "quote": "Kompetenz, die einen Vorteil schafft.",
+        "button": "Unser Team"
+    },
+    "whyChoose": {
+        "h2": "Warum RDR2003 wählen?",
+        "info1": {
+            "span": "Erfahrene Ausbilder",
+            "p": "Unsere Fachausbilder verfügen über aktuelles Wissen."
+        },
+        "info2": {
+            "span": "Lernen mit Spaß",
+            "p": "Moderne, interaktive Lehrmethoden."
+        },
+        "info3": {
+            "span": "Flexible Termine",
+            "p": "Kurse, die sich an Ihren Zeitplan anpassen."
+        },
+        "info4": {
+            "span": "Mehrere Standorte",
+            "p": "Wir sind an mehreren Orten vertreten."
+        }
+    },
+    "partners": {
+        "h2": "Unsere Partner"
+    },
+    "contact": {
+        "h2": "Kontaktieren Sie uns",
+        "form": {
+            "name": "Name",
+            "email": "E-Mail",
+            "phone": "Telefonnummer",
+            "msg": "Nachricht",
+            "button": "Senden"
+        },
+        "informations": {
+            "contactDetails": {
+                "h3": "Kontaktinformationen"
+            },
+            "location": {
+                "h3": "Standort"
+            },
+            "openingHours": {
+                "h3": "Öffnungszeiten",
+                "open": "Geöffnet",
+                "close": "Geschlossen",
+                "openingSoon": "Öffnet bald",
+                "closingSoon": "Schließt bald",
+                "monday": "Montag",
+                "tuesday": "Dienstag",
+                "wednesday": "Mittwoch",
+                "thursady": "Donnerstag",
+                "friday": "Freitag",
+                "saturday": "Samstag",
+                "sunday": "Sonntag"
+            }
+        }
+    },
+    "footer": {
+        "pages": {
+            "page:": "Seiten",
+            "home": "Startseite",
+            "training": "Kurse",
+            "counseling": "Beratung",
+            "rental": "Vermietung",
+            "aboutus": "Über uns",
+            "contact": "Kontakt"
+        },
+        "contact": {
+            "h3": "Kontakt",
+            "phone": "Telefon",
+            "follow_us": "Folgen Sie uns"
+        },
+        "documents": {
+            "h3": "Dokumente",
+            "privacy-policy": "Datenschutzerklärung",
+            "cookie": "Cookie-Hinweis",
+            "impressum": "Impressum"
+        },
+        "data": {
+            "h3": "Daten"
+        },
+        "rights": "Alle Rechte vorbehalten."
+    }
 }
-  
