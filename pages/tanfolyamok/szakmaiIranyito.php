@@ -25,7 +25,7 @@
                                 <th>Díj (Ft)</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="price">
                             <tr>
                                 <td>Árufuvarozói szakmai irányítói alapképesítő (AVN)</td>
                                 <td>299.000</td>

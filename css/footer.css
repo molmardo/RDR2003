@@ -42,11 +42,14 @@
 
 .social-links a {
     color: white;
+    font-size: 2rem;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .social-links a:hover {
     text-decoration: underline;
+    color: #555;
 }
 
 .pages-links, .docs{

@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-section">
-            <h3 data-i18n="footer.pages.page">Oldalak</h3>
+            <h3 data-i18n="footer.pages.h3">Oldalak</h3>
             <ul class="pages-links">
                 <li><a href="./" data-i18n="footer.pages.home">Kezdőlap</a></li>
                 <li><a href="./#tanfolyamok" data-i18n="footer.pages.training">Tanfolyamok</a></li>
@@ -13,15 +13,15 @@
         </div>
         <div class="footer-section">
             <h3 data-i18n="footer.contact.h3">Kapcsolat</h3>
-            <p><b>Email: </b></p>
+            <p><b>Email </b></p>
 
                 <p>rdr2003@rdr2003.hu</p>
 
-            <p><b data-i18n="footer.contact.phone">Telefon: </b></p>
+            <p><b data-i18n="footer.contact.phone">Telefon </b></p>
                 <p>+36 30 258 7749</p>
             <h3 data-i18n="footer.contact.follow_us">Kövess minket</h3>
             <ul class="social-links">
-                <li><a href="https://www.facebook.com/rdr2003.hu" target="_blank">Facebook</a></li>   
+                <li><a href="https://www.facebook.com/rdr2003.hu" target="_blank"><i class="fab fa-facebook"></i></a></li>   
             </ul>
         </div>
         <div class="footer-section">

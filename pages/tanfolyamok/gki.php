@@ -60,7 +60,7 @@
                                 <th>Díj (Ft)</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="price">
                             <tr>
                                 <td>GKI tehergépkocsi-vezetői továbbképző vizsgás (CT)</td>
                                 <td>159.000</td>

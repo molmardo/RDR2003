@@ -18,7 +18,7 @@
                 <section>
                     <h2>Szabad időpontjaink</h2>
                     <p>
-                        <strong>2025. május 29 - Június 1.</strong><br>
+                        <strong>2025. május 29 - június 1.</strong><br>
                         <strong>2025. június 5 - 8.</strong><br>
                         <strong>2025. június 12 - 15.</strong>
                     </p>
@@ -66,7 +66,7 @@
                                 <th>Díj (Ft)</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="price">
                             <tr>
                                 <td>Nem tartányos alaptanfolyam / ismeretfelújítás</td>
                                 <td>158 000</td>

@@ -9,7 +9,7 @@
   },
   "header": {
     "mainTitle": "Komplex képzési megoldások fuvarozóknak",
-    "subtitle": "A biztonságos közlekedés az alapos képzésnél kezdődik.",
+    "subtitle": "A biztonságos közlekedés az alapos képzésnél kezdődik",
     "courseButton": "Tanfolyamok megtekintése",
     "applyButton": "Jelentkezzen most"
   },
@@ -90,7 +90,7 @@
   },
   "footer": {
     "pages": {
-      "page:": "Oldalak",
+      "h3:": "Oldalak",
       "home": "Kezdőlap",
       "training": "Tanfolyamok",
       "counseling": "Tanácsadás",
@@ -101,7 +101,7 @@
     "contact": {
       "h3": "Kapcsolat",
       "phone": "Telefon",
-      "follow_us": "Kövess minket"
+      "follow_us": "Kövessen minket"
     },
     "documents": {
       "h3": "Dokumentumok",
