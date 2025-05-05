@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-section">
-            <h3 data-i18n="footer.pages.h3">Oldalak</h3>
+            <h3 data-i18n="footer.pages.title">Gyors linkek</h3>
             <ul class="pages-links">
                 <li><a href="./" data-i18n="footer.pages.home">Kezdőlap</a></li>
                 <li><a href="./#tanfolyamok" data-i18n="footer.pages.training">Tanfolyamok</a></li>
