@@ -106,7 +106,23 @@
             border-radius: 10px;
             text-align: center;
             z-index: 1000;
-        }
+        }/* A select maga */
+#mySelect {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+  appearance: none; /* alap kinézet eltüntetése */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Az option elemek — ez sajnos csak korlátozottan működik */
+#mySelect option {
+  background-color: #222;
+  color: #fff;
+}
+
     </style>
     <script>
         function handleSubmit(event) {
@@ -117,7 +133,12 @@
     </script>
 </head>
 <body>
-
+    <select id="mySelect">
+        <option value="1">Első opció</option>
+        <option value="2">Második opció</option>
+        <option value="3">Harmadik opció</option>
+      </select>
+      
 <header>
     <h1>ADR Biztonsági Tanácsadás</h1>
 </header>

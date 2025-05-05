@@ -125,26 +125,6 @@
   display: none;
 }
 
-.navbar-index #languageSwitcher {
-  padding: 3px 5px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.1) ;
-  color: var(--white);
-}
-
-select:focus, select:active, select:hover{
-  background-color: red;
-}
-
-.navbar-default #languageSwitcher {
-  padding: 3px 5px;
-  border: 1px solid black;
-  border-radius: 4px;
-  background: black;
-  color: var(--white);
-}
-
 
 
 .navbar .logo {
@@ -278,4 +258,48 @@ select:focus, select:active, select:hover{
   .navbar .logo a {
     font-size: 27px;
   }
+}
+
+
+.navbar-index #languageSwitcher {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--white);
+}
+
+
+.navbar-default #languageSwitcher {
+  border: 1px solid black;
+  background: black;
+  color: var(--white);
+}
+
+
+
+#languageSwitcher {
+  padding: 6px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-size: 12px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#languageSwitcher:hover {
+  background-color: #222;
+  border-color: #888;
+}
+
+#languageSwitcher option {
+  background-color: #111;
+  color: #fff;
+}
+
+#languageSwitcher option:disabled {
+  color: #aaa;
 }
