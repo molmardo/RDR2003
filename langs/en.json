@@ -90,7 +90,7 @@
   },
   "footer": {
     "pages": {
-      "page:": "Pages",
+      "title": "Pages",
       "home": "Home",
       "training": "Courses",
       "counseling": "Consulting",

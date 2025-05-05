@@ -9,7 +9,7 @@
 
 <body>
     <?php include "include/navigationbar.php"; ?>
-    <header>
+    <!-- <header>
         <div class="container">
             <h1 data-i18n="header.mainTitle">Komplex képzési megoldások fuvarozóknak</h1>
             <p class="subtitle" data-i18n="header.subtitle"> GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen</p>
@@ -17,7 +17,25 @@
                 <a href="#tanfolyamok" class="main-button" data-i18n="header.courseButton">Tanfolyamaink</a>
             </div>
         </div>
+    </header> -->
+    <header>
+        <video autoplay muted  playsinline class="bg-video">
+            <source src="videos/header2.mp4" type="video/mp4">
+            A videó nem elérhető ebben a böngészőben.
+        </video>
+        <div class="container">
+            <h1 data-i18n="header.mainTitle">Komplex képzési megoldások fuvarozóknak</h1>
+            <p class="subtitle" data-i18n="header.subtitle">
+                GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen
+            </p>
+            <div class="cta-buttons">
+                <a href="#tanfolyamok" class="main-button" data-i18n="header.courseButton">Tanfolyamaink</a>
+            </div>
+        </div>
     </header>
+
+
+
     <!-- Training -->
     <section class="container mx-auto training" id="tanfolyamok">
         <h2 class="text-center" data-i18n="training.mainTitle">Tanfolyamaink</h2>
@@ -209,7 +227,7 @@
 
                             if ($idoMost < $elotte30) {
                                 $valasz =
-                                "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
+                                    "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
                             } elseif ($idoMost >= $elotte30 && $idoMost < $nyitas) {
                                 $valasz = "<span class='openingSoon' data-i18n='contact.informations.openingHours.openingSoon'>Hamarosan nyit";
                             } elseif ($idoMost >= $nyitas && $idoMost < $elotteZaras30) {
