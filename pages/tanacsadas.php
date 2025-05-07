@@ -79,10 +79,11 @@
             </ul>
         </div>
 
-        
 
-    <?php include "include/basic-application-form.php"; ?>
-    <?php include "include/footer.php"; ?>
+        <?php include "include/basic-application-form.php"; ?>
+    </section>
+
+        <?php include "include/footer.php"; ?>
 </body>
 
 </html>

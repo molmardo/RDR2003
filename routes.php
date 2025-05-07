@@ -51,5 +51,9 @@ return [
     'rolunk' => [
         'path' => '/munkatarsaink',
         'file' => '/rolunk.php'
+    ],
+    'furgon-berles' => [
+        'path' => '/furgon',
+        'file' => '/berles/furgon.php'
     ]
 ];

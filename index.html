@@ -1,155 +1,58 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ADR Tanácsadás</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galéria példája</title>
+  <!-- Lightbox CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet" />
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
+      font-family: Arial, sans-serif;
+      padding: 20px;
     }
 
-    header {
-      background: #003366;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-      animation: fadeInDown 1s ease-out;
+    .gallery {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
     }
 
-    header h1 {
-      font-size: 2rem;
+    .gallery img {
+      width: 200px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
     }
 
-    .container {
-      max-width: 960px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      animation: fadeIn 1.5s ease-in;
-    }
-
-    section {
-      margin-bottom: 2rem;
-    }
-
-    h2 {
-      color: #003366;
-      margin-bottom: 0.5rem;
-      font-size: 1.5rem;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 1rem;
-    }
-
-    ul li::before {
-      content: "\2022";
-      color: #003366;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-    }
-
-    .cta {
-      text-align: center;
-      margin-top: 3rem;
-      animation: fadeInUp 1s ease-in;
-    }
-
-    .cta a {
-      background: #003366;
-      color: white;
-      padding: 1rem 2rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.3s ease;
-    }
-
-    .cta a:hover {
-      background: #0055aa;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes fadeInDown {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.5rem;
-      }
-
-      .cta a {
-        width: 100%;
-        display: inline-block;
-      }
+    .gallery img:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>ADR Tanácsadás és Szolgáltatások</h1>
-  </header>
 
-  <main class="container">
-    <section>
-      <h2>Tanácsadás</h2>
-      <p>Több mint 20 éve állunk partnereink rendelkezésére az ADR biztonsági tanácsadás területén... valódi biztonságot és üzleti előnyt teremtünk.</p>
-    </section>
+  <h1>Képgaléria (felugró ablakos)</h1>
 
-    <section>
-      <h2>Országos szolgáltatás</h2>
-      <p>A 25/2014. (IV. 30.) NFM rendelet értelmében... támogatjuk a hatósági ellenőrzésekre való felkészülést is.</p>
-    </section>
+  <div class="gallery">
+    <a href="https://picsum.photos/id/1018/800/600.jpg" data-lightbox="hotel" data-title="Kilátás">
+      <img src="https://picsum.photos/id/1018/300/200.jpg" alt="Kilátás">
+    </a>
+    <a href="https://picsum.photos/id/1015/800/600.jpg" data-lightbox="hotel" data-title="Fürdőszoba">
+      <img src="https://picsum.photos/id/1015/300/200.jpg" alt="Fürdőszoba">
+    </a>
+    <a href="https://picsum.photos/id/1019/800/600.jpg" data-lightbox="hotel" data-title="Ágy">
+      <img src="https://picsum.photos/id/1019/300/200.jpg" alt="Ágy">
+    </a>
+  </div>
 
-    <section>
-      <h2>Szolgáltatásaink</h2>
-      <ul>
-        <li>ADR 1.3 szerinti oktatás</li>
-        <li>Tanácsadás és jogszabályoknak való megfelelés vizsgálata</li>
-        <li>Telephelyi bejárás</li>
-        <li>Csomagolóeszköz tanácsadás</li>
-        <li>ADR felszerelések, bárcák, jelölések beszerzése</li>
-      </ul>
-    </section>
+  <!-- Lightbox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
 
-    <section>
-      <h2>Mikor szükséges tanácsadó?</h2>
-      <ul>
-        <li>Telephelyen kívüli szállítás</li>
-        <li>Veszélyes áru feladása</li>
-        <li>Ideiglenes tárolás</li>
-        <li>Becsomagolás, töltés, kirakodás</li>
-        <li>Veszélyes hulladék begyűjtése, szállítása</li>
-      </ul>
-    </section>
-
-    <div class="cta">
-      <a href="#">Érdekli? Kérjen ajánlatot!</a>
-    </div>
-  </main>
 </body>
+
 </html>

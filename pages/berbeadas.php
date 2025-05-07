@@ -17,7 +17,7 @@
         <h2 class="text-center mb-4">Bérbeadás</h2>
         <div class="row g-3">
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <a href="">
+                <a href="<?= BASE_URL . $routes['furgon-berles']['path'] ?>">
                     <div class="rental">
                         <img src="imgs/pexels-norma-mortenson-4391475.jpg" alt="">
                         <h3 class="mt-3">Személyszállításra alkalmas furgon</h3>
@@ -35,7 +35,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div>  
 
     <?php // include "include/footer.php";?>
 </body>
