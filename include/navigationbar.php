@@ -31,7 +31,7 @@ $isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '
       <li><a href="<?= BASE_URL . $routes['berbeadas']['path'] ?>" class="nav-a-black" data-i18n="navbar.rental">Bérlés</a></li>
       <!-- <li><a href="kapcsolat" class="nav-a-black">Audit</a></li> -->
       <!-- <li><a href="kapcsolat" class="nav-a-black">Bérbeadás</a></li> -->
-      <li><a href="./#rolunk" class="nav-a-black" data-i18n="navbar.aboutus">Rólunk</a></li>
+      <!-- <li><a href="./#rolunk" class="nav-a-black" data-i18n="navbar.aboutus">Rólunk</a></li> -->
       <li><a href="./#kapcsolat" class="nav-a-black" data-i18n="navbar.contact">Kapcsolat</a></li>
       <li><a href="https://www.facebook.com/rdr2003.hu" class="nav-a-black" target="_blank"><i class="fa fa-facebook"></i></a></li>
       <li><a href="mailto:rdr2003@rdr2003.hu" class="nav-a-black"><i class="fas fa-envelope"></i></a></li>

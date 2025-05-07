@@ -9,7 +9,10 @@
 
 <body>
     <?php include "include/navigationbar.php"; ?>
-
+    <!-- 
+        Leírás (Lorem),
+        Időpontokért 
+    -->
     <div class="container rental-full">
         <h2 class="text-center mb-4">Bérbeadás</h2>
         <div class="row g-3">
@@ -17,7 +20,7 @@
                 <a href="">
                     <div class="rental">
                         <img src="imgs/pexels-norma-mortenson-4391475.jpg" alt="">
-                        <h3 class="mt-3">Furgon</h3>
+                        <h3 class="mt-3">Személyszállításra alkalmas furgon</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </a>

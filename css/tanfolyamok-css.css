@@ -22,7 +22,7 @@
 
 .container h1,
 .container h2 {
-    color: var(--main);
+    color: var(--black);
 }
 
 h1 {
