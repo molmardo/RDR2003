@@ -106,109 +106,14 @@
                     <p>Forduljon hozzánk bizalommal az elérhetőségeink egyikén!</p>
                     <a href="./#kapcsolat">Elérhetőségeink</a>
                 </section>
-                <section>
-                    <div class="text-center">
-                        <button class="application" id="myBtn">Jelentkezési űrlap kitöltése</button>
-                    </div>
-                </section>
+                <?php include "include/course-application-form.php"; ?>
+
             </div>
         </div>
     </div>
 
-     <!-- Application model -->
-     <div id="myModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Jelentkezési űrlap</h2>
-                <span class="close">&times;</span>
-            </div>
-            <div class="modal-body">
-                <form action="" method="post">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Teljes név</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Születési hely</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="date" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Születési idő (éééé.hh.nn.)</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Anyja neve</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Emial cím</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Telefonszám</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Jogosítvány szám</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">A jelenlegi ADR bizonyítvány érvényessége/ha van éééé.hh.nn</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">A jelenlegi ADR igazolvány száma</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Állandó Lakcím</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">Egyéb megjegyzés</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                                <label for="floatingInput">ÁLLAMPOLGÁRSÁG csak, ha nem magyar</label>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="application">Küldés</button>
-                        </div>
-
-                    </div>
-                </form>
-            </div>
-        </div>
-
-    </div>
+    
     <?php include "include/footer.php"; ?>
 </body>
 
 </html>
-<script src="js/application-form.js"></script>

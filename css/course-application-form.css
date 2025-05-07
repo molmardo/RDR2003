@@ -1,0 +1,83 @@
+.course-modal-application {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.course-modal-application-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    border-radius: 13px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    animation-name: course-animatetop;
+    animation-duration: 0.4s;
+}
+
+@keyframes course-animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.course-close {
+    color: white;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.course-close:hover,
+.course-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.course-modal-application-header {
+    padding: 2px 16px;
+    background-color: var(--main);
+    color: white !important;
+    border-radius: 12px 12px 0 0;
+}
+
+.course-modal-application-header h2{
+    color: var(--white);
+}
+
+.course-modal-application-body {
+    padding: 2px 16px;
+    border-radius: 12px;
+}
+
+
+.application, #open-course-modal-application {
+    color: var(--white);
+    background-color: var(--main);
+    border: 0;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 140%;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.application:hover, #open-course-modal-application:hover {
+    background-color: var(--main-hover);
+}
