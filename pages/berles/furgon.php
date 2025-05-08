@@ -53,7 +53,7 @@
                     </div>
                     <div class="service-card">
                         <i class="fas fa-id-card"></i>
-                        <span>B kategóriás jogosítvánnyal vezethető</span>
+                        <span>B-s jogosítvánnyal vezethető</span>
                     </div>
                     <div class="service-card">
                         <i class="fas fa-user-tie"></i>
