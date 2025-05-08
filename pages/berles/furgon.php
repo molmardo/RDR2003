@@ -30,35 +30,57 @@
 
             </div>
             <div class="col-lg-12 services">
-                <div class="service-item">
-                    <span><i class="fas fa-couch"></i>Korszerű bútorzat</span>
-                </div>
-                <div class="service-item">
-                    <span><i class="fas fa-temperature-half"></i>Klimatizált</span>
-                </div>
-                <div class="service-item">
-                    <span><i class="fas fa-couch"></i>Mágneses fehértáblá</span>
-                </div>
-                <div class="service-item">
-                    <span><i class="fas fa-couch"></i>Vetítő</span>
-                </div>
-                <div class="service-item">
-                    <span><i class="fas fa-couch"></i>Vetítővászonnal felszerelt</span>
-                </div>
-                <div class="service-item">
-                    <span><i class="fas fa-couch"></i>Catering (étel/ital) bekészítés</span>
-                </div>
-                <div class="service-item">
-                    <span><i class="fas fa-couch"></i>Tömegközlekedéssel is könnyen elérhet</span>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-van-shuttle"></i>
+                        <span>Személyszállításra kialakítva</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-users"></i>
+                        <span>6–9 fő számára kényelmes</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-snowflake"></i>
+                        <span>Klimatizált utastér</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-suitcase-rolling"></i>
+                        <span>Nagy csomagtér</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-car-side"></i>
+                        <span>Rövid és hosszú utakra is alkalmas</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-id-card"></i>
+                        <span>B kategóriás jogosítvánnyal vezethető</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-user-tie"></i>
+                        <span>Sofőrrel is kérhető</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-road"></i>
+                        <span>Ideális céges utakhoz, kirándulásokhoz</span>
+                    </div>
+
                 </div>
             </div>
             <div class="col-lg-12 decription">
-                <h3>Leírás</h3>
-                <p>Lehetőséget kínálunk két jól felszerelt tanterem bérlésére, amelyek ideálisak különféle képzések, tréningek, workshopok vagy kisebb rendezvények lebonyolítására. Az egyik terem kb. 20 fő befogadására alkalmas, míg a nagyobbik terem kényelmesen elfér 40-50 fő részére is, így kisebb és közepes létszámú eseményekhez egyaránt megfelelő választás lehet.</p>
-                <p>Mindkét terem korszerű bútorzattal van berendezve, klimatizált, és modern technikai eszközökkel felszerelt. A felszereltség része a mágneses fehértábla, a vetítő és a hozzá tartozó vetítővászon, amelyek biztosítják a professzionális és gördülékeny prezentációk lebonyolítását. A termek kényelmes, ergonomikus berendezése és kellemes belső kialakítása hozzájárul a hatékony tanulási, illetve munkakörnyezethez.</p>
-                <p>Igény esetén catering szolgáltatást is biztosítunk, legyen szó egyszerű italbekészítésről (kávé, tea, ásványvíz) vagy akár komplett étkezésről. Ezzel segítjük a rendezvények zavartalan és komfortos lebonyolítását.</p>
-                <p>A helyszín tömegközlekedéssel is könnyen megközelíthető: Kelenföld vasútállomástól mindössze 10 percre található vonattal vagy helyközi buszjárattal. Ez különösen előnyös azok számára, akik vidékről érkeznek, de a budapesti résztvevők számára is kényelmesen elérhető.</p>
-                <p>Amennyiben egy modern, jól felszerelt és könnyen megközelíthető helyszínt keres tanfolyamok, céges tréningek vagy más oktatási célú rendezvények lebonyolításához, nálunk megtalálja a megfelelő megoldást.</p>
+                <h4>Kényelmes személyszállító furgon bérlése</h4>
+                <p>Lehetőséget kínálunk kényelmes, személyszállításra alkalmas furgon bérlésére, amely ideális kisebb csoportok, csapatok, családok vagy munkatársak szállítására. A jármű nem teherszállításra szolgál, hanem utasok kényelmes és biztonságos szállítására lett kialakítva.</p>
+
+                <h4>6–9 fő számára tervezve</h4>
+                <p>A furgon 6–9 fő szállítására alkalmas, klimatizált, tágas utastérrel, kényelmes ülésekkel és bőséges csomagtérrel rendelkezik. A jármű karbantartott, megbízható műszaki állapotban van, és alkalmas rövidebb vagy hosszabb utak megtételére is.</p>
+
+                <h4>Ideális céges utakhoz, kirándulásokhoz</h4>
+                <p>Kiváló választás céges rendezvényekre való eljutáshoz, csapatépítőkre, iskolai kirándulásokhoz, sporteseményekre vagy akár külföldi utazásokhoz. A furgon lehetőséget ad arra, hogy egy közös járműben, szervezetten és költséghatékonyan utazzanak az utasok.</p>
+
+                <h4>Rugalmas bérlési lehetőségek</h4>
+                <p>Bérléskor rugalmas feltételeket kínálunk, akár sofőrrel, akár sofőr nélkül szeretné igénybe venni a járművet. A furgon vezetéséhez elegendő a B kategóriás jogosítvány.</p>
+
+                <h4>Vegye fel velünk a kapcsolatot!</h4>
+                <p>Ha megbízható, kényelmes és jól felszerelt személyszállító járművet keres, vegye fel velünk a kapcsolatot, és mi segítünk megtalálni az Ön számára legjobb megoldást.</p>
             </div>
         </div>
     </div>

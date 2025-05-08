@@ -1,25 +1,25 @@
-.rent{
-    margin-top: 140px;    
+.rent {
+    margin-top: 140px;
 }
 
-.rent img{
+.rent img {
     border-radius: 8px;
 }
 
-.rent .contact{
-    border: 1px solid #b3b3b3;
+.rent .contact {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     padding: 15px;
     border-radius: 8px;
 }
 
-.rent .contact h3{
+.rent .contact h3 {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 25px;
 
 }
 
-.rent .contact .contact-item{
+.rent .contact .contact-item {
     text-align: center;
     border: 1px solid #b3b3b3;
     padding: 8px 12px;
@@ -28,22 +28,55 @@
     margin-bottom: 25px;
 }
 
-.rent .contact-item i{
+.rent .contact-item i {
     color: var(--main);
 }
 
-.services{
+.services {
     margin: 30px 0px;
 }
 
-.decription{
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.service-card {
+    background: #f9f9f9;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+}
+
+.service-card i {
+    font-size: 1.75rem;
+    color: var(--main);
+}
+
+.service-card span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.decription {
     border-radius: 8px;
-    padding: 8px 12px;
-    border: 1px solid #b3b3b3;
+    padding: 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     margin-bottom: 25px;
 }
 
-.decription p{
+.decription p {
     font-size: 1.13rem;
     text-align: justify;
 }

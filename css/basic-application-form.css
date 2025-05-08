@@ -11,10 +11,8 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Application Content */
 .application-content {
     position: relative;
-    background-color: #fefefe;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
@@ -25,7 +23,6 @@
     animation-duration: 0.4s;
 }
 
-/* Add Animation */
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
@@ -50,7 +47,6 @@
     }
 }
 
-/* The Close Button */
 .close {
     color: white;
     float: right;
@@ -79,7 +75,9 @@
 
 .application-body {
     padding: 2px 16px;
-    border-radius: 12px;
+    border-radius: 0 0 12px 12px;
+    
+    background-color: #fefefe;
 }
 
 .application-btn{

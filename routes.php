@@ -48,12 +48,12 @@ return [
         'path' => '/impressum',
         'file' => 'dokumentumok/impressum.php'
     ],
-    'rolunk' => [
-        'path' => '/munkatarsaink',
-        'file' => '/rolunk.php'
-    ],
     'furgon-berles' => [
-        'path' => '/furgon',
+        'path' => '/furgon-berles',
         'file' => '/berles/furgon.php'
+    ],
+    'tanterem-berles' => [
+        'path' => '/tanterem-berles',
+        'file' => '/berles/tanterem.php'
     ]
 ];
