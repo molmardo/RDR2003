@@ -16,7 +16,19 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">Teljes név</label>
+                            <label for="floatingInput">Vezetéknév</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
+                            <label for="floatingInput">Keresztnév</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
+                            <label for="floatingInput">Keresztnév 2, ha van</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -64,19 +76,13 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">A jelenlegi ADR igazolvány száma</label>
+                            <label for="floatingInput">A jelenlegi ADR bizonyítvány száma</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
                             <label for="floatingInput">Állandó Lakcím</label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">Egyéb megjegyzés</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">

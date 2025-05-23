@@ -16,7 +16,19 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">Név</label>
+                            <label for="floatingInput">Vezetéknév</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
+                            <label for="floatingInput">Keresztnév</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
+                            <label for="floatingInput">Keresztnév 2, ha van</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -28,13 +40,13 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">Email</label>
+                            <label for="floatingInput">Email (minta@email.hu)</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">Telefonszám</label>
+                            <label for="floatingInput">Telefonszám (+36 12 345 56 78)</label>
                         </div>
                     </div>
                     <div class="col-lg-12">
