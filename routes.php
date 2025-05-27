@@ -55,5 +55,13 @@ return [
     'tanterem-berles' => [
         'path' => '/tanterem-berles',
         'file' => '/berles/tanterem.php'
+    ],
+    'send_contact_mail' => [
+        'path' => '/send_contact_mail',
+        'file' => '/form_functions/send_contact_mail.php'
+    ],
+    'basic-application-form_mail' => [
+        'path' => '/basic-application-form_mail',
+        'file' => '/form_functions/basic-application-form_mail.php'
     ]
 ];

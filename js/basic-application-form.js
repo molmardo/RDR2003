@@ -1,25 +1,75 @@
-// Get the application
-var modal = document.getElementById("myModal");
+// MODÁL kezelése
+const modal = document.getElementById("myModal");
+const btn = document.getElementById("myBtn");
+const span = document.getElementsByClassName("close")[0];
 
-// Get the button that opens the application
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the application
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the application 
 btn.onclick = function () {
   modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the application
+};
 span.onclick = function () {
   modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the application, close it
+};
 window.onclick = function (event) {
-  if (event.target == modal) {
+  if (event.target === modal) {
     modal.style.display = "none";
   }
-}
+};
+
+// Űrlapkezelés
+document.addEventListener("DOMContentLoaded", function () {
+  const form = modal.querySelector("form");
+
+  // Üzenet doboz létrehozása (ha még nincs)
+  let feedback = document.getElementById("application-feedback");
+  if (!feedback) {
+    feedback = document.createElement("div");
+    feedback.id = "application-feedback";
+    feedback.className = "alert mt-3 text-center";
+    feedback.style.display = "none";
+    form.appendChild(feedback);
+  }
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    feedback.style.display = "none";
+
+    const formData = new FormData(form);
+    const entries = Array.from(formData.entries());
+
+    // Üres mezők ellenőrzése
+    const missing = entries.find(([key, value]) => !value.trim());
+    if (missing) {
+      feedback.textContent = "Kérlek, tölts ki minden mezőt!";
+      feedback.className = "alert alert-danger mt-3 text-center";
+      feedback.style.display = "block";
+      return;
+    }
+
+    try {
+      const response = await fetch("https://rdr2003.weboldal-gyorsan.hu/basic-application-form_mail", {
+        method: "POST",
+        body: formData
+      });
+      const result = await response.text();
+
+      feedback.textContent = result;
+      feedback.className = response.ok
+        ? "alert alert-success mt-3 text-center"
+        : "alert alert-danger mt-3 text-center";
+      feedback.style.display = "block";
+
+      if (response.ok) {
+        form.reset();
+        setTimeout(() => {
+          feedback.style.display = "none";
+          modal.style.display = "none";
+        }, 2500);
+      }
+
+    } catch (error) {
+      feedback.textContent = "Hiba történt a küldés során.";
+      feedback.className = "alert alert-danger mt-3 text-center";
+      feedback.style.display = "block";
+    }
+  });
+});

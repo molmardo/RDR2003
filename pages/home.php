@@ -166,6 +166,9 @@
             <div class="col-md-6">
                 <h2 class="mt-3 mb-3" data-i18n="contact.h2">Lépjen velünk kapcsolatba</h2>
                 <form id="contactForm" method="post">
+                    <!-- Üzenetdoboz -->
+                    <div id="formMessage" class="alert d-none mt-2" role="alert"></div>
+
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Gibsz Jakab" required>
                         <label for="name" data-i18n="contact.form.name">Név</label>
@@ -184,10 +187,6 @@
                     </div>
                     <br>
                     <div class="g-recaptcha mb-3" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div>
-
-                    <!-- Üzenetdoboz -->
-                    <div id="formMessage" class="alert d-none mt-2" role="alert"></div>
-
                     <button type="submit" class="send-btn btn btn-primary mt-2" data-i18n="contact.form.button">Küldés</button>
                 </form>
             </div>
@@ -300,7 +299,7 @@
         toggleButton.classList.toggle('less');
     });
 </script>
-<script src="js/scrollAnimation.js"></script>
+<script src="js/scrollanimation.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
@@ -329,7 +328,7 @@
         }
 
         try {
-            const response = await fetch("send_mail.php", {
+            const response = await fetch("https://rdr2003.weboldal-gyorsan.hu/send_contact_mail", {
                 method: "POST",
                 body: formData,
             });
