@@ -19,7 +19,7 @@
         </div>
     </header> -->
     <header>
-        <video autoplay muted  playsinline class="bg-video">
+        <video autoplay muted playsinline class="bg-video">
             <source src="videos/header2.mp4" type="video/mp4">
             A videó nem elérhető ebben a böngészőben.
         </video>
@@ -165,27 +165,30 @@
         <div class="row align-items-center ScrollDownDown">
             <div class="col-md-6">
                 <h2 class="mt-3 mb-3" data-i18n="contact.h2">Lépjen velünk kapcsolatba</h2>
-                <form action="" method="post">
+                <form id="contactForm" method="post">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                        <label for="floatingInput" data-i18n="contact.form.name">Név</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Gibsz Jakab" required>
+                        <label for="name" data-i18n="contact.form.name">Név</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                        <label for="floatingInput" data-i18n="contact.form.email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                        <label for="email" data-i18n="contact.form.email">Email</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="" class="form-control" id="floatingInput" placeholder="+36123456789">
-                        <label for="floatingInput" data-i18n="contact.form.phone">Telefonszám</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="+36123456789">
+                        <label for="phone" data-i18n="contact.form.phone">Telefonszám</label>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="floatingTextarea2" style="height: 100px" required></textarea>
-                        <label for="floatingTextarea2" data-i18n="contact.form.msg">Üzenet</label>
+                        <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="message" name="message" style="height: 100px" required></textarea>
+                        <label for="message" data-i18n="contact.form.msg">Üzenet</label>
                     </div>
                     <br>
-                    <div class="g-recaptcha" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div>
+                    <div class="g-recaptcha mb-3" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div>
 
-                    <button type="submit" class="send-btn" data-i18n="contact.form.button">Küldés</button>
+                    <!-- Üzenetdoboz -->
+                    <div id="formMessage" class="alert d-none mt-2" role="alert"></div>
+
+                    <button type="submit" class="send-btn btn btn-primary mt-2" data-i18n="contact.form.button">Küldés</button>
                 </form>
             </div>
             <div class="col-md-6">
@@ -299,3 +302,55 @@
 </script>
 <script src="js/scrollAnimation.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", async function(e) {
+        e.preventDefault(); // oldalfrissítés kikapcsolása
+
+        const form = e.target;
+        const formData = new FormData(form);
+        const messageBox = document.getElementById("formMessage");
+
+        // Üzenet doboz reset
+        messageBox.classList.add("d-none");
+        messageBox.classList.remove("alert-success", "alert-danger");
+        messageBox.innerText = "";
+
+        // Frontend validáció (extra biztonság)
+        const email = formData.get("email");
+        const name = formData.get("name");
+        const message = formData.get("message");
+
+        if (!email || !name || !message) {
+            messageBox.innerText = "Kérlek, tölts ki minden kötelező mezőt!";
+            messageBox.classList.add("alert-danger");
+            messageBox.classList.remove("d-none");
+            return;
+        }
+
+        try {
+            const response = await fetch("send_mail.php", {
+                method: "POST",
+                body: formData,
+            });
+
+            const resultText = await response.text();
+
+            if (response.ok) {
+                messageBox.innerText = resultText;
+                messageBox.classList.add("alert-success");
+                form.reset(); // üríti az űrlapot
+            } else {
+                messageBox.innerText = resultText;
+                messageBox.classList.add("alert-danger");
+            }
+
+            messageBox.classList.remove("d-none");
+
+        } catch (error) {
+            messageBox.innerText = "Hiba történt a küldés során.";
+            messageBox.classList.add("alert-danger");
+            messageBox.classList.remove("d-none");
+        }
+    });
+</script>
