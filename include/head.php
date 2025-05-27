@@ -1,3 +1,30 @@
+<?php
+session_start();  // Session indítása
+
+$helyes_jelszo = "titok123";  // A helyes jelszó
+
+// Ha a felhasználó még nincs bejelentkezve, kérj tőle jelszót
+if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+    if (isset($_POST['password'])) {
+        // Ha a jelszó helyes, indítsuk a session-t
+        if ($_POST['password'] === $helyes_jelszo) {
+            $_SESSION['logged_in'] = true;
+        } else {
+            echo "<script>alert('Hibás jelszó!');</script>";
+        }
+    }
+
+    // Ha a felhasználó nincs bejelentkezve, jelenítse meg a jelszó kérését
+    if (!isset($_SESSION['logged_in'])) {
+        echo "<form method='post'>
+                <label>Jelszó: <input type='password' name='password'></label>
+                <input type='submit' value='Bejelentkezés'>
+              </form>";
+        exit();
+    }
+}
+?>
+
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -16,7 +16,7 @@
 
         <div class="row information">
             <div class="col-lg-6 col-md-12">
-                <h1>Tanácsaadás</h1>
+                <h1>Tanácsadás</h1>
                 <p>Több mint 20 éve állunk partnereink rendelkezésére az ADR biztonsági tanácsadás területén, folyamatosan bővülő, magasan képzett szakértői csapatunkkal. Számos iparági területen szereztünk mélyreható tapasztalatot, a veszélyes áru szállításának minden szegmensét átfogva. Munkánkat nem sablonok szerint, hanem a cégek egyedi működésére szabva, precízen és naprakész tudással végezzük. Ügyfeleink számára nemcsak jogszabályi megfelelést, hanem valódi biztonságot és üzleti előnyt teremtünk.</p>
             </div>
             <div class="col-lg-6 col-md-12">
