@@ -20,9 +20,14 @@
                         <div class="col-lg-6 col-sm-12">
                             <h2>Szabad időpontjaink</h2>
                             <p>
-                                <strong>2025. május 29 - június 1.</strong><br>
-                                <strong>2025. június 5 - 8.</strong><br>
-                                <strong>2025. június 12 - 15.</strong>
+                                <?php 
+                                $dates = file('data/dates/austria-adr-times.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES); 
+                                foreach ($dates as $date):
+                                ?>
+                                    <strong><?php echo htmlspecialchars($date); ?></strong><br>
+                                <?php
+                                endforeach;
+                                ?>
                             </p>
                         </div>
     

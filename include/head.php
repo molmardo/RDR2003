@@ -23,7 +23,12 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
         exit();
     }
 }
+
+$phone_numbers = file('data/phone_numbers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
 ?>
+
+
 
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,3 +51,4 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     <!-- <meta name="theme-color" content="#fe9901"> -->
     <meta name="theme-color" content="#000">
     <!-- Canonical URL -->
+

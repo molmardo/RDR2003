@@ -196,9 +196,9 @@
                             Elérhetőségeink
                         </h3>
                         <span><i class="fas fa-envelope"></i> <a href="mailto:rdr2003@rdr2003.hu">rdr2003@rdr2003.hu</a></span><br>
-                        <span><i class="fas fa-mobile-screen-button fa-xl"></i> +36 30 878 9488</span><br>
-                        <span><i class="fas fa-mobile-screen-button fa-xl"></i> +36 30 258 7749</span><br>
-                        <span><i class="fas fa-mobile-screen-button fa-xl"></i> +36 30 664 2530</span>
+                        <?php foreach ($phone_numbers as $phone_number): ?>
+                            <span><i class="fas fa-mobile-screen-button fa-xl"></i> <?php echo htmlspecialchars($phone_number); ?></span><br>
+                        <?php endforeach; ?>
                         <h3 data-i18n="contact.informations.location.h3">Helyszín</h3>
                         <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045</span>
                         <?php

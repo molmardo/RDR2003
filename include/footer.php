@@ -22,9 +22,10 @@
             <p>rdr2003@rdr2003.hu</p>
 
             <p><b data-i18n="footer.contact.phone">Telefon </b></p>
-            <p>+36 30 878 9488</span>
-            <p>+36 30 258 7749</span>
-            <p>+36 30 664 2530</span>
+            <?php foreach ($phone_numbers as $phone_number): ?>
+                <p><?php echo htmlspecialchars($phone_number); ?></p>
+            <?php endforeach; ?>
+
         </div>
         <div class="footer-section">
             <h3 data-i18n="footer.documents.h3">Dokumentumok</h3>
@@ -35,12 +36,21 @@
                 <li><a href="<?= BASE_URL . $routes['impressum']['path'] ?>" data-i18n="footer.documents.impressum">Impresszum</a></li>
             </ul>
             <h3 data-i18n="footer.data.h3">Adatok</h3>
+            <?php
+            $lines = file("data/footer.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+            $footer_data = [];
+            for ($i = 0; $i < count($lines) - 1; $i += 2) {
+                $key = trim($lines[$i]);           // pl. adat1
+                $value = trim($lines[$i + 1]);       // pl. Ez az adat
+                $footer_data[$key] = $value;
+            }
+            ?>
             <ul class="data">
-                <li><span data-i18n="footer.data.h3">ÁKÓ:</span> 1%</li>
-                <li>VSM: 1%</li>
-                <li>Adószám: 12345678-1-12</li>
-                <li>Cégjegyzékszám: 01-09-123456</li>
-                <li>Nyilvántartási szám: 987654321</li>
+                <li><span data-i18n="footer.data.h3">ÁKÓ:</span> <?php echo $footer_data['AKO'] ?? '-'; ?></li>
+                <li>VSM: <?php echo $footer_data['VSM'] ?? '-'; ?></li>
+                <li>Adószám: <?php echo $footer_data['ADOSZAM'] ?? '-'; ?></li>
+                <li>Cégjegyzékszám: <?php echo $footer_data['NYILVANTARTASI_SZAM'] ?? '-'; ?></li>
+                <li>Nyilvántartási szám: <?php echo $footer_data['CEGJEGYZEKSZAM'] ?? '-'; ?></li>
                 <li>GDPR kapcsolattartó: adatvedelem@rdr2003.hu</li>
             </ul>
         </div>
