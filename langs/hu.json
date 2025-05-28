@@ -101,16 +101,18 @@
     "contact": {
       "h3": "Kapcsolat",
       "phone": "Telefon",
-      "follow_us": "Kövessen minket"
+      "follow_us": "Kövessen minket"    
     },
     "documents": {
       "h3": "Dokumentumok",
       "privacy-policy": "Adatkezelési tájékoztató",
       "cookie": "Cookie tájékoztató",
-      "impressum": "Impresszum"
+      "impressum": "Impresszum",
+      "gdpr":"GDPR"
     },
     "data": {
-      "h3": "Adatok"
+      "h3": "Adatok",
+      "ako": "ÁKÓ"
     },
     "rights": "Minden jog fenntartva."
   }

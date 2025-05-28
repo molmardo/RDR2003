@@ -79,17 +79,6 @@ section p{
     object-fit: cover;
 }
 
-.pdf-link {
-    margin-top: 1rem;
-    display: inline-block;
-    background: var(--main);
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.1em;
-}
-
 
 section {
     margin: 0 !important;

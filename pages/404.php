@@ -14,7 +14,7 @@
 
 <body>
     <?php include "include/navigationbar.php"; ?>
-
+<br><br><br><br><br><br>
     <h2>
         404
         <br>

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/course-application-form.css">
 
 <div class="text-center">
-    <button id="open-course-modal-application">Jelentkezési űrlap</button>
+    <button id="open-course-modal-application" class="main-button">Jelentkezési űrlap</button>
 </div>
 
 <div id="course-modal-application" class="course-modal-application">
@@ -70,13 +70,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">A jelenlegi ADR bizonyítvány érvényessége/ha van éééé.hh.nn</label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">A jelenlegi ADR bizonyítvány száma</label>
+                            <label for="floatingInput">A jelenlegi ADR bizonyítvány érvényessége/ha van (éééé.hh.nn)</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -92,7 +86,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="application">Küldés</button>
+                        <button type="submit" class="main-button">Küldés</button>
                     </div>
 
                 </div>

@@ -20,12 +20,12 @@
                 <p>Több mint 20 éve állunk partnereink rendelkezésére az ADR biztonsági tanácsadás területén, folyamatosan bővülő, magasan képzett szakértői csapatunkkal. Számos iparági területen szereztünk mélyreható tapasztalatot, a veszélyes áru szállításának minden szegmensét átfogva. Munkánkat nem sablonok szerint, hanem a cégek egyedi működésére szabva, precízen és naprakész tudással végezzük. Ügyfeleink számára nemcsak jogszabályi megfelelést, hanem valódi biztonságot és üzleti előnyt teremtünk.</p>
             </div>
             <div class="col-lg-6 col-md-12">
-                <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
+                <img src="imgs/pexels-cowomen-1058097-2041627.jpg" alt="">
             </div>
         </div>
         <div class="row information">
             <div class="col-lg-6 col-md-12">
-                <img src="imgs/pexels-mikebirdy-192364.jpg" alt="">
+                <img src="imgs/pexels-seven11nash-380769.jpg" alt="">
             </div>
             <div class="col-lg-6 col-md-12">
                 <h2>Országos veszélyesáru-szállítási biztonsági tanácsadói szolgáltatás</h2>

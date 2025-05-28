@@ -48,6 +48,10 @@ return [
         'path' => '/impressum',
         'file' => 'dokumentumok/impressum.php'
     ],
+    'gdpr' => [
+        'path' => '/gdpr',
+        'file' => 'dokumentumok/gdpr.php'
+    ],
     'furgon-berles' => [
         'path' => '/furgon-berles',
         'file' => '/berles/furgon.php'

@@ -30,16 +30,21 @@
             <h3 data-i18n="footer.documents.h3">Dokumentumok</h3>
             <ul class="docs">
                 <li><a href="<?= BASE_URL . $routes['privacy-policy']['path'] ?>" data-i18n="footer.documents.privacy-policy">Adatkezelési tájékoztató</a></li>
-                <li><a href="<?= BASE_URL . $routes['gdpr']['path'] ?>" data-i18n="footer.documents.impressum">GDPR </a></li>
+                <li><a href="<?= BASE_URL . $routes['gdpr']['path'] ?>" data-i18n="footer.documents.gdpr">GDPR</a></li>
                 <li><a href="<?= BASE_URL . $routes['cookie']['path'] ?>" data-i18n="footer.documents.cookie">Cookie tájékoztató</a></li>
                 <li><a href="<?= BASE_URL . $routes['impressum']['path'] ?>" data-i18n="footer.documents.impressum">Impresszum</a></li>
             </ul>
             <h3 data-i18n="footer.data.h3">Adatok</h3>
-            <ul>
-                <li>ÁKÓ: 1%</li>
+            <ul class="data">
+                <li><span data-i18n="footer.data.h3">ÁKÓ:</span> 1%</li>
                 <li>VSM: 1%</li>
+                <li>Adószám: 12345678-1-12</li>
+                <li>Cégjegyzékszám: 01-09-123456</li>
+                <li>Nyilvántartási szám: 987654321</li>
+                <li>GDPR kapcsolattartó: adatvedelem@rdr2003.hu</li>
             </ul>
         </div>
+
     </div>
     <div class="footer-bottom">
         <p>&copy; 2003-<?php echo date('Y'); ?> RDR2003. <span data-i18n="footer.rights"></span></p>

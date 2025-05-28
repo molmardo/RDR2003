@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>Impresszum - Espira Coffee</title>
+    <title>Impresszum </title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/impressum.css">
 </head>

@@ -95,7 +95,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <a class="pdf-link" href="pdf/RDR_Tanfolyami díjak_Ausztria_2024_szeptembertől.pdf" target="_blank">Tanfolyami díjak (PDF letöltése)</a>
+                    <a class="main-button" href="pdf/RDR_Tanfolyami díjak_Ausztria_2024_szeptembertől.pdf" target="_blank">Tanfolyami díjak (PDF letöltése)</a>
                 </section>
                 <section>
                     <h2>Szállás</h2>

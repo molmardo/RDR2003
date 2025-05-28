@@ -67,17 +67,3 @@
 }
 
 
-.application, #open-course-modal-application {
-    color: var(--white);
-    background-color: var(--main);
-    border: 0;
-    padding: 7px 15px;
-    border-radius: 5px;
-    font-size: 140%;
-    margin: auto;
-    transition: 0.2s;
-}
-
-.application:hover, #open-course-modal-application:hover {
-    background-color: var(--main-hover);
-}

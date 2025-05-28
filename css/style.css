@@ -96,6 +96,29 @@ header .container {
     padding: 0 20px;
 }
 
+
+.header-button {
+    border: 2px solid var(--button);
+    background-color: var(--button);
+    color: var(--white);
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+.header-button:hover {
+    transform: translateY(-2px);
+    background-color: var(--button-hover);
+    color: var(--white);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Training */
 .training h2 {
     margin: 45px 0 23px 0;
@@ -179,25 +202,6 @@ header .container {
     text-align: justify;
 }
 
-.about_us div div div:first-child a {
-    display: inline-block;
-    border: 2px solid var(--main);
-    color: var(--main);
-    background-color: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 130%;
-    margin: 15px 0;
-    transition: 0.3s;
-}
-
-
-.about_us div div div:first-child a:hover {
-    background-color: var(--main);
-    color: var(--white);
-}
-
 /* Why choose */
 
 .why-choose div div:last-child div {
@@ -273,21 +277,6 @@ header .container {
     font-size: 120%;
 }
 
-
-.send-btn {
-    border: none;
-    background-color: var(--main);
-    padding: 8px 25px;
-    border-radius: 4px;
-    color: var(--white);
-    margin: 15px 0;
-    transition: 0.3s;
-    font-size: 130%;
-}
-
-.send-btn:hover {
-    background-color: var(--main-hover);
-}
 
 .openHours {
     color: rgb(9, 151, 9);

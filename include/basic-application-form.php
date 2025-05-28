@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/basic-application-form.css">
 <div class="text-center">
-    <button id="myBtn" class="application-btn">Űrlap Kitöltése</button>
+    <button id="myBtn" class="main-button">Űrlap Kitöltése</button>
 </div>
 
 <div id="myModal" class="application">
@@ -68,7 +68,7 @@
                     <div id="application-feedback" class="alert mt-3 text-center" style="display: none;"></div>
 
                     <div class="text-center mt-3">
-                        <button type="submit" class="application-btn">Küldés</button>
+                        <button type="submit" class="main-button">Küldés</button>
                     </div>
                 </div>
             </form>

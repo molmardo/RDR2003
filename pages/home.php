@@ -29,7 +29,7 @@
                 GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen
             </p>
             <div class="cta-buttons">
-                <a href="#tanfolyamok" class="main-button" data-i18n="header.courseButton">Tanfolyamaink</a>
+                <a href="#tanfolyamok" class="header-button" data-i18n="header.courseButton">Tanfolyamaink</a>
             </div>
         </div>
     </header>
@@ -88,7 +88,7 @@
                     <p>
                         <q data-i18n="aboutUs.quote">Szakértelem, amely előnyt teremt.</q>
                     </p>
-                    <a href="<?= BASE_URL . $routes['rolunk']['path'] ?>" data-i18n="aboutUs.button">Munkatársaink</a>
+                    <a href="<?= BASE_URL . $routes['rolunk']['path'] ?>" data-i18n="aboutUs.button" class="main-button">Munkatársaink</a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
                     <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">
@@ -134,7 +134,6 @@
                 <img src="partners/BTlogo_100.png" alt="ceglogo">
                 <img src="partners/Calderys_Orange-Noir_1.png.png" alt="ceglogo">
                 <img src="partners/ecorisk_logo.svg" alt="ceglogo">
-                <img src="partners/GSSA-Logo-schief.svg" alt="ceglogo">
                 <img src="partners/klacska_group-logo.png" alt="ceglogo">
                 <img src="partners/logo-terravia.png" alt="ceglogo">
                 <img src="partners/mavrec.png" alt="ceglogo">
@@ -148,7 +147,6 @@
                 <img src="partners/BTlogo_100.png" alt="ceglogo">
                 <img src="partners/Calderys_Orange-Noir_1.png.png" alt="ceglogo">
                 <img src="partners/ecorisk_logo.svg" alt="ceglogo">
-                <img src="partners/GSSA-Logo-schief.svg" alt="ceglogo">
                 <img src="partners/klacska_group-logo.png" alt="ceglogo">
                 <img src="partners/logo-terravia.png" alt="ceglogo">
                 <img src="partners/mavrec.png" alt="ceglogo">
@@ -187,7 +185,7 @@
                     </div>
                     <br>
                     <div class="g-recaptcha mb-3" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div>
-                    <button type="submit" class="send-btn btn btn-primary mt-2" data-i18n="contact.form.button">Küldés</button>
+                    <button type="submit" class="main-button" data-i18n="contact.form.button">Küldés</button>
                 </form>
             </div>
             <div class="col-md-6">
