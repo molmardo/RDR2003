@@ -1,0 +1,3 @@
+2025.05.30 - Új oldal indítva hibabejelentéshez
+2025.06.01 - Navigációs menü javítva mobilon
+2025.06.03 - Új képgaléria hozzáadva a főoldalhoz

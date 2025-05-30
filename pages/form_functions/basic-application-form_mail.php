@@ -30,13 +30,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "molnarmark2005@gmail.com";
     $subject = "Új jelentkezés a weboldalon";
     $body = "Név: $vezeteknev $keresztnev $keresztnev2\nCégnév: $cegnev\nEmail: $email\nTelefon: $telefon\nÜzenet:\n$uzenet";
-    $headers = "From: noreply@domained.hu";
+    $headers = "From: molnarmark2005@gmail.com";
 
     // Felhasználónak automatikus visszajelzés (opcionális)
     $userBody = "Kedves $keresztnev!\n\nKöszönjük jelentkezését. Hamarosan felvesszük Önnel a kapcsolatot.\n\nÜdvözlettel,\nA csapat";
     @mail($email, "Visszaigazolás", $userBody, $headers);
 
     if (mail($to, $subject, $body, $headers)) {
+        mail($to, $subject, $body, $headers);
         echo "Köszönjük, az űrlapot sikeresen elküldtük!";
     } else {
         http_response_code(500);

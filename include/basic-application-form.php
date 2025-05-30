@@ -4,7 +4,6 @@
 </div>
 
 <div id="myModal" class="application">
-
     <div class="application-content">
         <div class="application-header">
             <span class="close">&times;</span>

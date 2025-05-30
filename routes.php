@@ -67,5 +67,9 @@ return [
     'basic-application-form_mail' => [
         'path' => '/basic-application-form_mail',
         'file' => '/form_functions/basic-application-form_mail.php'
+    ],
+    'report' => [
+        'path' => '/report',
+        'file' => '/report.php'
     ]
 ];
