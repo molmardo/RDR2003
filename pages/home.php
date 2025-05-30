@@ -184,7 +184,7 @@
                         <label for="message" data-i18n="contact.form.msg">Üzenet</label>
                     </div>
                     <br>
-                    <div class="g-recaptcha mb-3" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div>
+                    <!-- <div class="g-recaptcha mb-3" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div> -->
                     <button type="submit" class="main-button" data-i18n="contact.form.button">Küldés</button>
                 </form>
             </div>

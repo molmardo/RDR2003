@@ -1,5 +1,5 @@
 2025.05.30 - Report oldal hozzáadása  
-2025.05.30 - Tanfolyamok Jelentkezési űrlap mezők jevítása 
+2025.05.30 - Tanfolyamok Jelentkezési űrlap mezők javítása 
 2025.05.30 - Kisebb hibák javítása
 2025.05.30 - Adatok szerkesztése működik txt-ből (footer: adatok, Osztrák ADR tanfolyam: időpontok) | Később kaptok hozzáférést
 2025.05.30 - Sima űrlap működik (bérlés, tanácsadás)
