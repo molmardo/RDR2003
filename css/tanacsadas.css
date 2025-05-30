@@ -62,6 +62,7 @@ section .information p{
 }
 
 section .information{
+    align-items: center;
     margin: 70px 0;
 }
 

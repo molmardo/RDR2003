@@ -1,20 +1,40 @@
 <?php
-// E-mail küldés, ha POST kérés érkezik
+// Változók előkészítése
 $successMessage = $errorMessage = '';
+$name = $email = $type = $message = '';
+
+// Csak akkor dolgozzuk fel, ha valóban POST-ból jött és a mezők nem üresek
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $name = htmlspecialchars($_POST['name'] ?? 'Nincs megadva');
-    $email = htmlspecialchars($_POST['email'] ?? 'Nincs megadva');
-    $type = htmlspecialchars($_POST['type'] ?? 'Ismeretlen');
-    $message = htmlspecialchars($_POST['message'] ?? '');
+    // Biztonságos trim + XSS ellen védekezés
+    $name = trim($_POST['name'] ?? '');
+    $email = trim($_POST['email'] ?? '');
+    $type = trim($_POST['type'] ?? '');
+    $message = trim($_POST['message'] ?? '');
 
-    $to = 'molnar.mark@weboldal-gyorsan.hu';
-    $subject = "Új visszajelzés: $type";
-    $body = "Név: $name\nE-mail: $email\nTípus: $type\nÜzenet:\n$message";
+    // Ellenőrizzük, hogy legalább az üzenet mező ki van-e töltve
+    if ($message !== '') {
+        $to = 'molnar.mark@weboldal-gyorsan.hu'; // ← IDE írd be a saját e-mail címed
+        $subject = "Új visszajelzés: $type";
 
-    if (mail($to, $subject, $body)) {
-        $successMessage = "Köszönöm a visszajelzést!";
+        // UTF-8 fejléc
+        $headers = "MIME-Version: 1.0\r\n";
+        $headers .= "Content-type: text/plain; charset=UTF-8\r\n";
+        $headers .= "From: Hibabejelentő <no-reply@domain.hu>\r\n";
+
+        $body = "Név: " . ($name ?: 'Nincs megadva') . "\n";
+        $body .= "E-mail: " . ($email ?: 'Nincs megadva') . "\n";
+        $body .= "Típus: " . ($type ?: 'Nem ismert') . "\n\n";
+        $body .= "Üzenet:\n$message";
+
+        if (mail($to, $subject, $body, $headers)) {
+            $successMessage = "Köszönöm a visszajelzést!";
+            // Mezők ürítése sikeres beküldés után
+            $name = $email = $type = $message = '';
+        } else {
+            $errorMessage = "Hiba történt az e-mail küldése közben.";
+        }
     } else {
-        $errorMessage = "Hiba történt az e-mail küldése közben.";
+        $errorMessage = "Kérlek, töltsd ki az üzenet mezőt!";
     }
 }
 ?>
@@ -23,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="hu">
 
 <head>
+    <?php include "include/head.php"; ?>
     <meta charset="UTF-8">
     <title>Hibabejelentés és javaslatküldés</title>
     <link rel="stylesheet" href="css/report.css">
@@ -45,26 +66,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <form method="POST">
             <label for="name">Név (nem kötelező):</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" value="<?= htmlspecialchars($name) ?>">
 
             <label for="email">E-mail cím (ha szeretnél választ):</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" value="<?= htmlspecialchars($email) ?>">
 
             <label for="type">Típus:</label>
             <select name="type" id="type" required>
-                <option value="hiba">Hiba</option>
-                <option value="javaslat">Javaslat</option>
-                <option value="egyéb">Egyéb</option>
+                <option value="">-- Válassz --</option>
+                <option value="hiba" <?= $type === 'hiba' ? 'selected' : '' ?>>Hiba</option>
+                <option value="javaslat" <?= $type === 'javaslat' ? 'selected' : '' ?>>Javaslat</option>
+                <option value="egyéb" <?= $type === 'egyéb' ? 'selected' : '' ?>>Egyéb</option>
             </select>
 
             <label for="message">Üzenet:</label>
-            <textarea name="message" id="message" rows="5" required></textarea>
+            <textarea name="message" id="message" rows="5" required><?= htmlspecialchars($message) ?></textarea>
 
             <button type="submit">Küldés</button>
         </form>
 
         <div class="log">
-            <h2>Változások / Újdonságok</h2>
+            <h2>Változtatások / Újdonságok</h2>
             <?php
             $logPath = __DIR__ . '/log.txt';
             if (file_exists($logPath)) {

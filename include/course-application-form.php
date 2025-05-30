@@ -75,8 +75,20 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
+                            <label for="floatingInput">Irányítószám</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
-                            <label for="floatingInput">Állandó Lakcím</label>
+                            <label for="floatingInput">Város</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Gibsz Jakab" required>
+                            <label for="floatingInput">Utca, házszám</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">

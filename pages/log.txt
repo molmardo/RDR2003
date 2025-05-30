@@ -1,3 +1,14 @@
-2025.05.30 - Új oldal indítva hibabejelentéshez
-2025.06.01 - Navigációs menü javítva mobilon
-2025.06.03 - Új képgaléria hozzáadva a főoldalhoz
+2025.05.30 - Report oldal hozzáadása  
+2025.05.30 - Tanfolyamok Jelentkezési űrlap mezők jevítása 
+2025.05.30 - Kisebb hibák javítása
+2025.05.30 - Adatok szerkesztése működik txt-ből (footer: adatok, Osztrák ADR tanfolyam: időpontok) | Később kaptok hozzáférést
+2025.05.30 - Sima űrlap működik (bérlés, tanácsadás)
+2025.05.30 - Lépjen velünk kapcsolatba űrlap működik 
+2025.05.26 - Egységes gomb kinézetek az oldalon
+2025.05.26 - GDPR oldal hozzáadva
+2025.05.26 - Footer: Adószám, Cégjegyzékszám, Nyilvántartási szám megjelenik 
+2025.05.26 - Footer: telefonszámok megjelennek 
+2025.05.26 - Partnereink: GSSA logó eltávolítása
+2025.05.26 - Mobil barát nézet javítás
+2025.05.22 - Tanácsadás: helyesírási hiba javítva, képek lecserélve
+2025.05.22 - Weboldal bemutató 
