@@ -1,8 +1,13 @@
+2025.05.31 - Oldal jelzés az email-ben, hogy melyik részről lett küldve az email a cégnek 
+2025.05.31 - Megformált email cégnek
+2025.05.31 - Megformált visszajelző email a jelentkezőnek
+2025.05.31 - Email-ek UTF-8-as kódolása
+2025.05.31 - Email hibák javítása (bérlés&tanácsadás&kapcsoalt részen)
 2025.05.30 - Report oldal hozzáadása  
 2025.05.30 - Tanfolyamok Jelentkezési űrlap mezők javítása 
 2025.05.30 - Kisebb hibák javítása
 2025.05.30 - Adatok szerkesztése működik txt-ből (footer: adatok, Osztrák ADR tanfolyam: időpontok) | Később kaptok hozzáférést
-2025.05.30 - Sima űrlap működik (bérlés, tanácsadás)
+2025.05.30 - Sima űrlap működik (bérlés&tanácsadás)
 2025.05.30 - Lépjen velünk kapcsolatba űrlap működik 
 2025.05.26 - Egységes gomb kinézetek az oldalon
 2025.05.26 - GDPR oldal hozzáadva

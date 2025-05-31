@@ -12,6 +12,8 @@
         <div class="application-body p-3">
             <form id="modalForm" method="post">
                 <div class="row">
+                    <input type="hidden" name="source_page" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
+
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" name="vezeteknev" class="form-control" id="vezeteknev" placeholder="Kovács" required>
