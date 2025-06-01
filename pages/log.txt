@@ -1,3 +1,7 @@
+2025.06.01 - Cookie tájékoztató hozzáadása és működése
+2025.06.01 - Űrlapok adatkezelési tájékoztatót gomb hozzáadása
+2025.06.01 - Tanfolyam jelentkező űrlap megformálása
+2025.06.01 - Tanfolyam jelentkező űrlap működése
 2025.05.31 - Oldal jelzés az email-ben, hogy melyik részről lett küldve az email a cégnek 
 2025.05.31 - Megformált email cégnek
 2025.05.31 - Megformált visszajelző email a jelentkezőnek

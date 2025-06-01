@@ -10,7 +10,7 @@ if (!empty($basePath) && str_starts_with($currentPath, $basePath)) {
 
 $isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '/home' || $currentPath === '/index.php');
 ?>
-
+<?php include "cookie_notice.php"; ?>
 <link rel="stylesheet" href="<?= BASE_URL ?>/css/navigationbar.css">
 <nav class="navbar <?php echo $isHomepage ? 'navbar-index' : 'navbar-default'; ?>">
   <div class="content">
