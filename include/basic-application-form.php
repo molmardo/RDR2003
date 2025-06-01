@@ -61,7 +61,7 @@
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gdpr" name="gdpr" required>
                             <label class="form-check-label" for="gdpr">
-                                Elfogadom az <a href="/adatkezelesi-tajekoztato.pdf" target="_blank">adatkezelési tájékoztatót</a>.
+                                Elfogadom az <a href="<?= BASE_URL . $routes['privacy-policy']['path'] ?>" target="_blank">adatkezelési tájékoztatót</a>.
                             </label>
                         </div>
                     </div>

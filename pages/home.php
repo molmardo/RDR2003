@@ -183,6 +183,12 @@
                         <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="message" name="message" style="height: 100px" required></textarea>
                         <label for="message" data-i18n="contact.form.msg">Üzenet</label>
                     </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="adatkezeles" name="adatkezeles" required>
+                        <label class="form-check-label" for="adatkezeles">
+                            Elfogadom az <a href="<?= BASE_URL . $routes['privacy-policy']['path'] ?>" target="_blank">adatkezelési tájékoztatót</a>.
+                        </label>
+                    </div>
                     <br>
                     <!-- <div class="g-recaptcha mb-3" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div> -->
                     <button type="submit" class="main-button" data-i18n="contact.form.button">Küldés</button>

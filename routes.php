@@ -68,6 +68,10 @@ return [
         'path' => '/basic-application-form_mail',
         'file' => '/form_functions/basic-application-form_mail.php'
     ],
+    'course-application-form_mail' => [
+        'path' => '/course-application-form_mail',
+        'file' => '/form_functions/course-application-form_mail.php'
+    ],
     'report' => [
         'path' => '/report',
         'file' => '/report.php'

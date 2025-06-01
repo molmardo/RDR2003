@@ -57,7 +57,7 @@
     border-radius: 12px 12px 0 0;
 }
 
-.course-modal-application-header h2{
+.course-modal-application-header h2 {
     color: var(--white);
 }
 
@@ -67,3 +67,12 @@
 }
 
 
+.thanks {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
