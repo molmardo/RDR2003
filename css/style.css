@@ -119,7 +119,19 @@ header .container {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 600px){
+    header h1{
+        font-size: 3.1rem;
+    }
+}
+
 /* Training */
+@media (max-width: 767px){
+    #tanfolyamok{
+        overflow: hidden;
+    }
+}
+
 .training h2 {
     margin: 45px 0 23px 0;
 }
@@ -251,6 +263,7 @@ header .container {
 .contact-info {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.208);
     border-radius: 12px;
+    margin-top: 25px;
 }
 
 .contact-info div {

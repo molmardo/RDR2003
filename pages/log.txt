@@ -1,7 +1,12 @@
+A weboldal technikai alapjai elkészültek, már csak a tartalmi elemek, mint például a szövegek, képek és egyedi igények véglegesítése van hátra. Ezt követően kerülhet sor a keresőoptimalizálásra (SEO), a robots.txt és a sitemap beállítására, valamint a weboldal élesítésére.
+
+2025.06.02 - Kisebb kinézetbeli változtatások
+2025.06.02 - Safaris kinézetek javítása 
+2025.06.02 - Navbar javítása, ha telefon a nézet 
 2025.06.02 - Mobil barát nézet javítás
 2025.06.02 - Animációk javítása 
 2025.06.02 - Cookie tájékoztató működik
-2025.06.01 - Cookie tájékoztató hozzáadása és működése
+2025.06.01 - Cookie tájékoztató hozzáadása 
 2025.06.01 - Űrlapok adatkezelési tájékoztatót gomb hozzáadása
 2025.06.01 - Tanfolyam jelentkező űrlap megformálása
 2025.06.01 - Tanfolyam jelentkező űrlap működése
