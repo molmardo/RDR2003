@@ -97,7 +97,7 @@
         </div>
     </section>
     <!-- Why choose -->
-    <section class="container">
+    <section class="container why-choose-full">
         <div class="why-choose">
             <div class="row align-items-center">
                 <div class="col-md-6 ScrollDownLeft">

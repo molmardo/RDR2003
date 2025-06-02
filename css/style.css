@@ -189,6 +189,10 @@ header .container {
 
 /* About US */
 
+.about_us{
+    overflow: hidden;
+}
+
 .about_us div div div:last-child img {
     width: 100%;
     max-height: 600px;
@@ -202,7 +206,18 @@ header .container {
     text-align: justify;
 }
 
+@media (max-width:767px) {
+    .about_us div div div:last-child{
+        margin-top: 25px;
+    }
+}
+
 /* Why choose */
+
+.why-choose-full{
+    overflow: hidden;
+}
+
 
 .why-choose div div:last-child div {
     padding: 8px 13px;

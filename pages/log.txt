@@ -1,3 +1,6 @@
+2025.06.02 - Mobil barát nézet javítás
+2025.06.02 - Animációk javítása 
+2025.06.02 - Cookie tájékoztató működik
 2025.06.01 - Cookie tájékoztató hozzáadása és működése
 2025.06.01 - Űrlapok adatkezelési tájékoztatót gomb hozzáadása
 2025.06.01 - Tanfolyam jelentkező űrlap megformálása

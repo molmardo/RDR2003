@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/footer.css">
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-section">
@@ -60,4 +61,3 @@
         <p>&copy; 2003-<?php echo date('Y'); ?> RDR2003. <span data-i18n="footer.rights"></span></p>
     </div>
 </footer>
-<link rel="stylesheet" href="css/footer.css">

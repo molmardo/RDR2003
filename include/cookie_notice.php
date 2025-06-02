@@ -1,13 +1,14 @@
-<?php
-require_once 'cookie_handler.php';
-
-// Ha még nincs elfogadva a cookie, akkor megjelenítjük az értesítőt
-if (!getCookieValue('cookie_accepted')) {
-?>
-<div id="cookie-notice" class="cookie-notice">
-    <div class="cookie-notice-content">
-        <p>Ez a weboldal cookie-kat (sütiket) használ a felhasználói élmény javítása érdekében. A weboldal használatával Ön elfogadja a cookie-k használatát. További információt a <a href="<?= BASE_URL . $routes['cookie']['path'] ?>" class="cookie-policy-link">Cookie Tájékoztatóban</a> talál.</p>
-        <button onclick="acceptCookies()" class="cookie-accept-btn">Elfogadom</button>
+<div id="cookie-notice" class="cookie-notice" style="display: none;">
+    <div class="cookie-notice-inner">
+        <div class="cookie-notice-content">
+            <p class="cookie-text">
+                Ez a weboldal cookie-kat (sütiket) használ a felhasználói élmény javítása érdekében.
+                A weboldal használatával Ön elfogadja a cookie-k használatát.
+                További információt a 
+                <a href="<?= BASE_URL . $routes['cookie']['path'] ?>" class="cookie-policy-link">Cookie Tájékoztatóban</a> talál.
+            </p>
+            <button id="accept-cookies" class="cookie-accept-btn">Elfogadom</button>
+        </div>
     </div>
 </div>
 
@@ -21,22 +22,26 @@ if (!getCookieValue('cookie_accepted')) {
     color: white;
     padding: 15px;
     z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: sans-serif;
+}
+
+.cookie-notice-inner {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .cookie-notice-content {
-    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    flex-wrap: nowrap; 
 }
 
-.cookie-notice p {
+.cookie-text {
     margin: 0;
     font-size: 14px;
+    flex: 1;
 }
 
 .cookie-policy-link {
@@ -64,22 +69,34 @@ if (!getCookieValue('cookie_accepted')) {
 .cookie-accept-btn:hover {
     background-color: var(--main-hover);
 }
+
+@media (max-width: 768px) {
+    .cookie-notice-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cookie-accept-btn {
+        margin-top: 10px;
+    }
+}
 </style>
 
+
 <script>
-function acceptCookies() {
-    // AJAX kérés a cookie beállításához
-    fetch('include/set_cookie_accepted.php', {
-        method: 'POST'
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            document.getElementById('cookie-notice').style.display = 'none';
-        }
+document.addEventListener('DOMContentLoaded', function () {
+    const notice = document.getElementById('cookie-notice');
+    const acceptBtn = document.getElementById('accept-cookies');
+
+    // Ellenőrzés, hogy el van-e már fogadva
+    if (!localStorage.getItem('cookiesAccepted')) {
+        notice.style.display = 'block';
+    }
+
+    // Elfogadás gomb
+    acceptBtn.addEventListener('click', function () {
+        localStorage.setItem('cookiesAccepted', 'true');
+        notice.style.display = 'none';
     });
-}
+});
 </script>
-<?php
-}
-?>
