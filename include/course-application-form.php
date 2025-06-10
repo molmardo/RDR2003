@@ -53,7 +53,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" name="email" id="floatingInput" required>
-                            <label for="floatingInput">Emial cím</label>
+                            <label for="floatingInput">Email cím</label>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">

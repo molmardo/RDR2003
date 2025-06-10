@@ -206,7 +206,7 @@
                             <span><i class="fas fa-mobile-screen-button fa-xl"></i> <?php echo htmlspecialchars($phone_number); ?></span><br>
                         <?php endforeach; ?>
                         <h3 data-i18n="contact.informations.location.h3">Helyszín</h3>
-                        <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045</span>
+                        <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045 <br><span>Max City bevásárlóközpont és a Shell kút közötti fehér színű irodaház</span></span>
                         <?php
                         date_default_timezone_set('Europe/Budapest');
                         $nyitvatartas = [

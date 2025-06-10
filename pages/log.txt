@@ -1,5 +1,9 @@
 A weboldal technikai alapjai elkészültek, már csak a tartalmi elemek, mint például a szövegek, képek és egyedi igények véglegesítése van hátra. Ezt követően kerülhet sor a keresőoptimalizálásra (SEO), a robots.txt és a sitemap beállítására, valamint a weboldal élesítésére.
 
+2025.06.10 - Weboldal nyomtathatósági beállítások
+2025.06.10 - Kép csere
+2025.06.10 - Szövegek szerkesztése 
+2025.06.10 - Helyesírási hiba javítás, 
 2025.06.02 - Kisebb kinézetbeli változtatások
 2025.06.02 - Safaris kinézetek javítása 
 2025.06.02 - Navbar javítása, ha telefon a nézet 

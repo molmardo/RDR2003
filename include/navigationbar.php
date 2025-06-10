@@ -45,6 +45,7 @@ $isHomepage = ($currentPath === '/' || $currentPath === '' || $currentPath === '
     </div>
   </div>
 </nav>
+<link rel="stylesheet" href="css/print-page.css" media="print">
 
 <script src="js/navigationbar.js"></script>
 <script src="js/translation_script.js"></script>

@@ -13,7 +13,7 @@
     <div class="container rent">
         <div class="row">
             <div class="col-lg-7 col-sm-12">
-                <img src="imgs/pexels-norma-mortenson-4391475.jpg" alt="" class="img-fluid">
+                <img src="imgs/pexels-moonlightshotz-11139345.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-lg-5 col-sm-12 contact">
                 <h3>Lépjen velünk kapcsolatba</h3>

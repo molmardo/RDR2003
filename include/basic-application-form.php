@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/basic-application-form.css">
 <div class="text-center">
-    <button id="myBtn" class="main-button">Űrlap Kitöltése</button>
+    <button id="myBtn" class="main-button">Érdekel/Ajánlatot szeretnék</button>
 </div>
 
 <div id="myModal" class="application">

@@ -282,6 +282,11 @@ header .container {
     margin-top: 10px;
 }
 
+.contact-info div span span{
+    color: rgb(85, 85, 85);
+    font-size: 80%;
+}
+
 .contact-info div a {
     text-decoration: underline;
     color: black;

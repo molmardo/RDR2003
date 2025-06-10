@@ -5,7 +5,7 @@
     <?php include "include/head.php"; ?>
     <title>Cookie (Süti) Tájékoztató</title>
     <link href="css/cookie-policy.css" rel="stylesheet">
-
+    
 </head>
 
 <body>
