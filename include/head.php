@@ -16,10 +16,98 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 
     // Ha a felhasználó nincs bejelentkezve, jelenítse meg a jelszó kérését
     if (!isset($_SESSION['logged_in'])) {
-        echo "<form method='post'>
-                <label>Jelszó: <input type='password' name='password'></label>
-                <input type='submit' value='Bejelentkezés'>
-              </form>";
+        ?>
+        <!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belépés - Zárt oldal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    @import url(css/default.css);
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, var(--main-hover-dark), var(--main-hover));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .login-container img.logo {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input[type="password"] {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+
+    input[type="submit"] {
+      padding: 0.75rem;
+      font-size: 1rem;
+      background-color: var(--main);
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: var(--main-hover);
+    }
+
+    @media (max-width: 500px) {
+      .login-container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img src="imgs/logo.png" alt="Logó" class="logo">
+    <h2>Belépés</h2>
+    <form method="post">
+      <input type="password" name="password" placeholder="Jelszó" required>
+      <input type="submit" value="Bejelentkezés">
+    </form>
+  </div>
+</body>
+</html>
+
+        <?php
         exit();
     }
 }
