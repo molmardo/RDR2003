@@ -115,7 +115,12 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 $phone_numbers = file('data/phone_numbers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 ?>
+<?php 
+// Alap protocl beállítás
+$fullBase = $protocol .'://'. $host . $basePath . '/'; 
+echo '<base href="' . $fullBase . '">' . PHP_EOL;
 
+?>
 
 
 <meta charset="UTF-8">
@@ -140,3 +145,5 @@ $phone_numbers = file('data/phone_numbers.txt', FILE_IGNORE_NEW_LINES | FILE_SKI
     <meta name="theme-color" content="#000">
     <!-- Canonical URL -->
 
+
+    

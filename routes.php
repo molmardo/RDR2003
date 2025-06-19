@@ -1,79 +1,38 @@
 <?php
-return [
-    'home' => [
-        'path' => '/',
-        'file' => 'home.php'
-    ],
-    'tanacsadas' => [
-        'path' => '/tanacsadas',
-        'file' => 'tanacsadas.php'
-    ],
-    'berbeadas' => [
-        'path' => '/berbeadas',
-        'file' => 'berbeadas.php'
-    ],
-    'rolunk' => [
-        'path' => '/munkatarsaink',
-        'file' => 'rolunk.php'
-    ],
-    'osztakAdrTanfolyam' => [
-        'path' => '/osztak-adr-tanfolyam',
-        'file' => 'tanfolyamok/osztrak-adr-tanfolyam.php'
-    ],
-    'magyarAdrTanfolyam' => [
-        'path' => '/magyar-adr-tanfolyam',
-        'file' => 'tanfolyamok/magyar-adr-tanfolyam.php'
-    ],
-    'magyarorszagiTanfolyamok' => [
-        'path' => '/magyarorszagi-tanfolyamok',
-        'file' => 'tanfolyamok/magyarorszagi-tanfolyamok.php'
-    ],
-    'szakmaiIranyito' => [
-        'path' => '/szakmai-tanfolyamok',
-        'file' => 'tanfolyamok/szakmaiIranyito.php'
-    ],
-    'magyarOGki' => [
-        'path' => '/magyarorszagi-gki-tanfolyam',
-        'file' => 'tanfolyamok/gki.php'
-    ],
-    'privacy-policy' => [
-        'path' => '/privacy-policy',
-        'file' => 'dokumentumok/privacy-policy.php'
-    ],
-    'cookie' => [
-        'path' => '/cookie',
-        'file' => 'dokumentumok/cookie-policy.php'
-    ],
-    'impressum' => [
-        'path' => '/impressum',
-        'file' => 'dokumentumok/impressum.php'
-    ],
-    'gdpr' => [
-        'path' => '/gdpr',
-        'file' => 'dokumentumok/gdpr.php'
-    ],
-    'furgon-berles' => [
-        'path' => '/furgon-berles',
-        'file' => '/berles/furgon.php'
-    ],
-    'tanterem-berles' => [
-        'path' => '/tanterem-berles',
-        'file' => '/berles/tanterem.php'
-    ],
-    'send_contact_mail' => [
-        'path' => '/send_contact_mail',
-        'file' => '/form_functions/send_contact_mail.php'
-    ],
-    'basic-application-form_mail' => [
-        'path' => '/basic-application-form_mail',
-        'file' => '/form_functions/basic-application-form_mail.php'
-    ],
-    'course-application-form_mail' => [
-        'path' => '/course-application-form_mail',
-        'file' => '/form_functions/course-application-form_mail.php'
-    ],
-    'report' => [
-        'path' => '/report',
-        'file' => '/report.php'
-    ]
+// routes.php
+
+// Győződj meg róla, hogy NINCS ilyen sor itt:
+// require_once __DIR__ . '/config_lang.php';
+
+$baseRoutes = [
+    '/home' => 'pages/home.php',
+    '/our-colleagues' => 'pages/our-colleagues.php',
+    '/our-colleagues' => 'pages/our-colleagues.php',
+    '/rent' => 'pages/rent.php',
+    '/advice' => 'pages/advice.php',
+    '/documents/cookie-policy' => 'pages/documents/cookie-policy.php',
+    '/documents/impressum' => 'pages/documents/impressum.php',
+    '/documents/gdpr' => 'pages/documents/gdpr.php',
+    '/documents/privacy-policy' => 'pages/documents/privacy-policy.php',
+    '/rent/classroom' => 'pages/rent/classroom.php',
+    '/rent/van' => 'pages/rent/ven.php',
+    '/courses/austrian-adr-course' => 'pages/courses/austrian-adr-course.php',
+    '/courses/av-course' => 'pages/courses/av-course.php',
+    '/courses/courses-in-hungary' => 'pages/courses/courses-in-hungary.php',
+    '/courses/gki-course' => 'pages/courses/gki-course.php',
+    '/courses/hungarian-adr-course' => 'pages/courses/hungarian-adr-course.php',
+    '/form_functions' => 'pages/form_functions/basic-application-form_mail.php',
+    '/form_functions' => 'pages/course-application-form_mail.php',
+    '/form_functions' => 'pages/send_contact_mail.php',
+    '/home' => 'pages/home.php',
 ];
+
+// Mivel az index.php már eltávolította a nyelvi előtagot az útvonalból,
+// egyszerűen ezeket az alap útvonalakat használhatjuk.
+$routes = $baseRoutes;
+
+// A '/' útvonalat az index.php átirányítása kezeli, így ez a sor sem kell ide.
+// Győződj meg róla, hogy NINCS ilyen sor itt:
+// $routes['/'] = 'pages/home.php';
+
+return $routes;

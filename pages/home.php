@@ -11,25 +11,25 @@
     <?php include "include/navigationbar.php"; ?>
     <!-- <header>
         <div class="container">
-            <h1 data-i18n="header.mainTitle">Komplex képzési megoldások fuvarozóknak</h1>
-            <p class="subtitle" data-i18n="header.subtitle"> GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen</p>
+            <h1>Komplex képzési megoldások fuvarozóknak</h1>
+            <p class="subtitle"> GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen</p>
             <div class="cta-buttons">
-                <a href="#tanfolyamok" class="main-button" data-i18n="header.courseButton">Tanfolyamaink</a>
+                <a href="#tanfolyamok" class="main-button">Tanfolyamaink</a>
             </div>
         </div>
     </header> -->
     <header>
         <video autoplay muted playsinline class="bg-video">
             <source src="videos/header2.mp4" type="video/mp4">
-            A videó nem elérhető ebben a böngészőben.
+            <?= $lang['header']['video'] ?>
         </video>
         <div class="container">
-            <h1 data-i18n="header.mainTitle">Komplex képzési megoldások fuvarozóknak</h1>
-            <p class="subtitle" data-i18n="header.subtitle">
-                GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen
+            <h1><?= $lang['header']['h1'] ?></h1>
+            <p class="subtitle">
+                <?= $lang['header']['subtitle'] ?>
             </p>
             <div class="cta-buttons">
-                <a href="#tanfolyamok" class="header-button" data-i18n="header.courseButton">Tanfolyamaink</a>
+                <a href="<?= navLink() ?>#courses" class="header-button"><?= $lang['header']['button'] ?></a>
             </div>
         </div>
     </header>
@@ -37,39 +37,39 @@
 
 
     <!-- Training -->
-    <section class="container mx-auto training" id="tanfolyamok">
-        <h2 class="text-center" data-i18n="training.mainTitle">Tanfolyamaink</h2>
+    <section class="container mx-auto training" id="courses">
+        <h2 class="text-center"><?= $lang['courses']['h2'] ?></h2>
         <div class="row g-4 mt-3">
             <div class="col-md-4 ScrollDownLeft">
                 <div class="card">
-                    <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="">
+                    <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="<?= $lang['courses']['austrian-adr-course']['h3'] ?>">
                     <div class="card-body d-flex flex-column">
-                        <a href="<?= BASE_URL . $routes['osztakAdrTanfolyam']['path'] ?>">
-                            <h3 class="card-title"><span data-i18n="training.trainingADRAT.h3">Osztrák ADR tanfolyam</span> <i class="fa fa-angle-right"></i></h3>
+                        <a href="<?= navLink('courses/austrian-adr-course') ?>">
+                            <h3 class="card-title"><span><?= $lang['courses']['austrian-adr-course']['h3'] ?> </span> <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex" data-i18n="training.trainingADRAT.information">Ausztriában végzett, hivatalos veszélyesáru-szállítási képzések magyar nyelven.</p>
+                        <p class="card-tex"><?= $lang['courses']['austrian-adr-course']['p'] ?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 ScrollDownDown">
                 <div class="card">
-                    <img src="imgs/pexels-markusspiske-172074.jpg" alt="">
+                    <img src="imgs/pexels-markusspiske-172074.jpg" alt="<?= $lang['courses']['courses-in-hungary']['h3'] ?>">
                     <div class="card-body d-flex flex-column">
-                        <a href="<?= BASE_URL . $routes['magyarorszagiTanfolyamok']['path'] ?>">
-                            <h3 class="card-title"><span data-i18n="training.trainingHU.h3">Magyarországi tanfolyamok</span> <i class="fa fa-angle-right"></i></h3>
+                        <a href="<?= navLink('courses/courses-in-hungary') ?>">
+                            <h3 class="card-title"><span><?= $lang['courses']['courses-in-hungary']['h3'] ?></span> <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex" data-i18n="training.trainingHU.information">Magyarországon elérhető felnőttképzések a közlekedési, fuvarozási szektor számára.</p>
+                        <p class="card-tex"><?= $lang['courses']['courses-in-hungary']['p'] ?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 ScrollDownRight">
                 <div class="card">
-                    <img src="imgs/pexels-quintingellar-2199293.jpg" alt="">
+                    <img src="imgs/pexels-quintingellar-2199293.jpg" alt="<?= $lang['courses']['hungarian-adr-course']['h3'] ?>">
                     <div class="card-body d-flex flex-column">
-                        <a href="<?= BASE_URL . $routes['magyarAdrTanfolyam']['path'] ?>">
-                            <h3 class="card-title"><span data-i18n="training.trainingADRHU.h3">Magyarországi ADR tanfolyam</span> <i class="fa fa-angle-right"></i></h3>
+                        <a href="<?= navLink('courses/hungarian-adr-course') ?>">
+                            <h3 class="card-title"><span><?= $lang['courses']['hungarian-adr-course']['h3'] ?> </span> <i class="fa fa-angle-right"></i></h3>
                         </a>
-                        <p class="card-tex" data-i18n="training.trainingADRHU.information">Az ADR 1.3. fejezete szerinti „kisadr” képzés</p>
+                        <p class="card-tex"><?= $lang['courses']['hungarian-adr-course']['p'] ?></p>
                     </div>
                 </div>
             </div>
@@ -77,21 +77,21 @@
 
     </section>
     <!-- About US -->
-    <section class="about_us" id="rolunk">
+    <section class="about_us" id="about-us">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 ScrollDownLeft">
-                    <h2 class="mb-4" data-i18n="aboutUs.h2">Rólunk</h2>
-                    <p data-i18n="aboutUs.information">
-                        Több mint két évtizedes tapasztalatunkkal nem csupán szolgáltatást, hanem valódi, értékalapú partnerséget kínálunk. Minden ügyfelünkkel egyedi úton járunk: megértjük működésüket, céljaikat és a hozzájuk vezető legbiztonságosabb utat. Hiszünk abban, hogy az igazi szakmaiság nem sablonokban, hanem személyre szabott megoldásokban mutatkozik meg.
+                    <h2 class="mb-4"><?= $lang['about-us']['about-us'] ?></h2>
+                    <p>
+                        <?= $lang['about-us']['p'] ?>
                     </p>
                     <p>
-                        <q data-i18n="aboutUs.quote">Szakértelem, amely előnyt teremt.</q>
+                        <q><?= $lang['about-us']['q'] ?></q>
                     </p>
-                    <a href="<?= BASE_URL . $routes['rolunk']['path'] ?>" data-i18n="aboutUs.button" class="main-button">Munkatársaink</a>
+                    <a href="<?= navLink('our-colleagues'); ?>" class="main-button"><?= $lang['about-us']['button'] ?></a>
                 </div>
                 <div class="col-md-6 ScrollDownRight">
-                    <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="">
+                    <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="<?= $lang['about-us']['about-us'] ?>">
                 </div>
             </div>
         </div>
@@ -101,26 +101,26 @@
         <div class="why-choose">
             <div class="row align-items-center">
                 <div class="col-md-6 ScrollDownLeft">
-                    <img src="imgs/two-guys-talking-about-work-work-garage-near-truck-transfer-documents-with-goods.jpg" alt="">
+                    <img src="imgs/two-guys-talking-about-work-work-garage-near-truck-transfer-documents-with-goods.jpg" alt="<?= $lang['why-choose']['h2'] ?>">
                 </div>
                 <div class="col-md-6 ScrollDownRight">
-                    <h2 data-i18n="whyChoose.h2">Miért válassza a RDR2003-at?</h2>
+                    <h2><?= $lang['why-choose']['h2'] ?></h2>
                     <div>
                         <div>
-                            <span data-i18n="whyChoose.info1.span">Tapasztalt oktatók</span>
-                            <p data-i18n="whyChoose.info1.p">Szakértő oktatóink naprakész tudással rendelkeznek.</p>
+                            <span><?= $lang['why-choose']['info1']['span'] ?></span>
+                            <p><?= $lang['why-choose']['info1']['p'] ?></p>
                         </div>
                         <div>
-                            <span data-i18n="whyChoose.info2.span">Szórakoztató tanulás</span>
-                            <p data-i18n="whyChoose.info2.p">Modern, interaktív oktatási módszerek.</p>
+                            <span><?= $lang['why-choose']['info2']['span'] ?></span>
+                            <p><?= $lang['why-choose']['info2']['p'] ?></p>
                         </div>
                         <div>
-                            <span data-i18n="whyChoose.info3.span">Rugalmas időpontok</span>
-                            <p data-i18n="whyChoose.info3.p">Az Ön időbeosztásához igazodó tanfolyamok.</p>
+                            <span><?= $lang['why-choose']['info3']['span'] ?></span>
+                            <p><?= $lang['why-choose']['info3']['p'] ?></p>
                         </div>
                         <div>
-                            <span data-i18n="whyChoose.info4.span">Több helyszín</span>
-                            <p data-i18n="whyChoose.info4.p">Több helyszínen is ott vagyunk.</p>
+                            <span><?= $lang['why-choose']['info4']['span'] ?></span>
+                            <p><?= $lang['why-choose']['info4']['p'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
     </section>
     <section>
         <div class="logos ScrollDownTransparent">
-            <h2 data-i18n="partners.h2">Partnereink</h2>
+            <h2><?= $lang['partners']['h2'] ?></h2>
             <div class="logos-slide">
                 <img src="partners/BTlogo_100.png" alt="ceglogo">
                 <img src="partners/Calderys_Orange-Noir_1.png.png" alt="ceglogo">
@@ -159,54 +159,54 @@
 
     </section>
     <!-- contact -->
-    <section class="container" id="kapcsolat">
+    <section class="container" id="contact">
         <div class="row align-items-center ScrollDownDown">
             <div class="col-md-6">
-                <h2 class="mt-3 mb-3" data-i18n="contact.h2">Lépjen velünk kapcsolatba</h2>
+                <h2 class="mt-3 mb-3"><?= $lang['contact']['h2'] ?></h2>
                 <form id="contactForm" method="post">
                     <!-- Üzenetdoboz -->
                     <div id="formMessage" class="alert d-none mt-2" role="alert"></div>
 
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Gibsz Jakab" required>
-                        <label for="name" data-i18n="contact.form.name">Név</label>
+                        <label for="name"><?= $lang['contact']['contactForm']['name'] ?></label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
-                        <label for="email" data-i18n="contact.form.email">Email</label>
+                        <label for="email"><?= $lang['contact']['contactForm']['email'] ?></label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="tel" class="form-control" id="phone" name="phone" placeholder="+36123456789">
-                        <label for="phone" data-i18n="contact.form.phone">Telefonszám</label>
+                        <label for="phone"><?= $lang['contact']['contactForm']['phone'] ?></label>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Írd meg az üzenetedet" id="message" name="message" style="height: 100px" required></textarea>
-                        <label for="message" data-i18n="contact.form.msg">Üzenet</label>
+                        <textarea class="form-control" placeholder="<?= $lang['contact']['contactForm']['msg-placeholder'] ?>" id="message" name="message" style="height: 100px" required></textarea>
+                        <label for="message"><?= $lang['contact']['contactForm']['msg'] ?></label>
                     </div>
                     <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" id="adatkezeles" name="adatkezeles" required>
                         <label class="form-check-label" for="adatkezeles">
-                            Elfogadom az <a href="<?= BASE_URL . $routes['privacy-policy']['path'] ?>" target="_blank">adatkezelési tájékoztatót</a>.
+                            <?= $lang['contact']['contactForm']['data-management']['part1'] ?> <a href="<?= navLink('documents/privacy-policy') ?>" target="_blank"><?= $lang['contact']['contactForm']['data-management']['part2'] ?></a>.
                         </label>
                     </div>
                     <br>
                     <!-- <div class="g-recaptcha mb-3" data-sitekey="6LfeBiQrAAAAAHwaRdPJreFhlif2tcB829Wxm-pH"></div> -->
-                    <button type="submit" class="main-button" data-i18n="contact.form.button">Küldés</button>
+                    <button type="submit" class="main-button"><?= $lang['contact']['contactForm']['button'] ?></button>
                 </form>
             </div>
             <div class="col-md-6">
                 <div class="contact-info">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.8863595940325!2d18.901858076867352!3d47.45315459856045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0728216be49%3A0x2a972f42c44fc056!2zVMO2csO2a2LDoWxpbnQsIFTDs3BhcmsgdS4gMWEsIDIwNDU!5e0!3m2!1shu!2shu!4v1745434769485!5m2!1shu!2shu" width="100%" height="350" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div>
-                        <h3 data-i18n="contact.informations.contactDetails.h3">
-                            Elérhetőségeink
+                        <h3>
+                            <?= $lang['contact']['contact-info']['h3'] ?>
                         </h3>
-                        <span><i class="fas fa-envelope"></i> <a href="mailto:rdr2003@rdr2003.hu">rdr2003@rdr2003.hu</a></span><br>
+                        <span><i class="fas fa-envelope"></i> <a href="mailto:<?= $lang['default']['email']?>"><?= $lang['default']['email']?></a></span><br>
                         <?php foreach ($phone_numbers as $phone_number): ?>
                             <span><i class="fas fa-mobile-screen-button fa-xl"></i> <?php echo htmlspecialchars($phone_number); ?></span><br>
                         <?php endforeach; ?>
-                        <h3 data-i18n="contact.informations.location.h3">Helyszín</h3>
-                        <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045 <br><span>Max City bevásárlóközpont és a Shell kút közötti fehér színű irodaház</span></span>
+                        <h3><?= $lang['contact']['contact-info']['location']['h3'] ?></h3>
+                        <span><i class="fas fa-location-arrow"></i> <?= $lang['contact']['contact-info']['location']['address'] ?> <br><span><?= $lang['contact']['contact-info']['location']['address-info'] ?></span></span>
                         <?php
                         date_default_timezone_set('Europe/Budapest');
                         $nyitvatartas = [
@@ -222,7 +222,7 @@
                         $nap = date('l');
                         $idoMost = new DateTime();
 
-                        $valasz = "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
+                        $valasz = "<span class='closeHours'>". $lang['contact']['contact-info']['opening']['close'] ."</span>";
 
                         if (isset($nyitvatartas[$nap]) && $nyitvatartas[$nap] !== null) {
                             [$nyit, $zar] = $nyitvatartas[$nap];
@@ -233,48 +233,48 @@
 
                             if ($idoMost < $elotte30) {
                                 $valasz =
-                                    "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
+                                    "<span class='closeHours'>".$lang['contact']['contact-info']['opening']['close']."</span>";
                             } elseif ($idoMost >= $elotte30 && $idoMost < $nyitas) {
-                                $valasz = "<span class='openingSoon' data-i18n='contact.informations.openingHours.openingSoon'>Hamarosan nyit";
+                                $valasz = "<span class='openingSoon'>".$lang['contact']['contact-info']['opening']['openingSoon']."</span>";
                             } elseif ($idoMost >= $nyitas && $idoMost < $elotteZaras30) {
-                                $valasz = "<span class='openHours' data-i18n='contact.informations.openingHours.open'>Nyitva";
+                                $valasz = "<span class='openHours'>".$lang['contact']['contact-info']['opening']['open']."</span>";
                             } elseif ($idoMost >= $elotteZaras30 && $idoMost < $zaras) {
-                                $valasz = "<span class='closingSoon' data-i18n='contact.informations.openingHours.closingSoon'>Hamarosan zár";
+                                $valasz = "<span class='closingSoon'>".$lang['contact']['contact-info']['opening']['closingSoon']."</span>";
                             } else {
-                                $valasz = "<span class='closeHours' data-i18n='contact.informations.openingHours.close'>Zárva</span>";
+                                $valasz = "<span class='closeHours'>".$lang['contact']['contact-info']['opening']['close']."</span>";
                             }
                         }
                         ?>
 
-                        <h3><span data-i18n="contact.informations.openingHours.h3">Nyitvatartás:</span> <span class="openingTime"><?php echo $valasz; ?></span></h3>
+                        <h3><span><?= $lang['contact']['contact-info']['openTime']?>:</span> <span class="openingTime"><?php echo $valasz; ?></span></h3>
                         <table>
                             <tr>
-                                <td data-i18n="contact.informations.openingHours.monday">Hétfő</td>
+                                <td><?= $lang['contact']['contact-info']['days']['monday']?></td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td data-i18n="contact.informations.openingHours.tuesday">Kedd</td>
+                                <td><?= $lang['contact']['contact-info']['days']['tuesday']?></td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td data-i18n="contact.informations.openingHours.wednesday">Szerda</td>
+                                <td><?= $lang['contact']['contact-info']['days']['wednesday']?></td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td data-i18n="contact.informations.openingHours.thursady">Csütörtök</td>
+                                <td><?= $lang['contact']['contact-info']['days']['thursday']?></td>
                                 <td>8:00-16:00</td>
                             </tr>
                             <tr>
-                                <td data-i18n="contact.informations.openingHours.friday">Péntek</td>
+                                <td><?= $lang['contact']['contact-info']['days']['friday']?></td>
                                 <td>8:00-15:00</td>
                             </tr>
                             <tr>
-                                <td data-i18n="contact.informations.openingHours.saturday">Szombat</td>
-                                <td>Zárva</td>
+                                <td><?= $lang['contact']['contact-info']['days']['saturday']?></td>
+                                <td><?= $lang['contact']['contact-info']['opening']['close']?></td>
                             </tr>
                             <tr>
-                                <td data-i18n="contact.informations.openingHours.sunday">Vasárnap</td>
-                                <td>Zárva</td>
+                                <td><?= $lang['contact']['contact-info']['days']['sunday']?></td>
+                                <td><?= $lang['contact']['contact-info']['opening']['close']?></td>
                             </tr>
                         </table>
                     </div>
