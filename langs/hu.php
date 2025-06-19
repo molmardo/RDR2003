@@ -135,7 +135,7 @@ return [
                 További információt a ',
         'link' => 'Cookie Tájékoztatóban',
         'info-end' => "talál.",
-        'button' => 'Elfogadom'
+        'button' => 'Elfogadom',
     ],
     'advice-page' => [
         'title' => 'Tanácsadás',

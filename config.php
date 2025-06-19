@@ -10,7 +10,7 @@ define('BASE_URL', $protocol . '://' . $host . $path);
 // Konfigurációs fájl
 
 // Nyelvi beállítások
-$availableLangs = ['de','en','hu', 'vn']; // <<< IDE ADD HOZZÁ AZ ÚJ NYELVEKET
+$availableLangs = ['cn', 'de','en','hu', 'vn']; // <<< IDE ADD HOZZÁ AZ ÚJ NYELVEKET
 $defaultLang = 'hu'; // Az alapértelmezett nyelv
 $fallbackLang = 'en'; // A visszaeső nyelv, ha valami hiba van
 
