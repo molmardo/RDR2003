@@ -1,5 +1,8 @@
 A weboldal technikai alapjai elkészültek, már csak a tartalmi elemek, mint például a szövegek, képek és egyedi igények véglegesítése van hátra. Ezt követően kerülhet sor a keresőoptimalizálásra (SEO), a robots.txt és a sitemap beállítására, valamint a weboldal élesítésére.
 
+2025.06.19 - Weboldal fordítása több nyelvre
+2025.06.18 - Weboldal fordítása (csak magyar)
+2025.06.17 - Új fájl és URL rendszer 
 2025.06.10 - Weboldal nyomtathatósági beállítások
 2025.06.10 - Kép csere
 2025.06.10 - Szövegek szerkesztése 
