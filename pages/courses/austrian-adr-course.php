@@ -12,116 +12,119 @@
 
     <div class="container">
         <div class="adr">
-            <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="" class="header-img">
+            <img src="imgs/pexels-500photos-com-15338-93398.jpg" alt="<?= $lang['adr-austria-page']['title'] ?>" class="header-img">
             <div class="adr-data">
-                <h1 class="text-center mt-3 mb-3">Osztrák ADR Tanfolyam</h1>
+                <h1 class="text-center mt-3 mb-3"><?= $lang['adr-austria-page']['title'] ?></h1>
+
                 <section>
                     <div class="row">
                         <div class="col-lg-6 col-sm-12">
-                            <h2>Szabad időpontjaink</h2>
+                            <h2><?= $lang['adr-austria-page']['dates']['h2'] ?></h2>
                             <p>
-                                <?php 
-                                $dates = file('data/dates/austria-adr-times.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES); 
+                                <?php
+                                $dates = file('data/dates/austria-adr-times.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
                                 foreach ($dates as $date):
                                 ?>
-                                    <strong><?php echo htmlspecialchars($date); ?></strong><br>
-                                <?php
-                                endforeach;
-                                ?>
+                                    <strong><?= htmlspecialchars($date) ?></strong><br>
+                                <?php endforeach; ?>
                             </p>
                         </div>
-    
                         <div class="col-lg-6 col-sm-12">
                             <div class="text-center">
                                 <img src="imgs/adr.png" alt="ADR" class="adr-img">
                             </div>
                         </div>
                     </div>
+                </section>
 
-                </section>
                 <section>
-                    <h2>Fontos információk</h2>
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-12">
-                            <ul>
-                                <li class="highlight">Csak magyarul beszélő, olvasó és író hallgatókat tudunk fogadni.</li>
-                                <li class="highlight">Nem magyar születésű jelentkező esetén szükséges a személyi igazolvány másolata.</li>
-                                <li class="highlight">Magyar nyelvű oktatás és vizsga, osztrák ADR bizonyítvánnyal (5 évig érvényes).</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <h2>Utazás</h2>
-                    <p>Képzési napokon reggel 7:00-kor indulás <strong>Törökbálint, Spar parkolóból</strong>. Megállók: Tata (Shell kút), Győr (MOL kút).</p>
-                </section>
-                <section>
-                    <h2>Képzés helyszíne</h2>
-                    <p><strong>EDER PANSION</strong><br>2460 Bruck ad Leitha, Altstadt 19., Österreich</p>
-                    <p>Visszaérkezés kb. 18:30 (vasárnap kb. 17:30). Képzés minden napon, az utolsó napon vizsga.</p>
-                </section>
-                <section>
-                    <h2>Tanfolyam előnyei</h2>
+                    <h2><?= $lang['adr-austria-page']['info']['h2'] ?></h2>
                     <ul>
-                        <li>Valós, gyakorlati tudás megszerzése.</li>
-                        <li>Jelentős adminisztrációs könnyítés a magyar rendszerhez képest.</li>
-                        <li>30 tesztkérdés, magyar nyelvű segédanyag használata megengedett.</li>
+                        <li class="highlight"><?= $lang['adr-austria-page']['info']['li1'] ?></li>
+                        <li class="highlight"><?= $lang['adr-austria-page']['info']['li2'] ?></li>
+                        <li class="highlight"><?= $lang['adr-austria-page']['info']['li3'] ?></li>
                     </ul>
                 </section>
+
                 <section>
-                    <h2>Árak</h2>
+                    <h2><?= $lang['adr-austria-page']['travel']['h2'] ?></h2>
+                    <p><?= $lang['adr-austria-page']['travel']['p'] ?></p>
+                </section>
+
+                <section>
+                    <h2><?= $lang['adr-austria-page']['location']['h2'] ?></h2>
+                    <p><strong><?= $lang['adr-austria-page']['location']['place'] ?></strong><br><?= $lang['adr-austria-page']['location']['address'] ?></p>
+                    <p><?= $lang['adr-austria-page']['location']['note'] ?></p>
+                </section>
+
+                <section>
+                    <h2><?= $lang['adr-austria-page']['benefits']['h2'] ?></h2>
+                    <ul>
+                        <li><?= $lang['adr-austria-page']['benefits']['li1'] ?></li>
+                        <li><?= $lang['adr-austria-page']['benefits']['li2'] ?></li>
+                        <li><?= $lang['adr-austria-page']['benefits']['li3'] ?></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2><?= $lang['adr-austria-page']['prices']['h2'] ?></h2>
                     <table>
                         <thead>
                             <tr>
-                                <th>Képzés típusa</th>
-                                <th>Díj (Ft)</th>
+                                <th><?= $lang['adr-austria-page']['prices']['th1'] ?></th>
+                                <th><?= $lang['adr-austria-page']['prices']['th2'] ?></th>
                             </tr>
                         </thead>
                         <tbody class="price">
                             <tr>
-                                <td>Nem tartányos alaptanfolyam / ismeretfelújítás</td>
-                                <td>158 000</td>
+                                <td><?= $lang['adr-austria-page']['prices']['row1']['name'] ?></td>
+                                <td><?= $lang['adr-austria-page']['prices']['row1']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>Nem tartányos + tartányos alaptanfolyam és szakosítás</td>
-                                <td>255 000</td>
+                                <td><?= $lang['adr-austria-page']['prices']['row2']['name'] ?></td>
+                                <td><?= $lang['adr-austria-page']['prices']['row2']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>Nem tartányos + tartányos ismeretfelújító képzés</td>
-                                <td>195 000</td>
+                                <td><?= $lang['adr-austria-page']['prices']['row3']['name'] ?></td>
+                                <td><?= $lang['adr-austria-page']['prices']['row3']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>Tartányos szakosítás meglévő NT képesítéssel</td>
-                                <td>158 000</td>
+                                <td><?= $lang['adr-austria-page']['prices']['row4']['name'] ?></td>
+                                <td><?= $lang['adr-austria-page']['prices']['row4']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>ADR NT1 és NT7 (robbanó + radioaktív)</td>
-                                <td>95 000</td>
+                                <td><?= $lang['adr-austria-page']['prices']['row5']['name'] ?></td>
+                                <td><?= $lang['adr-austria-page']['prices']['row5']['price'] ?></td>
                             </tr>
                         </tbody>
                     </table>
-                    <a class="main-button" href="pdf/RDR_Tanfolyami díjak_Ausztria_2024_szeptembertől.pdf" target="_blank">Tanfolyami díjak (PDF letöltése)</a>
+                    <a class="main-button" href="pdf/RDR_Tanfolyami díjak_Ausztria_2024_szeptembertől.pdf" target="_blank">
+                        <?= $lang['adr-austria-page']['prices']['pdf'] ?>
+                    </a>
                 </section>
-                <section>
-                    <h2>Szállás</h2>
-                    <p><strong>EDER PANSION</strong> – reggelivel</p>
-                    <ul>
-                        <li>1 ágyas szoba: 44 Euro / 17.000 Ft</li>
-                        <li>2 ágyas szoba: 33 Euro / 13.000 Ft</li>
-                        <li>3 ágyas szoba: 31 Euro / 12.000 Ft</li>
-                    </ul>
-                    <p class="highlight">Lemondási határidő: a képzés hetében, hétfőn.</p>
-                </section>
-                <section>
-                    <h2>Kérdése van?</h2>
-                    <p>Forduljon hozzánk bizalommal az elérhetőségeink egyikén!</p>
-                    <a href="./#kapcsolat">Elérhetőségeink</a>
-                </section>
-                <?php include "include/course-application-form.php"; ?>
 
+                <section>
+                    <h2><?= $lang['adr-austria-page']['accommodation']['h2'] ?></h2>
+                    <p><strong><?= $lang['adr-austria-page']['accommodation']['place'] ?></strong> – <?= $lang['adr-austria-page']['accommodation']['with_breakfast'] ?></p>
+                    <ul>
+                        <li><?= $lang['adr-austria-page']['accommodation']['li1'] ?></li>
+                        <li><?= $lang['adr-austria-page']['accommodation']['li2'] ?></li>
+                        <li><?= $lang['adr-austria-page']['accommodation']['li3'] ?></li>
+                    </ul>
+                    <p class="highlight"><?= $lang['adr-austria-page']['accommodation']['note'] ?></p>
+                </section>
+
+                <section>
+                    <h2><?= $lang['adr-austria-page']['contact']['h2'] ?></h2>
+                    <p><?= $lang['adr-austria-page']['contact']['p'] ?></p>
+                    <a href="./#kapcsolat"><?= $lang['adr-austria-page']['contact']['link'] ?></a>
+                </section>
+
+                <?php include "include/course-application-form.php"; ?>
             </div>
         </div>
     </div>
+
 
 
     <?php include "include/footer.php"; ?>

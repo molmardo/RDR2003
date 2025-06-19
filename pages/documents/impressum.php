@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>Impresszum </title>
+    <title><?= $lang['impressum-page']['title'] ?> </title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/impressum.css">
 </head>
@@ -12,56 +12,56 @@
     <?php include "include/navigationbar.php"; ?>
 
     <div class="container py-5 impressum-full">
-        <h1 class="text-center mb-5">Impresszum</h1>
+        <h1 class="text-center mb-5"><?= $lang['impressum-page']['title'] ?></h1>
 
         <div class="section">
-            <h2>Cégadatok</h2>
+            <h2><?= $lang['impressum-page']['company_data']['h2'] ?></h2>
             <div class="contact-info">
-                <p><strong>Cégnév:</strong> RDR 2003 Kft</p>
-                <p><strong>Székhely:</strong> Tópark utca 1/A., Törökbálint, Hungary</p>
-                <p><strong>Email:</strong> rdr2003@rdr2003.hu</p>
+                <p><strong><?= $lang['impressum-page']['company_data']['name_label'] ?></strong><?= $lang['impressum-page']['company_data']['name'] ?></p>
+                <p><strong><?= $lang['impressum-page']['company_data']['address_label'] ?></strong><?= $lang['impressum-page']['company_data']['address'] ?></p>
+                <p><strong><?= $lang['impressum-page']['company_data']['email_label'] ?></strong><?= $lang['impressum-page']['company_data']['email'] ?></p>
             </div>
         </div>
 
         <div class="section">
-            <h2>Kapcsolat</h2>
+            <h2><?= $lang['impressum-page']['contact']['h2'] ?></h2>
             <div class="contact-info">
-                <p><strong>Telefon:</strong> +36 878 9488</p>
-                <p><strong>Email:</strong> rdr2003@rdr2003.hu</p>
-                <p><strong>Weboldal:</strong> adrexpressz.hu</p>
+                <p><strong><?= $lang['impressum-page']['contact']['phone_label'] ?></strong><?= $lang['impressum-page']['contact']['phone'] ?></p>
+                <p><strong><?= $lang['impressum-page']['contact']['email_label'] ?></strong><?= $lang['impressum-page']['contact']['email'] ?></p>
+                <p><strong><?= $lang['impressum-page']['contact']['website_label'] ?></strong><?= $lang['impressum-page']['contact']['website'] ?></p>
             </div>
         </div>
 
         <div class="section" id="tarhelyszolgaltato">
-            <h2>Tárhelyszolgáltató</h2>
+            <h2><?= $lang['impressum-page']['hosting']['h2'] ?></h2>
             <div class="contact-info">
-                <p><strong>Szolgáltató neve:</strong> Websupport Magyarország Kft.</p>
-                <p><strong>Székhely:</strong> H-1119 Budapest, Fehérvári út 97-99. </p>
-                <p><strong>Email:</strong> info@ezit.hu</p>
-                <p><strong>Telefon:</strong> +36 1 700 40 30</p>
-                <p><strong>Web cím:</strong> https://www.ezit.hu</p>
+                <p><strong><?= $lang['impressum-page']['hosting']['provider_label'] ?></strong><?= $lang['impressum-page']['hosting']['provider'] ?></p>
+                <p><strong><?= $lang['impressum-page']['hosting']['address_label'] ?></strong><?= $lang['impressum-page']['hosting']['address'] ?></p>
+                <p><strong><?= $lang['impressum-page']['hosting']['email_label'] ?></strong><?= $lang['impressum-page']['hosting']['email'] ?></p>
+                <p><strong><?= $lang['impressum-page']['hosting']['phone_label'] ?></strong><?= $lang['impressum-page']['hosting']['phone'] ?></p>
+                <p><strong><?= $lang['impressum-page']['hosting']['website_label'] ?></strong><?= $lang['impressum-page']['hosting']['website'] ?></p>
             </div>
         </div>
 
         <div class="section">
-            <h2>Jogi információk</h2>
+            <h2><?= $lang['impressum-page']['legal']['h2'] ?></h2>
             <div class="contact-info">
-                <p><strong>Nyilvántartó hatóság:</strong> Fővárosi Törvényszék Cégbírósága</p>
-                <p><strong>Működési engedély száma:</strong> KE-12345/2025</p>
-                <p><strong>Kamarai tagság:</strong> Budapesti Kereskedelmi és Iparkamara</p>
-                <p><strong>Kamarai nyilvántartási szám:</strong> BU123456</p>
+                <p><strong><?= $lang['impressum-page']['legal']['registry_label'] ?></strong><?= $lang['impressum-page']['legal']['registry'] ?></p>
+                <p><strong><?= $lang['impressum-page']['legal']['license_label'] ?></strong><?= $lang['impressum-page']['legal']['license'] ?></p>
+                <p><strong><?= $lang['impressum-page']['legal']['chamber_label'] ?></strong><?= $lang['impressum-page']['legal']['chamber'] ?></p>
+                <p><strong><?= $lang['impressum-page']['legal']['chamber_number_label'] ?></strong><?= $lang['impressum-page']['legal']['chamber_number'] ?></p>
             </div>
         </div>
 
         <div class="section">
-            <h2>Felelősségi nyilatkozat</h2>
+            <h2><?= $lang['impressum-page']['disclaimer']['h2'] ?></h2>
             <div class="contact-info">
-                <p>Az RDR 2003 Kft. mindent megtesz annak érdekében, hogy a weboldalon megjelenő információk pontosak és naprakészek legyenek, azonban nem vállal felelősséget az esetleges tévedésekért vagy hiányosságokért. A weboldal tartalma szerzői jogvédelem alatt áll.</p>
+                <p><?= $lang['impressum-page']['disclaimer']['p'] ?></p>
             </div>
         </div>
 
         <div class="section">
-            <p class="text-muted">Utolsó frissítés: 2025. január 1.</p>
+            <p class="text-muted"><?= $lang['impressum-page']['last_updated'] ?></p>
         </div>
     </div>
 

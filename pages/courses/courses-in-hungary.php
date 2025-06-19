@@ -13,32 +13,33 @@
 
 
     <div class="container hu-courses">
-        <h1 class="text-center">Magyarországi Tanfolyamok</h1>
+        <h1 class="text-center"><?= $lang['hu-courses']['title'] ?></h1>
         <div class="row g-3">
             <div class="col-lg-6 col-sm-12">
                 <div>
-                    <a href="<?= BASE_URL . $routes['magyarOGki']['path'] ?>">
+                    <a href="<?= navLink('courses/gki-course') ?>">
                         <div class="course">
-                            <img src="imgs/pexels-eduardo199o9-178988127-17824889.jpg" alt="">
-                            <h3 class="mt-3">GKI Tanfolyam</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="imgs/pexels-eduardo199o9-178988127-17824889.jpg" alt="<?= $lang['hu-courses']['gki']['title'] ?>">
+                            <h3 class="mt-3"><?= $lang['hu-courses']['gki']['title'] ?></h3>
+                            <p><?= $lang['hu-courses']['gki']['desc'] ?></p>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div>
-                    <a href="<?= BASE_URL . $routes['szakmaiIranyito']['path'] ?>">
+                    <a href="<?= navLink('courses/av-course') ?>">
                         <div class="course">
-                            <img src="imgs/pexels-quintingellar-2199293.jpg" alt="">
-                            <h3 class="mt-3">Szakmai Irányító</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="imgs/pexels-quintingellar-2199293.jpg" alt="<?= $lang['hu-courses']['iranyito']['title'] ?>">
+                            <h3 class="mt-3"><?= $lang['hu-courses']['iranyito']['title'] ?></h3>
+                            <p><?= $lang['hu-courses']['iranyito']['desc'] ?></p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>

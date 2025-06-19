@@ -16,70 +16,47 @@
                 <img src="imgs/pexels-pixabay-159213.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-lg-5 col-sm-12 contact">
-                <h3>Lépjen velünk kapcsolatba</h3>
+                <h3><?= $lang['rent-classroom']['contact']['title'] ?></h3>
                 <div class="contact-item">
-                    <span><i class="fas fa-phone fa-xl"></i> +36 30 878 9488</span>
+                    <span><i class="fas fa-phone fa-xl"></i> <?= $lang['rent-classroom']['contact']['phone'] ?></span>
                 </div>
                 <div class="contact-item">
-                    <span><i class="fas fa-envelope"></i> rdr2003@rdr2003.hu</span>
+                    <span><i class="fas fa-envelope"></i> <?= $lang['rent-classroom']['contact']['email'] ?></span>
                 </div>
                 <div class="contact-item">
-                    <span><i class="fas fa-location-arrow"></i> Törökbálint, Tópark u. 1a, 2045</span>
+                    <span><i class="fas fa-location-arrow"></i> <?= $lang['rent-classroom']['contact']['address'] ?></span>
                 </div>
                 <?php include "include/basic-application-form.php"; ?>
-
             </div>
+
             <div class="col-lg-12 services">
                 <div class="services-grid">
-                    <div class="service-card">
-                        <i class="fas fa-couch"></i>
-                        <span>Korszerű bútorzat</span>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-fan"></i>
-                        <span>Klimatizált</span>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-table"></i>
-                        <span>Mágneses fehértábla</span>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-tv"></i>
-                        <span>Vetítő</span>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-person-chalkboard"></i>
-                        <span>Vetítővászonnal felszerelt</span>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-utensils"></i>
-                        <span>Catering (étel/ital) bekészítés</span>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-train-tram"></i>
-                        <span>Tömegközlekedéssel is könnyen elérhető</span>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-wifi"></i>
-                        <span>Ingyenes WI-FI</span>
-                    </div>
+                    <div class="service-card"><i class="fas fa-couch"></i><span><?= $lang['rent-classroom']['services']['furniture'] ?></span></div>
+                    <div class="service-card"><i class="fas fa-fan"></i><span><?= $lang['rent-classroom']['services']['ac'] ?></span></div>
+                    <div class="service-card"><i class="fas fa-table"></i><span><?= $lang['rent-classroom']['services']['whiteboard'] ?></span></div>
+                    <div class="service-card"><i class="fas fa-tv"></i><span><?= $lang['rent-classroom']['services']['projector'] ?></span></div>
+                    <div class="service-card"><i class="fas fa-person-chalkboard"></i><span><?= $lang['rent-classroom']['services']['screen'] ?></span></div>
+                    <div class="service-card"><i class="fas fa-utensils"></i><span><?= $lang['rent-classroom']['services']['catering'] ?></span></div>
+                    <div class="service-card"><i class="fas fa-train-tram"></i><span><?= $lang['rent-classroom']['services']['transport'] ?></span></div>
+                    <div class="service-card"><i class="fas fa-wifi"></i><span><?= $lang['rent-classroom']['services']['wifi'] ?></span></div>
                 </div>
             </div>
+
             <div class="col-lg-12 decription">
-                <h4>Bérelhető tantermek különböző méretekben</h4>
-                <p>Lehetőséget kínálunk két jól felszerelt tanterem bérlésére, amelyek ideálisak különféle képzések, tréningek, workshopok vagy kisebb rendezvények lebonyolítására. Az egyik terem kb. 20 fő befogadására alkalmas, míg a nagyobbik terem kényelmesen elfér 40-50 fő részére is, így kisebb és közepes létszámú eseményekhez egyaránt megfelelő választás lehet.</p>
+                <h4><?= $lang['rent-classroom']['desc']['h1'] ?></h4>
+                <p><?= $lang['rent-classroom']['desc']['p1'] ?></p>
 
-                <h4>Modern felszereltség és kényelmes környezet</h4>
-                <p>Mindkét terem korszerű bútorzattal van berendezve, klimatizált, és modern technikai eszközökkel felszerelt. A felszereltség része a mágneses fehértábla, a vetítő és a hozzá tartozó vetítővászon, amelyek biztosítják a professzionális és gördülékeny prezentációk lebonyolítását. A termek kényelmes, ergonomikus berendezése és kellemes belső kialakítása hozzájárul a hatékony tanulási, illetve munkakörnyezethez.</p>
+                <h4><?= $lang['rent-classroom']['desc']['h2'] ?></h4>
+                <p><?= $lang['rent-classroom']['desc']['p2'] ?></p>
 
-                <h4>Igény szerint catering szolgáltatás</h4>
-                <p>Igény esetén catering szolgáltatást is biztosítunk, legyen szó egyszerű italbekészítésről (kávé, tea, ásványvíz) vagy akár komplett étkezésről. Ezzel segítjük a rendezvények zavartalan és komfortos lebonyolítását.</p>
+                <h4><?= $lang['rent-classroom']['desc']['h3'] ?></h4>
+                <p><?= $lang['rent-classroom']['desc']['p3'] ?></p>
 
-                <h4>Könnyű megközelíthetőség</h4>
-                <p>A helyszín tömegközlekedéssel is könnyen megközelíthető: Kelenföld vasútállomástól mindössze 10 percre található vonattal vagy helyközi buszjárattal. Ez különösen előnyös azok számára, akik vidékről érkeznek, de a budapesti résztvevők számára is kényelmesen elérhető.</p>
+                <h4><?= $lang['rent-classroom']['desc']['h4'] ?></h4>
+                <p><?= $lang['rent-classroom']['desc']['p4'] ?></p>
 
-                <h4>Ideális választás oktatási célú rendezvényekhez</h4>
-                <p>Amennyiben egy modern, jól felszerelt és könnyen megközelíthető helyszínt keres tanfolyamok, céges tréningek vagy más oktatási célú rendezvények lebonyolításához, nálunk megtalálja a megfelelő megoldást.</p>
+                <h4><?= $lang['rent-classroom']['desc']['h5'] ?></h4>
+                <p><?= $lang['rent-classroom']['desc']['p5'] ?></p>
             </div>
         </div>
     </div>

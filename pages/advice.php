@@ -4,7 +4,7 @@
 <head>
     <?php include "include/head.php"; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanácsaadás | RDR2003</title>
+    <title><?= $lang['advice-page']['title']?> | RDR2003</title>
     <link rel="stylesheet" href="css/tanacsadas.css">
 </head>
 
@@ -16,66 +16,63 @@
 
         <div class="row information">
             <div class="col-lg-6 col-md-12">
-                <h1>Tanácsadás</h1>
-                <p>Több mint 20 éve állunk partnereink rendelkezésére az ADR biztonsági tanácsadás területén, folyamatosan bővülő, magasan képzett szakértői csapatunkkal. Számos iparági területen szereztünk mélyreható tapasztalatot, a veszélyes áru szállításának minden szegmensét átfogva. Munkánkat nem sablonok szerint, hanem a cégek egyedi működésére szabva, precízen és naprakész tudással végezzük. Ügyfeleink számára nemcsak jogszabályi megfelelést, hanem valódi biztonságot és üzleti előnyt teremtünk.</p>
+                <h1><?= $lang['advice-page']['title']?></h1>
+                <p><?= $lang['advice-page']['content1']?></p>
             </div>
             <div class="col-lg-6 col-md-12">
-                <img src="imgs/pexels-cowomen-1058097-2041627.jpg" alt="">
+                <img src="imgs/pexels-cowomen-1058097-2041627.jpg" alt="<?= $lang['advice-page']['title']?> img">
             </div>
         </div>
         <div class="row information">
             <div class="col-lg-6 col-md-12">
-                <img src="imgs/pexels-seven11nash-380769.jpg" alt="">
+                <img src="imgs/pexels-seven11nash-380769.jpg" alt="<?= $lang['advice-page']['title']?> img">
             </div>
             <div class="col-lg-6 col-md-12">
-                <h2>Országos veszélyesáru-szállítási biztonsági tanácsadói szolgáltatás</h2>
-                <p>A 25/2014. (IV. 30.) NFM rendelet előírásai szerint minden vállalkozás, amely Magyarországon veszélyes áru vagy veszélyes hulladék közúti szállításával foglalkozik, köteles legalább egy veszélyesáru-szállítási biztonsági tanácsadót megbízni. Cégünk vállalja a veszélyesáru-szállítási biztonsági tanácsadói feladatok teljes körű ellátását Magyarország egész területén. Segítünk a jogszabályi előírások betartásában, a szállítási folyamatok biztonságos megszervezésében, valamint támogatjuk a hatósági ellenőrzésekre való felkészülést is.</p>
-
-                <p><strong>Forduljon hozzánk bizalommal, ha tapasztalt és megbízható szakértőre van szüksége!</strong></p>
+                <h2><?= $lang['advice-page']['h2']?></h2>
+                <p><?= $lang['advice-page']['content2']?></p>
+                <p><strong></strong><?= $lang['advice-page']['content3']?></p>
 
             </div>
         </div>
 
         <div class="services">
-            <h2>Szolgáltatásaink</h2>
+            <h2><?= $lang['advice-page']['services']['h2']?></h2>
             <div class="service-item">
-                <h3>Oktatás</h3>
-                <p>ADR 1.3 fejezete szerinti oktatás.</p>
+                <h3><?= $lang['advice-page']['services']['info-1-h3']?></h3>
+                <p><?= $lang['advice-page']['services']['info-1-p']?></p>
             </div>
             <div class="service-item">
-                <h3>Tanácsadás</h3>
-                <p>Általános tanácsadás.</p>
+                <h3><?= $lang['advice-page']['services']['info-2-h3']?></h3>
+                <p><?= $lang['advice-page']['services']['info-2-p']?></p>
             </div>
             <div class="service-item">
-                <h3>Jogszabályok vizsgálata</h3>
-                <p>Jogszabályoknak való megfelelés vizsgálata.</p>
+                <h3><?= $lang['advice-page']['services']['info-3-h3']?></h3>
+                <p><?= $lang['advice-page']['services']['info-3-p']?></p>
             </div>
             <div class="service-item">
-                <h3>Telephelyi bejárás</h3>
-                <p>Telephelyi bejárások.</p>
+                <h3><?= $lang['advice-page']['services']['info-4-h3']?></h3>
+                <p><?= $lang['advice-page']['services']['info-4-p']?></p>
             </div>
             <div class="service-item">
-                <h3>Csomagolóeszközök tanácsadás</h3>
-                <p>Csomagolóeszközök minősítésével kapcsolatos tanácsadás.</p>
+                <h3><?= $lang['advice-page']['services']['info-5-h3']?></h3>
+                <p><?= $lang['advice-page']['services']['info-5-p']?></p>
             </div>
             <div class="service-item">
-                <h3>Felszerelések beszerzése</h3>
-                <p>ADR felszerelések, bárcák, táblák, jelölések beszerzése.</p>
+                <h3><?= $lang['advice-page']['services']['info-6-h3']?></h3>
+                <p><?= $lang['advice-page']['services']['info-6-p']?></p>
             </div>
         </div>
         </div>
 
 
         <div class="when-needed">
-            <h2>A tanácsadó alkalmazása mikor szükséges?</h2>
+            <h2><?= $lang['advice-page']['when-needed']['h2']?></h2>
             <ul class="checklist">
-                <li><span class="checkmark">✔</span> Veszélyes áru telephelyen kívüli szállítása</li>
-                <li><span class="checkmark">✔</span> Veszélyes áru feladása</li>
-                <li><span class="checkmark">✔</span> Veszélyes áru ideiglenes tárolása</li>
-                <li><span class="checkmark">✔</span> A veszélyes áru becsomagolása, töltése, be- és kirakodása,
-                    ürítése</li>
-                <li><span class="checkmark">✔</span> Veszélyes hulladékok csomagolása, szállítása, begyűjtése,
-                    kirakodása</li>
+                <li><span class="checkmark">✔</span> <?= $lang['advice-page']['when-needed']['li1']?></li>
+                <li><span class="checkmark">✔</span> <?= $lang['advice-page']['when-needed']['li2']?></li>
+                <li><span class="checkmark">✔</span> <?= $lang['advice-page']['when-needed']['li3']?></li>
+                <li><span class="checkmark">✔</span> <?= $lang['advice-page']['when-needed']['li4']?></li>
+                <li><span class="checkmark">✔</span> <?= $lang['advice-page']['when-needed']['li5']?></li>
             </ul>
         </div>
 

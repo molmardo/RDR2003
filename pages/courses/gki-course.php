@@ -12,101 +12,101 @@
 
     <div class="container">
         <div class="adr">
-            <img src="imgs/pexels-eduardo199o9-178988127-17824889.jpg" alt="GKI Tanfolyam" class="header-img">
+            <img src="imgs/pexels-eduardo199o9-178988127-17824889.jpg" alt="<?= $lang['gki-page']['title'] ?>" class="header-img">
             <div class="adr-data">
-                <h1 class="text-center">GKI Tanfolyamok</h1>
+                <h1 class="text-center"><?= $lang['gki-page']['title'] ?></h1>
 
                 <section>
-                    <h2>Vizsga nélküli GKI tanfolyam</h2>
-                    <p><strong>Képzés típusa:</strong> E-learning (online, E-titán rendszerben) – otthon önállóan elvégezhető.</p>
-                    <p><strong>Szimulátoros tanfolyam:</strong> 5 óra (kötelező a GKI kártya megszerzéséhez). Időpontot a tanfolyam elkezdése után egyeztetünk.</p>
-                    <p><strong>Vizsga:</strong> Modulzáró teszt a tananyag végén.</p>
+                    <h2><?= $lang['gki-page']['section1']['h2'] ?></h2>
+                    <p><strong><?= $lang['gki-page']['section1']['type_label'] ?></strong><?= $lang['gki-page']['section1']['type'] ?></p>
+                    <p><strong><?= $lang['gki-page']['section1']['sim_label'] ?></strong><?= $lang['gki-page']['section1']['sim'] ?></p>
+                    <p><strong><?= $lang['gki-page']['section1']['exam_label'] ?></strong><?= $lang['gki-page']['section1']['exam'] ?></p>
                     <div class="highlight">
                         <ul>
-                            <li>Csak érvényes magyarországi GKI kártyával rendelkező hallgatók vehetnek részt.</li>
-                            <li>Akinek nincs GKI kártyája, csak vizsgás tanfolyamot választhat.</li>
-                            <li>A meghosszabbítás a kártya lejárta előtt legkorábban 6 hónappal lehetséges.</li>
-                            <li>Az új kártya érvényessége a régi lejáratától számítódik.</li>
+                            <li><?= $lang['gki-page']['section1']['li1'] ?></li>
+                            <li><?= $lang['gki-page']['section1']['li2'] ?></li>
+                            <li><?= $lang['gki-page']['section1']['li3'] ?></li>
+                            <li><?= $lang['gki-page']['section1']['li4'] ?></li>
                         </ul>
                     </div>
                 </section>
 
                 <section>
-                    <h2>Vizsgás GKI tanfolyam</h2>
-                    <p><strong>Képzés típusa:</strong> E-learning (online, E-titán rendszerben) – otthon önállóan elvégezhető.</p>
-                    <p><strong>Szimulátoros tanfolyam:</strong> 5 óra (kötelező a GKI kártya megszerzéséhez). Időpontot a tanfolyam elkezdése után egyeztetünk.</p>
-                    <p><strong>Vizsga:</strong> Számítógépes vizsga vizsgaközpontban.</p>
+                    <h2><?= $lang['gki-page']['section2']['h2'] ?></h2>
+                    <p><strong><?= $lang['gki-page']['section2']['type_label'] ?></strong><?= $lang['gki-page']['section2']['type'] ?></p>
+                    <p><strong><?= $lang['gki-page']['section2']['sim_label'] ?></strong><?= $lang['gki-page']['section2']['sim'] ?></p>
+                    <p><strong><?= $lang['gki-page']['section2']['exam_label'] ?></strong><?= $lang['gki-page']['section2']['exam'] ?></p>
                 </section>
 
                 <section>
-                    <h2>Jelentkezéshez szükséges dokumentumok</h2>
+                    <h2><?= $lang['gki-page']['section3']['h2'] ?></h2>
                     <ul>
-                        <li>Személyigazolvány</li>
-                        <li>Lakcímkártya</li>
-                        <li>Jogosítvány (érvényes)</li>
-                        <li>GKI kártya</li>
-                        <li>Telefonszám</li>
-                        <li>E-mail cím (nem elfogadott: freemail.hu, citromail.hu, gmail.hu)</li>
-                        <li>1 db igazolványkép</li>
+                        <li><?= $lang['gki-page']['section3']['li1'] ?></li>
+                        <li><?= $lang['gki-page']['section3']['li2'] ?></li>
+                        <li><?= $lang['gki-page']['section3']['li3'] ?></li>
+                        <li><?= $lang['gki-page']['section3']['li4'] ?></li>
+                        <li><?= $lang['gki-page']['section3']['li5'] ?></li>
+                        <li><?= $lang['gki-page']['section3']['li6'] ?></li>
+                        <li><?= $lang['gki-page']['section3']['li7'] ?></li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>Tanfolyam díjak</h2>
+                    <h2><?= $lang['gki-page']['section4']['h2'] ?></h2>
                     <table>
                         <thead>
                             <tr>
-                                <th>Tanfolyam típus</th>
-                                <th>Díj (Ft)</th>
+                                <th><?= $lang['gki-page']['section4']['th1'] ?></th>
+                                <th><?= $lang['gki-page']['section4']['th2'] ?></th>
                             </tr>
                         </thead>
                         <tbody class="price">
                             <tr>
-                                <td>GKI tehergépkocsi-vezetői továbbképző vizsgás (CT)</td>
-                                <td>159.000</td>
+                                <td><?= $lang['gki-page']['section4']['row1']['name'] ?></td>
+                                <td><?= $lang['gki-page']['section4']['row1']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>GKI tehergépkocsi-vezetői továbbképző vizsga nélküli (CTVN)</td>
-                                <td>159.000</td>
+                                <td><?= $lang['gki-page']['section4']['row2']['name'] ?></td>
+                                <td><?= $lang['gki-page']['section4']['row2']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>GKI autóbuszvezetői továbbképző vizsgás (DT)</td>
-                                <td>159.000</td>
+                                <td><?= $lang['gki-page']['section4']['row3']['name'] ?></td>
+                                <td><?= $lang['gki-page']['section4']['row3']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>GKI autóbuszvezetői továbbképző vizsga nélküli (DTVN)</td>
-                                <td>159.000</td>
+                                <td><?= $lang['gki-page']['section4']['row4']['name'] ?></td>
+                                <td><?= $lang['gki-page']['section4']['row4']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>GKI összevont továbbképző vizsgás (CDT)</td>
-                                <td>189.000</td>
+                                <td><?= $lang['gki-page']['section4']['row5']['name'] ?></td>
+                                <td><?= $lang['gki-page']['section4']['row5']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>GKI összevont továbbképző vizsga nélküli (CDTVN)</td>
-                                <td>189.000</td>
+                                <td><?= $lang['gki-page']['section4']['row6']['name'] ?></td>
+                                <td><?= $lang['gki-page']['section4']['row6']['price'] ?></td>
                             </tr>
                         </tbody>
                     </table>
                     <div class="highlight">
-                        <p><strong>Kedvezmény:</strong> Kedvezménykártyával 10.000 Ft kedvezményt biztosítunk!</p>
-                        <p><em>Érvényes: 2024. január 26-tól</em></p>
+                        <p><strong><?= $lang['gki-page']['section4']['discount_label'] ?></strong> <?= $lang['gki-page']['section4']['discount'] ?></p>
+                        <p><em><?= $lang['gki-page']['section4']['valid_from'] ?></em></p>
                     </div>
                 </section>
 
                 <section>
-                    <h2>Jelentkezés</h2>
+                    <h2><?= $lang['gki-page']['section5']['h2'] ?></h2>
                     <ul>
-                        <li>Melyik tanfolyamra jelentkezik</li>
-                        <li>Számlázási adatok</li>
-                        <li>Kapcsolattartó neve és elérhetősége</li>
+                        <li><?= $lang['gki-page']['section5']['li1'] ?></li>
+                        <li><?= $lang['gki-page']['section5']['li2'] ?></li>
+                        <li><?= $lang['gki-page']['section5']['li3'] ?></li>
                     </ul>
                     <?php include "include/course-application-form.php"; ?>
-
                 </section>
 
             </div>
         </div>
     </div>
+
 
     <?php include "include/footer.php"; ?>
 </body>

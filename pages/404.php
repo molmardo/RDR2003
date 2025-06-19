@@ -15,13 +15,12 @@
 <body>
     <?php include "include/navigationbar.php"; ?>
 <br><br><br><br><br><br>
-    <h2>
-        404
-        <br>
-        Úgy tűnik nem található semmi ezen a helyen.
-        <br>
-        Lehet, hogy ezt az oldalt törölték, vagy nem is létezett.
-    </h2>
+<h2>
+    <?= $lang['404']['title'] ?><br>
+    <?= $lang['404']['line1'] ?><br>
+    <?= $lang['404']['line2'] ?>
+</h2>
+
 </body>
 
 </html>

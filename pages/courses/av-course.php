@@ -12,99 +12,98 @@
 
     <div class="container">
         <div class="adr">
-            <img src="imgs/pexels-quintingellar-2199293.jpg" alt="AV Tanfolyam" class="header-img">
+            <img src="imgs/pexels-quintingellar-2199293.jpg" alt="<?= $lang['av-page']['title'] ?>" class="header-img">
             <div class="adr-data">
-                <h1 class="text-center">AV Tanfolyamok</h1>
+                <h1 class="text-center"><?= $lang['av-page']['title'] ?></h1>
 
                 <section>
-                    <h2>Tanfolyami díjak</h2>
+                    <h2><?= $lang['av-page']['fees']['h2'] ?></h2>
                     <table>
                         <thead>
                             <tr>
-                                <th>Képzés típusa</th>
-                                <th>Díj (Ft)</th>
+                                <th><?= $lang['av-page']['fees']['th1'] ?></th>
+                                <th><?= $lang['av-page']['fees']['th2'] ?></th>
                             </tr>
                         </thead>
                         <tbody class="price">
                             <tr>
-                                <td>Árufuvarozói szakmai irányítói alapképesítő (AVN)</td>
-                                <td>299.000</td>
+                                <td><?= $lang['av-page']['fees']['row1']['name'] ?></td>
+                                <td><?= $lang['av-page']['fees']['row1']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>Árufuvarozói szakmai irányítói továbbképző (AVT)</td>
-                                <td>199.000</td>
+                                <td><?= $lang['av-page']['fees']['row2']['name'] ?></td>
+                                <td><?= $lang['av-page']['fees']['row2']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>Személyszállítói szakmai irányítói alapképesítő (BV)</td>
-                                <td>299.000</td>
+                                <td><?= $lang['av-page']['fees']['row3']['name'] ?></td>
+                                <td><?= $lang['av-page']['fees']['row3']['price'] ?></td>
                             </tr>
                             <tr>
-                                <td>Személyszállítói szakmai irányítói továbbképző (BVT)</td>
-                                <td>199.000</td>
+                                <td><?= $lang['av-page']['fees']['row4']['name'] ?></td>
+                                <td><?= $lang['av-page']['fees']['row4']['price'] ?></td>
                             </tr>
                         </tbody>
                     </table>
                     <div class="highlight">
-                        <p><em>Érvényes: 2023. október 01-től</em></p>
+                        <p><em><?= $lang['av-page']['fees']['valid_from'] ?></em></p>
                     </div>
                 </section>
 
                 <section>
-                    <h2>Képzés formája</h2>
-                    <p>A szakmai irányítói tanfolyam online formában végezhető az E-titán rendszer felületén.</p>
+                    <h2><?= $lang['av-page']['format']['h2'] ?></h2>
+                    <p><?= $lang['av-page']['format']['p'] ?></p>
                     <ul>
-                        <li>Nincs helyhez vagy időhöz kötve, saját tempóban végezhető.</li>
-                        <li>Regisztráció után azonnal elérhető.</li>
+                        <li><?= $lang['av-page']['format']['li1'] ?></li>
+                        <li><?= $lang['av-page']['format']['li2'] ?></li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>Konzultációs nap</h2>
-                    <p>Az online tananyag mellett egy egynapos személyes konzultációs alkalmat is biztosítunk:</p>
+                    <h2><?= $lang['av-page']['consultation']['h2'] ?></h2>
+                    <p><?= $lang['av-page']['consultation']['p'] ?></p>
                     <ul>
-                        <li>Időpont: szombati vagy vasárnapi napokon.</li>
-                        <li>Helyszín: 2045 Törökbálint, Tópark utca 1/A, földszint (RDR 2003 Kft.).</li>
+                        <li><?= $lang['av-page']['consultation']['li1'] ?></li>
+                        <li><?= $lang['av-page']['consultation']['li2'] ?></li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>Vizsga információk</h2>
-                    <p>A tanfolyam elvégzése után kötelező vizsgát tenni a vizsgaközpontban.</p>
+                    <h2><?= $lang['av-page']['exam']['h2'] ?></h2>
+                    <p><?= $lang['av-page']['exam']['p'] ?></p>
                     <ul>
-                        <li><strong>Továbbképzés esetén:</strong> Számítógépes teszt és esettanulmány.</li>
-                        <li><strong>Alapképzés esetén:</strong> Számítógépes teszt, esettanulmány és szóbeli vizsga.</li>
+                        <li><strong><?= $lang['av-page']['exam']['li1_label'] ?></strong> <?= $lang['av-page']['exam']['li1'] ?></li>
+                        <li><strong><?= $lang['av-page']['exam']['li2_label'] ?></strong> <?= $lang['av-page']['exam']['li2'] ?></li>
                     </ul>
                     <div class="highlight">
-                        <p><strong>Fontos:</strong> Vizsgaidőpont csak az online tanfolyam sikeres teljesítése után foglalható!</p>
+                        <p><strong><?= $lang['av-page']['exam']['note_label'] ?></strong> <?= $lang['av-page']['exam']['note'] ?></p>
                     </div>
                 </section>
 
                 <section>
-                    <h2>Jelentkezéshez szükséges dokumentumok</h2>
+                    <h2><?= $lang['av-page']['documents']['h2'] ?></h2>
                     <ul>
-                        <li>Személyazonosító igazolvány</li>
-                        <li>Lakcímkártya</li>
-                        <li>Szakmai irányító bizonyítvány (első sikeres vizsgát igazoló dokumentum)</li>
+                        <li><?= $lang['av-page']['documents']['li1'] ?></li>
+                        <li><?= $lang['av-page']['documents']['li2'] ?></li>
+                        <li><?= $lang['av-page']['documents']['li3'] ?></li>
                     </ul>
                     <div class="highlight">
-                        <p><strong>Kiemelten fontos:</strong> A vizsgára csak az eredeti bizonyítvány bemutatásával lehet jelentkezni, másolatot a Vizsgaközpont nem fogad el!</p>
+                        <p><strong><?= $lang['av-page']['documents']['note_label'] ?></strong> <?= $lang['av-page']['documents']['note'] ?></p>
                     </div>
                 </section>
 
                 <section>
-                    <h2>Jelentkezés</h2>
+                    <h2><?= $lang['av-page']['registration']['h2'] ?></h2>
                     <ul>
-                        <li>Tanfolyam típusának megadása</li>
-                        <li>Számlázási adatok</li>
-                        <li>Kapcsolattartó neve és elérhetősége</li>
+                        <li><?= $lang['av-page']['registration']['li1'] ?></li>
+                        <li><?= $lang['av-page']['registration']['li2'] ?></li>
+                        <li><?= $lang['av-page']['registration']['li3'] ?></li>
                     </ul>
                     <?php include "include/course-application-form.php"; ?>
-
                 </section>
-
             </div>
         </div>
     </div>
+
 
     <?php include "include/footer.php"; ?>
 

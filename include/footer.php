@@ -31,7 +31,7 @@
         <div class="footer-section">
             <h3><?= $lang['footer']['documents']['h3'] ?></h3>
             <ul class="docs">
-                <li><a href="<?= navLink('documents/privacy-policy') ?>"><?= $lang['footer']['documents']['contact'] ?></a></li>
+                <li><a href="<?= navLink('documents/privacy-policy') ?>"><?= $lang['footer']['documents']['privacy-policy'] ?></a></li>
                 <li><a href="<?= navLink('documents/gdpr') ?>"><?= $lang['footer']['documents']['gdpr'] ?></a></li>
                 <li><a href="<?= navLink('documents/cookie-policy') ?>"><?= $lang['footer']['documents']['cookie-policy'] ?></a></li>
                 <li><a href="<?= navLink('documents/impressum') ?>"><?= $lang['footer']['documents']['impressum'] ?></a></li>
