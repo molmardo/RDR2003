@@ -65,7 +65,7 @@ $GLOBALS['currentPageSlug'] = $currentPageSlug; // Hozzáadás a GLOBALS-hoz
 
 // Ha a gyökérre érkezett a látogató (pl. csak /), akkor átirányítjuk az alapértelmezett nyelvi oldalra
 if ($routePath === '/' || $routePath === '') {
-    $redirectPath = $basePath . '/' . $GLOBALS['currentLang'] . '/home';
+    $redirectPath = $basePath . '/' . $GLOBALS['currentLang'] . '/';
     header("Location: " . $redirectPath);
     exit;
 }

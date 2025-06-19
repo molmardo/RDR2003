@@ -4,7 +4,7 @@
 <head>
     <?php include "include/head.php"; ?>
     <title>Furgon Bérlés</title>
-    <link rel="stylesheet" href="css/berles.css">
+    <link rel="stylesheet" href="css/rent.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mode_fan" />
 </head>
 
@@ -13,7 +13,7 @@
     <div class="container rent">
         <div class="row">
             <div class="col-lg-7 col-sm-12">
-                <img src="imgs/pexels-pixabay-159213.jpg" alt="" class="img-fluid">
+                <img src="imgs/pexels-pixabay-159213.jpg" alt="<?= $lang['rent-classroom']['contact']['title'] ?> img" class="img-fluid">
             </div>
             <div class="col-lg-5 col-sm-12 contact">
                 <h3><?= $lang['rent-classroom']['contact']['title'] ?></h3>
