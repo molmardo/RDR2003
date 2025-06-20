@@ -3,6 +3,13 @@ return [
     'default' => [
         'email' => "rdr2003@rdr2003.hu"
     ],
+    'metatags' => [
+    'description' => 'Comprehensive training solutions for hauliers: GKI, ADR, and AV courses and professional management training – all in one place by RDR 2003 Ltd.',
+    'keywords' => 'GKI course, ADR training, transport manager, haulage training, adult education, RDR 2003',
+    'og-title' => 'Comprehensive Haulage Training – GKI, ADR, AV | RDR 2003 Ltd.',
+    'og-description' => 'ADR and GKI courses in Hungary and Austria with flexible schedules, experienced instructors, and expert consulting.',
+    'og-site_name' => 'RDR 2003 Ltd.'
+],
     'navbar' => [
         'home' => 'Home',
         'courses' => 'Courses',
@@ -686,4 +693,39 @@ return [
             'p5' => 'If you are looking for a reliable, comfortable and well-equipped passenger vehicle...',
         ]
     ],
+    'basic-application-form' => [
+    'button' => 'I’m interested / I’d like an offer',
+    'title' => 'Form',
+    'firstname' => 'First Name',
+    'lastname' => 'Last Name',
+    'secondFirstname' => 'Second First Name (if any)',
+    'company' => 'Company Name',
+    'email' => 'Email',
+    'phone' => 'Phone Number',
+    'txt' => 'Message / How can we help?',
+    'privacy-part1' => 'I accept the ',
+    'privacy-part2' => 'privacy policy',
+    'sendBtn' => 'Send'
+],
+'course-application-form' => [
+    'button' => 'Application Form',
+    'title' => 'Application Form',
+    'lastname' => 'Last Name',
+    'firstname' => 'First Name',
+    'secondFirstname' => 'Second First Name (if any)',
+    'birthPlace' => 'Place of Birth',
+    'birthDate' => 'Date of Birth (yyyy.mm.dd)',
+    'motherName' => 'Mother\'s Name',
+    'email' => 'Email Address',
+    'phone' => 'Phone Number',
+    'licenseNumber' => 'Driver\'s License Number',
+    'adrCertificate' => 'Current ADR Certificate Validity (yyyy.mm.dd)',
+    'zipCode' => 'Postal Code',
+    'city' => 'City',
+    'street' => 'Street and House Number',
+    'nationality' => 'Nationality (only if not Hungarian)',
+    'gdprText' => 'I accept the ',
+    'gdprLink' => 'privacy policy',
+    'sendBtn' => 'Submit'
+]
 ];

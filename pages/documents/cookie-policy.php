@@ -7,7 +7,7 @@
     <link href="css/cookie-policy.css" rel="stylesheet">
 
 </head>
-
+,
 <body>
     <?php include "include/navigationbar.php"; ?>
 

@@ -3,6 +3,14 @@ return [
     'default' => [
         'email' => "rdr2003@rdr2003.hu"
     ],
+    'metatags' => [
+    'description' => 'Giải pháp đào tạo toàn diện cho ngành vận tải: Khóa học GKI, ADR, AV và đào tạo quản lý chuyên nghiệp – tất cả tại RDR 2003.',
+    'keywords' => 'Khóa học GKI, đào tạo ADR, quản lý vận tải, đào tạo ngành vận tải, giáo dục người lớn, RDR 2003',
+    'og-title' => 'Đào tạo vận tải toàn diện – GKI, ADR, AV | RDR 2003',
+    'og-description' => 'Các khóa học ADR và GKI tại Hungary và Áo với lịch học linh hoạt, giảng viên giàu kinh nghiệm và tư vấn chuyên sâu.',
+    'og-site_name' => 'RDR 2003'
+],
+
     'navbar' => [
         'home' => 'Trang chủ',
         'courses' => 'Khóa học',
@@ -686,4 +694,41 @@ return [
             'p5' => 'Nếu bạn đang tìm kiếm một phương tiện chở khách đáng tin cậy, thoải mái và được trang bị tốt...',
         ]
     ],
+    'basic-application-form' => [
+    'button' => 'Tôi quan tâm / Tôi muốn nhận báo giá',
+    'title' => 'Biểu mẫu',
+    'firstname' => 'Tên',
+    'lastname' => 'Họ',
+    'secondFirstname' => 'Tên thứ hai (nếu có)',
+    'company' => 'Tên công ty',
+    'email' => 'Email',
+    'phone' => 'Số điện thoại',
+    'txt' => 'Tin nhắn / Chúng tôi có thể giúp gì cho bạn?',
+    'privacy-part1' => 'Tôi đồng ý với ',
+    'privacy-part2' => 'chính sách bảo mật',
+    'sendBtn' => 'Gửi'
+],
+'course-application-form' => [
+    'button' => 'Biểu mẫu đăng ký',
+    'title' => 'Biểu mẫu đăng ký',
+    'lastname' => 'Họ',
+    'firstname' => 'Tên',
+    'secondFirstname' => 'Tên đệm thứ hai (nếu có)',
+    'birthPlace' => 'Nơi sinh',
+    'birthDate' => 'Ngày sinh (yyyy.mm.dd)',
+    'motherName' => 'Tên mẹ',
+    'email' => 'Địa chỉ email',
+    'phone' => 'Số điện thoại',
+    'licenseNumber' => 'Số giấy phép lái xe',
+    'adrCertificate' => 'Hiệu lực của chứng chỉ ADR hiện tại (yyyy.mm.dd)',
+    'zipCode' => 'Mã bưu chính',
+    'city' => 'Thành phố',
+    'street' => 'Đường và số nhà',
+    'nationality' => 'Quốc tịch (chỉ nếu không phải người Hungary)',
+    'gdprText' => 'Tôi chấp nhận ',
+    'gdprLink' => 'chính sách bảo mật',
+    'sendBtn' => 'Gửi'
+]
+
+
 ];

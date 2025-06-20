@@ -23,7 +23,7 @@ $baseRoutes = [
     '/form_functions/basic-application-form_mail' => 'pages/form_functions/basic-application-form_mail.php',
     '/form_functions/course-application-form_mail' => 'pages/form_functions/course-application-form_mail.php',
     '/form_functions/send_contact_mail' => 'pages/form_functions/send_contact_mail.php',
-    '/home' => 'pages/home.php',
+    '/report' => 'pages/report.php',
     
 ];
 
