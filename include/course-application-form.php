@@ -124,7 +124,7 @@
         const form = this;
         const formData = new FormData(form);
 
-        fetch('course-application-form_mail', {
+        fetch('form_functions/course-application-form_mail', {
                 method: 'POST',
                 body: formData
             })
