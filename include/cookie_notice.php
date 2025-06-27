@@ -1,4 +1,3 @@
-
 <style>
     .cookie-notice {
         position: fixed;

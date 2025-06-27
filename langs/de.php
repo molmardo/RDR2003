@@ -4,12 +4,12 @@ return [
         'email' => "rdr2003@rdr2003.hu"
     ],
     'metatags' => [
-    'description' => 'Umfassende Schulungslösungen für Transportunternehmen: GKI-, ADR- und AV-Kurse sowie Schulungen für Verkehrsleiter – alles an einem Ort bei RDR 2003 Kft.',
-    'keywords' => 'GKI Kurs, ADR Schulung, Verkehrsleiter, Transportausbildung, Erwachsenenbildung, RDR 2003',
-    'og-title' => 'Umfassende Transportschulungen – GKI, ADR, AV | RDR 2003 Kft.',
-    'og-description' => 'ADR- und GKI-Kurse in Ungarn und Österreich mit flexiblen Terminen, erfahrenen Dozenten und professioneller Beratung.',
-    'og-site_name' => 'RDR 2003 Kft.'
-],
+        'description' => 'Umfassende Schulungslösungen für Transportunternehmen: GKI-, ADR- und AV-Kurse sowie Schulungen für Verkehrsleiter – alles an einem Ort bei RDR 2003 Kft.',
+        'keywords' => 'GKI Kurs, ADR Schulung, Verkehrsleiter, Transportausbildung, Erwachsenenbildung, RDR 2003',
+        'og-title' => 'Umfassende Transportschulungen – GKI, ADR, AV | RDR 2003 Kft.',
+        'og-description' => 'ADR- und GKI-Kurse in Ungarn und Österreich mit flexiblen Terminen, erfahrenen Dozenten und professioneller Beratung.',
+        'og-site_name' => 'RDR 2003 Kft.'
+    ],
 
     'navbar' => [
         'home' => 'Startseite',
@@ -695,38 +695,38 @@ return [
         ]
     ],
     'basic-application-form' => [
-    'button' => 'Ich bin interessiert / Ich möchte ein Angebot',
-    'title' => 'Formular',
-    'firstname' => 'Vorname',
-    'lastname' => 'Nachname',
-    'secondFirstname' => 'Zweiter Vorname (falls vorhanden)',
-    'company' => 'Firmenname',
-    'email' => 'E-Mail',
-    'phone' => 'Telefonnummer',
-    'txt' => 'Nachricht / Wobei können wir helfen?',
-    'privacy-part1' => 'Ich akzeptiere die ',
-    'privacy-part2' => 'Datenschutzerklärung',
-    'sendBtn' => 'Senden'
-],
-'course-application-form' => [
-    'button' => 'Bewerbungsformular',
-    'title' => 'Bewerbungsformular',
-    'lastname' => 'Nachname',
-    'firstname' => 'Vorname',
-    'secondFirstname' => 'Zweiter Vorname (falls vorhanden)',
-    'birthPlace' => 'Geburtsort',
-    'birthDate' => 'Geburtsdatum (JJJJ.MM.TT)',
-    'motherName' => 'Name der Mutter',
-    'email' => 'E-Mail-Adresse',
-    'phone' => 'Telefonnummer',
-    'licenseNumber' => 'Führerscheinnummer',
-    'adrCertificate' => 'Gültigkeit des aktuellen ADR-Zertifikats (JJJJ.MM.TT)',
-    'zipCode' => 'Postleitzahl',
-    'city' => 'Stadt',
-    'street' => 'Straße und Hausnummer',
-    'nationality' => 'Staatsangehörigkeit (nur wenn nicht ungarisch)',
-    'gdprText' => 'Ich akzeptiere die ',
-    'gdprLink' => 'Datenschutzerklärung',
-    'sendBtn' => 'Absenden'
-]
+        'button' => 'Ich bin interessiert / Ich möchte ein Angebot',
+        'title' => 'Formular',
+        'firstname' => 'Vorname',
+        'lastname' => 'Nachname',
+        'secondFirstname' => 'Zweiter Vorname (falls vorhanden)',
+        'company' => 'Firmenname',
+        'email' => 'E-Mail',
+        'phone' => 'Telefonnummer',
+        'txt' => 'Nachricht / Wobei können wir helfen?',
+        'privacy-part1' => 'Ich akzeptiere die ',
+        'privacy-part2' => 'Datenschutzerklärung',
+        'sendBtn' => 'Senden'
+    ],
+    'course-application-form' => [
+        'button' => 'Bewerbungsformular',
+        'title' => 'Bewerbungsformular',
+        'lastname' => 'Nachname',
+        'firstname' => 'Vorname',
+        'secondFirstname' => 'Zweiter Vorname (falls vorhanden)',
+        'birthPlace' => 'Geburtsort',
+        'birthDate' => 'Geburtsdatum (JJJJ.MM.TT)',
+        'motherName' => 'Name der Mutter',
+        'email' => 'E-Mail-Adresse',
+        'phone' => 'Telefonnummer',
+        'licenseNumber' => 'Führerscheinnummer',
+        'adrCertificate' => 'Gültigkeit des aktuellen ADR-Zertifikats (JJJJ.MM.TT)',
+        'zipCode' => 'Postleitzahl',
+        'city' => 'Stadt',
+        'street' => 'Straße und Hausnummer',
+        'nationality' => 'Staatsangehörigkeit (nur wenn nicht ungarisch)',
+        'gdprText' => 'Ich akzeptiere die ',
+        'gdprLink' => 'Datenschutzerklärung',
+        'sendBtn' => 'Absenden'
+    ]
 ];

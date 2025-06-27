@@ -4,12 +4,12 @@ return [
         'email' => "rdr2003@rdr2003.hu"
     ],
     'metatags' => [
-    'description' => '为运输行业提供全面培训解决方案：GKI、ADR、AV课程及专业管理培训 – 尽在 RDR 2003 公司。',
-    'keywords' => 'GKI 课程, ADR 培训, 运输管理, 运输行业培训, 成人教育, RDR 2003',
-    'og-title' => '运输行业综合培训 – GKI、ADR、AV | RDR 2003 公司',
-    'og-description' => '在匈牙利和奥地利提供的 ADR 和 GKI 培训课程，时间灵活，讲师经验丰富，专业咨询支持。',
-    'og-site_name' => 'RDR 2003 公司'
-],
+        'description' => '为运输行业提供全面培训解决方案：GKI、ADR、AV课程及专业管理培训 – 尽在 RDR 2003 公司。',
+        'keywords' => 'GKI 课程, ADR 培训, 运输管理, 运输行业培训, 成人教育, RDR 2003',
+        'og-title' => '运输行业综合培训 – GKI、ADR、AV | RDR 2003 公司',
+        'og-description' => '在匈牙利和奥地利提供的 ADR 和 GKI 培训课程，时间灵活，讲师经验丰富，专业咨询支持。',
+        'og-site_name' => 'RDR 2003 公司'
+    ],
 
     'navbar' => [
         'home' => '首页',
@@ -695,39 +695,39 @@ return [
         ],
     ],
     'basic-application-form' => [
-    'button' => '我感兴趣 / 我想要报价',
-    'title' => '表格',
-    'firstname' => '名字',
-    'lastname' => '姓氏',
-    'secondFirstname' => '第二个名字（如有）',
-    'company' => '公司名称',
-    'email' => '电子邮件',
-    'phone' => '电话号码',
-    'txt' => '留言 / 我们能为您做些什么？',
-    'privacy-part1' => '我接受',
-    'privacy-part2' => '隐私政策',
-    'sendBtn' => '发送'
-],
-'course-application-form' => [
-    'button' => '报名表',
-    'title' => '报名表',
-    'lastname' => '姓',
-    'firstname' => '名',
-    'secondFirstname' => '第二名字（如有）',
-    'birthPlace' => '出生地点',
-    'birthDate' => '出生日期（yyyy.mm.dd）',
-    'motherName' => '母亲姓名',
-    'email' => '电子邮箱地址',
-    'phone' => '电话号码',
-    'licenseNumber' => '驾驶证号码',
-    'adrCertificate' => '当前ADR证书有效期（yyyy.mm.dd）',
-    'zipCode' => '邮政编码',
-    'city' => '城市',
-    'street' => '街道和门牌号',
-    'nationality' => '国籍（仅非匈牙利人）',
-    'gdprText' => '我接受 ',
-    'gdprLink' => '隐私政策',
-    'sendBtn' => '提交'
-]
+        'button' => '我感兴趣 / 我想要报价',
+        'title' => '表格',
+        'firstname' => '名字',
+        'lastname' => '姓氏',
+        'secondFirstname' => '第二个名字（如有）',
+        'company' => '公司名称',
+        'email' => '电子邮件',
+        'phone' => '电话号码',
+        'txt' => '留言 / 我们能为您做些什么？',
+        'privacy-part1' => '我接受',
+        'privacy-part2' => '隐私政策',
+        'sendBtn' => '发送'
+    ],
+    'course-application-form' => [
+        'button' => '报名表',
+        'title' => '报名表',
+        'lastname' => '姓',
+        'firstname' => '名',
+        'secondFirstname' => '第二名字（如有）',
+        'birthPlace' => '出生地点',
+        'birthDate' => '出生日期（yyyy.mm.dd）',
+        'motherName' => '母亲姓名',
+        'email' => '电子邮箱地址',
+        'phone' => '电话号码',
+        'licenseNumber' => '驾驶证号码',
+        'adrCertificate' => '当前ADR证书有效期（yyyy.mm.dd）',
+        'zipCode' => '邮政编码',
+        'city' => '城市',
+        'street' => '街道和门牌号',
+        'nationality' => '国籍（仅非匈牙利人）',
+        'gdprText' => '我接受 ',
+        'gdprLink' => '隐私政策',
+        'sendBtn' => '提交'
+    ]
 
 ];

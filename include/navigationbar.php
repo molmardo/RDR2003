@@ -62,9 +62,9 @@ $isHomepage = preg_match('#^/(' . implode('|', $availableLangs) . ')(/home|/inde
           <?php
           foreach ($availableLangs as $value) {
           ?>
-            <option value="<?= BASE_URL . '/' . $value . '/' . $routePath?>" <?= ($value == $currentLang) ? 'selected' : '' ?>><?= $value ?></a></option>
+            <option value="<?= BASE_URL . '/' . $value . '/' . $routePath ?>" <?= ($value == $currentLang) ? 'selected' : '' ?>><?= $value ?></a></option>
 
-            <!-- <option value=""><?= BASE_URL . '/' . $value . '/' . $routePath?></option> -->
+            <!-- <option value=""><?= BASE_URL . '/' . $value . '/' . $routePath ?></option> -->
           <?php
           }
           ?>

@@ -136,7 +136,7 @@
 </div>
 <script src="js/course-application-form.js"></script>
 <script>
-    document.getElementById('application-form').addEventListener('submit', function (e) {
+    document.getElementById('application-form').addEventListener('submit', function(e) {
         e.preventDefault();
         const form = this;
         const formData = new FormData(form);

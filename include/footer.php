@@ -4,14 +4,14 @@
         <div class="footer-section">
             <h3><?= $lang['footer']['quick-links']['h3'] ?></h3>
             <ul class="pages-links">
-                <li><a href="<?= navLink()?>"><?= $lang['footer']['quick-links']['home'] ?></a></li>
-                <li><a href="<?= navLink()?>#courese"><?= $lang['footer']['quick-links']['courses'] ?></a></li>
+                <li><a href="<?= navLink() ?>"><?= $lang['footer']['quick-links']['home'] ?></a></li>
+                <li><a href="<?= navLink() ?>#courese"><?= $lang['footer']['quick-links']['courses'] ?></a></li>
                 <li><a href="<?= navLink('advice') ?>"><?= $lang['footer']['quick-links']['advice'] ?></a></li>
                 <li><a href="<?= navLink('rent') ?>"><?= $lang['footer']['quick-links']['rent'] ?></a></li>
-                <li><a href="<?= navLink()?>#about-us"><?= $lang['footer']['quick-links']['about-us'] ?></a></li>
-                <li><a href="<?= navLink()?>#contact"><?= $lang['footer']['quick-links']['contact'] ?></a></li>
+                <li><a href="<?= navLink() ?>#about-us"><?= $lang['footer']['quick-links']['about-us'] ?></a></li>
+                <li><a href="<?= navLink() ?>#contact"><?= $lang['footer']['quick-links']['contact'] ?></a></li>
             </ul>
-            <h3><?= $lang['footer']['follow_us']?></h3>
+            <h3><?= $lang['footer']['follow_us'] ?></h3>
             <ul class="social-links">
                 <li><a href="https://www.facebook.com/rdr2003.hu" target="_blank"><i class="fab fa-facebook"></i></a></li>
             </ul>
@@ -49,10 +49,10 @@
             <ul class="data">
                 <li><span data-i18n="footer.data.h3">ÁKÓ:</span> <?php echo $footer_data['AKO'] ?? '-'; ?></li>
                 <li>VSM: <?php echo $footer_data['VSM'] ?? '-'; ?></li>
-                <li><?= $lang['footer']['data']['tax-number']?>: <?php echo $footer_data['ADOSZAM'] ?? '-'; ?></li>
-                <li><?= $lang['footer']['data']['company-registration-number']?>: <?php echo $footer_data['NYILVANTARTASI_SZAM'] ?? '-'; ?></li>
-                <li><?= $lang['footer']['data']['registration-number']?>: <?php echo $footer_data['CEGJEGYZEKSZAM'] ?? '-'; ?></li>
-                <li><?= $lang['footer']['data']['gdpr-contact-person']?>: adatvedelem@rdr2003.hu</li>
+                <li><?= $lang['footer']['data']['tax-number'] ?>: <?php echo $footer_data['ADOSZAM'] ?? '-'; ?></li>
+                <li><?= $lang['footer']['data']['company-registration-number'] ?>: <?php echo $footer_data['NYILVANTARTASI_SZAM'] ?? '-'; ?></li>
+                <li><?= $lang['footer']['data']['registration-number'] ?>: <?php echo $footer_data['CEGJEGYZEKSZAM'] ?? '-'; ?></li>
+                <li><?= $lang['footer']['data']['gdpr-contact-person'] ?>: adatvedelem@rdr2003.hu</li>
             </ul>
         </div>
 

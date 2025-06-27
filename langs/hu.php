@@ -3,11 +3,11 @@ return [
     'default' => [
         'email' => "rdr2003@rdr2003.hu"
     ],
-    'metatags'=>[
-        'description'=>'Komplex képzési megoldások fuvarozóknak: GKI, ADR, AV tanfolyamok és szakmai irányítói képzések egy helyen – RDR 2003 Kft.',
-        'keywords'=>'GKI tanfolyam, ADR képzés, szakmai irányító, fuvarozói oktatás, felnőttképzés, RDR 2003',
-        'og-title'=>'Komplex fuvarozói képzések – GKI, ADR, AV | RDR 2003 Kft',
-        'og-description'=>'ADR és GKI tanfolyamok Magyarországon és Ausztriában, rugalmas időpontokkal, tapasztalt oktatókkal és biztonságos tanácsadással.',
+    'metatags' => [
+        'description' => 'Komplex képzési megoldások fuvarozóknak: GKI, ADR, AV tanfolyamok és szakmai irányítói képzések egy helyen – RDR 2003 Kft.',
+        'keywords' => 'GKI tanfolyam, ADR képzés, szakmai irányító, fuvarozói oktatás, felnőttképzés, RDR 2003',
+        'og-title' => 'Komplex fuvarozói képzések – GKI, ADR, AV | RDR 2003 Kft',
+        'og-description' => 'ADR és GKI tanfolyamok Magyarországon és Ausztriában, rugalmas időpontokkal, tapasztalt oktatókkal és biztonságos tanácsadással.',
         'og-site_name' => ''
     ],
     'navbar' => [
@@ -693,21 +693,21 @@ return [
             'p5' => 'Ha megbízható, kényelmes és jól felszerelt személyszállító járművet keres...',
         ]
     ],
-    'basic-application-form'=>[
-        'button'=> 'Érdekel/Ajánlatot szeretnék',
-        'title'=>'Űrlap',
-        'firstname'=>'Keresztnév',
-        'lastname'=>'Vezetéknév',
-        'secondFirstname'=>'Keresztnév 2, ha van',
-        'company'=>'Cégnév',
-        'email'=>'Email',
-        'phone'=>'Telefonszám',
-        'txt'=>'Üzenet / Miben segíthetünk?',
-        'privacy-part1'=>'Elfogadom az ',
-        'privacy-part2'=>'adatkezelési tájékoztatót',
-        'sendBtn'=>'Küldés'
+    'basic-application-form' => [
+        'button' => 'Érdekel/Ajánlatot szeretnék',
+        'title' => 'Űrlap',
+        'firstname' => 'Keresztnév',
+        'lastname' => 'Vezetéknév',
+        'secondFirstname' => 'Keresztnév 2, ha van',
+        'company' => 'Cégnév',
+        'email' => 'Email',
+        'phone' => 'Telefonszám',
+        'txt' => 'Üzenet / Miben segíthetünk?',
+        'privacy-part1' => 'Elfogadom az ',
+        'privacy-part2' => 'adatkezelési tájékoztatót',
+        'sendBtn' => 'Küldés'
     ],
-     'course-application-form' => [
+    'course-application-form' => [
         'button' => 'Jelentkezési űrlap',
         'title' => 'Jelentkezési űrlap',
         'lastname' => 'Vezetéknév',
