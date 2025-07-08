@@ -613,9 +613,9 @@ return [
             'h2' => 'Chỗ ở',
             'place' => 'EDER PANSION',
             'with_breakfast' => 'có bữa sáng',
-            'li1' => '1 phòng đơn: 44 Euro / 17.000 Ft',
-            'li2' => '2 phòng đôi: 33 Euro / 13.000 Ft',
-            'li3' => '3 phòng ba: 31 Euro / 12.000 Ft',
+            'li1' => 'Phòng đơn: 44 Euro hoặc 17.000 Ft /người/đêm',
+            'li2' => 'Phòng đôi: 33 Euro hoặc 13.000 Ft /người/đêm',
+            'li3' => 'Phòng ba: 31 Euro hoặc 12.000 Ft /người/đêm',
             'note' => 'Hạn chót hủy bỏ: Thứ Hai của tuần đào tạo.',
         ],
 

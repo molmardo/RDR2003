@@ -612,9 +612,9 @@ return [
             'h2' => 'Szállás',
             'place' => 'EDER PANSION',
             'with_breakfast' => 'reggelivel',
-            'li1' => '1 ágyas szoba: 44 Euro / 17.000 Ft',
-            'li2' => '2 ágyas szoba: 33 Euro / 13.000 Ft',
-            'li3' => '3 ágyas szoba: 31 Euro / 12.000 Ft',
+            'li1' => '1 ágyas szoba: 44 Euro vagy 17.000 Ft /fő/éj',
+            'li2' => '2 ágyas szoba: 33 Euro vagy 13.000 Ft /fő/éj',
+            'li3' => '3 ágyas szoba: 31 Euro vagy 12.000 Ft /fő/éj',
             'note' => 'Lemondási határidő: a képzés hetében, hétfőn.',
         ],
 

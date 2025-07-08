@@ -1,0 +1,123 @@
+.adr {
+    margin-top: 150px;
+    margin-bottom: 45px;
+    /* padding: 2rem; */
+    /* background-color: #fff; */
+    border-radius: 12px;
+    /* box-shadow: 0 0px 9px 1px rgba(0, 0, 0, 0.25); */
+}
+
+.adr-data {
+    padding: 1.5rem;
+}
+
+.header-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+
+.container h1,
+.container h2 {
+    color: var(--black);
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+.adr section:nth-child(3) ul {
+    list-style-type: none;
+}
+
+.highlight {
+    background-color: #e0f2f1;
+    padding: 0.5rem 1rem;
+    border-left: 4px solid var(--main);
+    margin: 1rem 0;
+    max-width: 60%;
+    font-size: 1.1rem;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 1.12rem;
+}
+
+th {
+    background-color: #ffc58f;
+    text-align: center;
+}
+
+.price tr td:last-child {
+    text-align: right;
+}
+
+section p {
+    font-size: 1.24rem;
+}
+
+.adr-img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+
+section {
+    margin: 0 !important;
+}
+
+section li {
+    font-size: 1.22rem;
+}
+
+
+.service-card {
+    background: #f9f9f9;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.service-card span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.service-card i {
+    font-size: 1.75rem;
+    color: var(--main);
+}
+
+.service-card:hover{
+    transform: translateY(-4px);
+}

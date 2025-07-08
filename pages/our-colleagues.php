@@ -16,7 +16,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/erdei_peter.jpg" alt="Erdei Péter portré">
+                        <img src="imgs/colleagues/erdei-peter.jpg" alt="Erdei Péter portré">
                         <div>
                             <span>Erdei Péter</span><br>
                             <span>erdei.peter@rdr2003.hu</span><br>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/dr_erdei_peter.jpg" alt="dr. Erdei Péter portré">
+                        <img src="imgs/colleagues/dr-erdei-peter.jpg" alt="dr. Erdei Péter portré">
                         <div>
                             <span>dr. Erdei Péter</span><br>
                             <span>drerdeipeter@rdr2003.hu</span><br>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/sandor_orsolya.jpg" alt="Sándor Orsolya portré">
+                        <img src="imgs/colleagues/sandor-orsolya.jpg" alt="Sándor Orsolya portré">
                         <div>
                             <span>Sándor Orsolya</span><br>
                             <span>sandor.orsolya@rdr2003.hu</span><br>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/kardos_gal_anetta.jpg" alt="Kardos-Gál Anetta portré">
+                        <img src="imgs/colleagues/kardos-gal-anetta.jpg" alt="Kardos-Gál Anetta portré">
                         <div>
                             <span>Kardos-Gál Anetta</span><br>
                             <span>kardos-gal.anett@rdr2003.hu</span><br>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/elohazi_regina.jpg" alt="Előházi Regina portré">
+                        <img src="imgs/colleagues/elohazi-regina.jpg" alt="Előházi Regina portré">
                         <div>
                             <span>Előházi Regina</span><br>
                             <span>elohazi.regina@rdr2003.hu</span><br>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/posa_gergely.jpg" alt="Pósa Gergely portré">
+                        <img src="imgs/colleagues/posa-gergely.jpg" alt="Pósa Gergely portré">
                         <div>
                             <span>Pósa Gergely</span><br>
                             <span>posa.gergely@rdr2003.hu</span><br>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/raffai_peter.jpg" alt="Raffai Péter portré">
+                        <img src="imgs/colleagues/raffai-peter.jpg" alt="Raffai Péter portré">
                         <div>
                             <span>Raffai Péter</span><br>
                             <span>raffai.peter@rdr2003.hu</span><br>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="employee-card">
-                        <img src="imgs/colleagues/eckert_vilmos.jpg" alt="Eckert Vilmos portré">
+                        <img src="imgs/colleagues/eckert-vilmos.jpg" alt="Eckert Vilmos portré">
                         <div>
                             <span>Eckert Vilmos</span><br>
                             <span></span><br>

@@ -613,9 +613,9 @@ return [
             'h2' => 'Unterkunft',
             'place' => 'EDER PANSION',
             'with_breakfast' => 'mit Frühstück',
-            'li1' => '1 Einzelzimmer: 44 Euro / 17.000 Ft',
-            'li2' => '2 Doppelzimmer: 33 Euro / 13.000 Ft',
-            'li3' => '3 Dreibettzimmer: 31 Euro / 12.000 Ft',
+            'li1' => 'Einzelzimmer: 44 Euro oder 17.000 Ft /Person/Nacht',
+            'li2' => 'Doppelzimmer: 33 Euro oder 13.000 Ft /Person/Nacht',
+            'li3' => 'Dreibettzimmer: 31 Euro oder 12.000 Ft /Person/Nachtt',
             'note' => 'Stornierungsfrist: Montag der Schulungswoche.',
         ],
 

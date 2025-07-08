@@ -117,7 +117,7 @@
                 <section>
                     <h2><?= $lang['adr-austria-page']['contact']['h2'] ?></h2>
                     <p><?= $lang['adr-austria-page']['contact']['p'] ?></p>
-                    <a href="./#kapcsolat"><?= $lang['adr-austria-page']['contact']['link'] ?></a>
+                    <a href="<?= navLink() ?>#contact"><?= $lang['adr-austria-page']['contact']['link'] ?></a>
                 </section>
 
                 <?php include "include/course-application-form.php"; ?>

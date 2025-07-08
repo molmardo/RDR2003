@@ -612,9 +612,9 @@ return [
             'h2' => 'Accommodation',
             'place' => 'EDER PANSION',
             'with_breakfast' => 'with breakfast',
-            'li1' => '1 single room: 44 Euro / 17.000 Ft',
-            'li2' => '2 double room: 33 Euro / 13.000 Ft',
-            'li3' => '3 triple room: 31 Euro / 12.000 Ft',
+            'li1' => 'Single room: 44 Euro or 17,000 HUF /person/night',
+            'li2' => 'Double room: 33 Euro or 13,000 HUF /person/night',
+            'li3' => 'Triple room: 31 Euro or 12,000 HUF /person/night',
             'note' => 'Cancellation deadline: Monday of the training week.',
         ],
 
