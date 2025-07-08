@@ -80,7 +80,7 @@
     <section class="about_us" id="about-us">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 ScrollDownLeft">
+                <div class="col-md-12 ScrollDownLeft">
                     <h2 class="mb-4"><?= $lang['about-us']['about-us'] ?></h2>
                     <p>
                         <?= $lang['about-us']['p'] ?>
@@ -90,8 +90,8 @@
                     </p>
                     <a href="<?= navLink('our-colleagues'); ?>" class="main-button"><?= $lang['about-us']['button'] ?></a>
                 </div>
-                <div class="col-md-6 ScrollDownRight">
-                    <img src="imgs/man-with-photo-camera-his-holidays.jpg" alt="<?= $lang['about-us']['about-us'] ?>">
+                <div class="col-md-12 ScrollDownRight mt-3">
+                    <img src="imgs/colleagues/team.jpg" alt="<?= $lang['about-us']['about-us'] ?>">
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@
     <div class="container rent">
         <div class="row">
             <div class="col-lg-7 col-sm-12">
-                <img src="imgs/pexels-moonlightshotz-11139345.jpg" alt="<?= $lang['vanrent']['contact']['title'] ?> img" class="img-fluid">
+                <img src="imgs/szemelyszallito_furgonok.jpg" alt="<?= $lang['vanrent']['contact']['title'] ?> img" class="img-fluid">
             </div>
             <div class="col-lg-5 col-sm-12 contact">
                 <h3><?= $lang['vanrent']['contact']['title'] ?></h3>

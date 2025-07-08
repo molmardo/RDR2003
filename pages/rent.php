@@ -19,7 +19,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-stretch">
                 <a href="<?= navLink('/rent/van') ?>" class="w-100">
                     <div class="rental h-100">
-                        <img src="imgs/pexels-moonlightshotz-11139345.jpg" alt="<?= $lang['rent-page']['card1']['h3']?> img" class="img-fluid">
+                        <img src="imgs/szemelyszallito_furgonok.jpg" alt="<?= $lang['rent-page']['card1']['h3']?> img" class="img-fluid">
                         <h3 class="mt-3"><?= $lang['rent-page']['card1']['h3']?></h3>
                         <p><?= $lang['rent-page']['card1']['p']?></p>
                     </div>
@@ -28,7 +28,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-stretch">
                 <a href="<?= navLink('/rent/classroom')?>" class="w-100">
                     <div class="rental h-100">
-                        <img src="imgs/pexels-pixabay-159213.jpg" alt="<?= $lang['rent-page']['card2']['h3']?> img" class="img-fluid">
+                        <img src="imgs/tanterem.jpg" alt="<?= $lang['rent-page']['card2']['h3']?> img" class="img-fluid">
                         <h3 class="mt-3"><?= $lang['rent-page']['card2']['h3']?></h3>
                         <p><?= $lang['rent-page']['card2']['p']?></p>
                     </div>
