@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>GKI Tanfolyamok | RDR2003</title>
+    <title><?= $lang['gki-page']['title'] ?> | RDR2003</title>
     <link rel="stylesheet" href="css/tanfolyamok-css.css">
 </head>
 

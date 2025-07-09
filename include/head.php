@@ -1,8 +1,6 @@
 <?php
-session_start();  // Session indítása
-
-$helyes_jelszo = "titok123";  // A helyes jelszó
-
+session_start();  // Session indítá
+$helyes_jelszo = "titok123";
 // Ha a felhasználó még nincs bejelentkezve, kérj tőle jelszót
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
   if (isset($_POST['password'])) {
@@ -120,15 +118,12 @@ $phone_numbers = file('data/phone_numbers.txt', FILE_IGNORE_NEW_LINES | FILE_SKI
 
 ?>
 <?php
-// Alap protocl beállítás
 $fullBase = $protocol . '://' . $host . $basePath . '/';
 echo '<base href="' . $fullBase . '">' . PHP_EOL;
 $uri = $_SERVER['REQUEST_URI'];
 $host = $_SERVER['HTTP_HOST'];
 $fullUrl = $protocol . $host . $uri;
 ?>
-
-
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -165,6 +160,4 @@ $fullUrl = $protocol . $host . $uri;
 <meta name="theme-color" content="#000">
 <!-- Canonical URL -->
 <link rel="canonical" href="<?= $host ?>">
-
-
 <link rel="alternate" href="<?= $fullUrl ?>" hreflang="<?= $currentLang ?>" />

@@ -10,7 +10,6 @@ if (!empty($basePath) && str_starts_with($currentPath, $basePath)) {
 
 $isHomepage = preg_match('#^/(' . implode('|', $availableLangs) . ')(/home|/index\.php)?/?$#', $currentPath) || $currentPath === '';
 ?>
-
 <?php include "cookie_notice.php"; ?>
 <link rel="stylesheet" href="<?= BASE_URL ?>/css/navigationbar.css">
 <nav class="navbar <?php echo $isHomepage ? 'navbar-index' : 'navbar-default'; ?>">
@@ -19,7 +18,6 @@ $isHomepage = preg_match('#^/(' . implode('|', $availableLangs) . ')(/home|/inde
       <a href="./">
         <img src="<?php echo BASE_URL ?>/imgs/logo.png" alt="Logo" class="logo-img-1">
         <img src="<?php echo BASE_URL ?>/imgs/logo.png" alt="" class="logo-img-2">
-
       </a>
     </div>
     <ul class="menu-list">
@@ -35,7 +33,6 @@ $isHomepage = preg_match('#^/(' . implode('|', $availableLangs) . ')(/home|/inde
       <li><a href="mailto:rdr2003@rdr2003.hu" class="nav-a-black"><i class="fas fa-envelope"></i></a></li>
       <li>
         <?php
-
         $uri = $_SERVER['REQUEST_URI'];
         $uriParts = explode('/', trim($uri, '/'));
         $langIndex = null;
@@ -46,25 +43,18 @@ $isHomepage = preg_match('#^/(' . implode('|', $availableLangs) . ')(/home|/inde
             break;
           }
         }
-
-        // Ha megtaláltuk, akkor vegyük a nyelv utáni részeket
         $routeParts = [];
         if (!is_null($langIndex)) {
           $routeParts = array_slice($uriParts, $langIndex + 1);
         }
 
-        // Például így kapsz egy route stringet:
         $routePath = implode('/', $routeParts);
-
-
         ?>
         <select name="" id="languageSwitcher" onchange="navigateToLink(this)">
           <?php
           foreach ($availableLangs as $value) {
           ?>
             <option value="<?= BASE_URL . '/' . $value . '/' . $routePath ?>" <?= ($value == $currentLang) ? 'selected' : '' ?>><?= $value ?></a></option>
-
-            <!-- <option value=""><?= BASE_URL . '/' . $value . '/' . $routePath ?></option> -->
           <?php
           }
           ?>
@@ -83,7 +73,7 @@ $isHomepage = preg_match('#^/(' . implode('|', $availableLangs) . ')(/home|/inde
   function navigateToLink(selectElement) {
     const url = selectElement.value;
     if (url) {
-      window.location.href = url; // új lapon: window.open(url, '_blank');
+      window.location.href = url; 
     }
   }
 </script>

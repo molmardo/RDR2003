@@ -1,4 +1,4 @@
-// MODÁL kezelése
+// MODEL kezelése
 const modal = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
 const span = document.getElementsByClassName("close")[0];

@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>ERROR 404</title>
+    <title>404</title>
     <style>
         h2{
             margin-top: 200px;

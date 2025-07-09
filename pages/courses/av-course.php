@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>Szakmai Irányító | RDR2003</title>
+    <title><?= $lang['hu-courses']['iranyito']['title'] ?> | RDR2003</title>
     <link rel="stylesheet" href="css/tanfolyamok-css.css">
 </head>
 

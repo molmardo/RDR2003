@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>Osztrák ADR Tanfolyam</title>
+    <title><?= $lang['courses']['austrian-adr-course']['h3'] ?> | RDR2003</title>
     <link rel="stylesheet" href="css/tanfolyamok-css.css">
 </head>
 

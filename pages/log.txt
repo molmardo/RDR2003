@@ -1,5 +1,6 @@
 A weboldal technikai alapjai elkészültek, már csak a tartalmi elemek, mint például a szövegek, képek és egyedi igények véglegesítése van hátra. Ezt követően kerülhet sor a keresőoptimalizálásra (SEO), a robots.txt és a sitemap beállítására, valamint a weboldal élesítésére.
 
+2025.07.09 - Fordítási hibák javítása
 2025.07.08 - Kisebb hibák javítása
 2025.07.08 - Szövegek javítása
 2025.07.08 - Magyarországi ADR tanfolyam szöveg
