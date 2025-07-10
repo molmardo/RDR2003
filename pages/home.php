@@ -9,15 +9,6 @@
 
 <body>
     <?php include "include/navigationbar.php"; ?>
-    <!-- <header>
-        <div class="container">
-            <h1>Komplex képzési megoldások fuvarozóknak</h1>
-            <p class="subtitle"> GKI, ADR tanfolyamok és szakmai irányítói képzés egy helyen</p>
-            <div class="cta-buttons">
-                <a href="#tanfolyamok" class="main-button">Tanfolyamaink</a>
-            </div>
-        </div>
-    </header> -->
     <header>
         <video autoplay muted playsinline class="bg-video">
             <source src="videos/header2.mp4" type="video/mp4">
@@ -33,8 +24,6 @@
             </div>
         </div>
     </header>
-
-
 
     <!-- Training -->
     <section class="container mx-auto training" id="courses">

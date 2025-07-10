@@ -1,4 +1,3 @@
-// MODEL kezelése
 const modal = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
 const span = document.getElementsByClassName("close")[0];
@@ -15,11 +14,8 @@ window.onclick = function (event) {
   }
 };
 
-// Űrlapkezelés
 document.addEventListener("DOMContentLoaded", function () {
   const form = modal.querySelector("form");
-
-  // Üzenet doboz létrehozása (ha még nincs)
   let feedback = document.getElementById("application-feedback");
   if (!feedback) {
     feedback = document.createElement("div");
@@ -36,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const formData = new FormData(form);
     const entries = Array.from(formData.entries());
 
-    // Üres mezők ellenőrzése
     const missing = entries.find(([key, value]) => !value.trim());
     if (missing) {
       feedback.textContent = "Kérlek, tölts ki minden mezőt!";

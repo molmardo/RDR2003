@@ -41,8 +41,8 @@
             $lines = file("data/footer.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
             $footer_data = [];
             for ($i = 0; $i < count($lines) - 1; $i += 2) {
-                $key = trim($lines[$i]);           // pl. adat1
-                $value = trim($lines[$i + 1]);       // pl. Ez az adat
+                $key = trim($lines[$i]);        
+                $value = trim($lines[$i + 1]);    
                 $footer_data[$key] = $value;
             }
             ?>

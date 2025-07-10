@@ -9,10 +9,7 @@
 
 <body>
     <?php include "include/navigationbar.php"; ?>
-    <!-- 
-        Leírás (Lorem),
-        Időpontokért 
-    -->
+
     <div class="container rental-full">
         <h2 class="text-center mb-4"><?= $lang['rent-page']['title']?></h2>
         <div class="row g-3">
@@ -36,10 +33,6 @@
             </div>
         </div>
     </div>
-
-
-    <?php // include "include/footer.php";
-    ?>
 </body>
 
 </html>

@@ -11,7 +11,6 @@
 <body>
     <?php include "include/navigationbar.php"; ?>
 
-
     <section class="container">
 
         <div class="row information">

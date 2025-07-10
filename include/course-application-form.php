@@ -15,7 +15,7 @@
             <form method="post" id="application-form">
                 <div class="row">
 
-                    <!-- Alapadatok -->
+                    <!-- Név -->
                     <div class="col-lg-6 col-md-12">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" name="lastName" id="lastName" required>
@@ -124,8 +124,6 @@
                             </label>
                         </div>
                     </div>
-
-                    <!-- Gomb -->
                     <div class="text-center">
                         <button type="submit" class="main-button"><?= $lang['course-application-form']['sendBtn'] ?></button>
                     </div>
@@ -154,8 +152,6 @@
             .then(data => {
                 console.log(data);
                 document.getElementById('response-message').innerHTML = data;
-
-                // Csak akkor ürítjük a formot, ha ténylegesen sikeres válasz jött
                 if (data.includes("Köszönjük jelentkezését")) {
                     form.reset();
                 }

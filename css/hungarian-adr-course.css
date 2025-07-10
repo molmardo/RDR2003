@@ -1,10 +1,7 @@
 .adr {
     margin-top: 150px;
     margin-bottom: 45px;
-    /* padding: 2rem; */
-    /* background-color: #fff; */
     border-radius: 12px;
-    /* box-shadow: 0 0px 9px 1px rgba(0, 0, 0, 0.25); */
 }
 
 .adr-data {
@@ -18,7 +15,6 @@
     object-fit: cover;
     object-position: 50% 55%;
 }
-
 
 .container h1,
 .container h2 {
@@ -79,7 +75,6 @@ section p {
     object-fit: cover;
 }
 
-
 section {
     margin: 0 !important;
 }
@@ -87,7 +82,6 @@ section {
 section li {
     font-size: 1.22rem;
 }
-
 
 .service-card {
     background: #f9f9f9;

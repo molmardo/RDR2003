@@ -11,7 +11,6 @@
 <body>
     <?php include "include/navigationbar.php"; ?>
 
-
     <div class="container hungarian-adr-courses">
         <div class="adr">
             <img src="imgs/pexels-quintingellar-2199293.jpg" alt="ADR 1.3 képzés" class="header-img">

@@ -9,9 +9,7 @@ body {
     background-color: #f8f8f8;
 }
 
-
 :root {
-    /* #055 #144*/
     --main: #fe9901;
     --main-hover: rgb(194, 69, 2);
     --main-hover-dark: #af3700;
@@ -49,7 +47,6 @@ section {
     margin: 35px 0 150px 0;
 }
 
-
 .main-button {
     border: 2px solid var(--button);
     background-color: transparent;
@@ -65,14 +62,12 @@ section {
     transition: all 0.2s ease;
 }
 
-
 .main-button:hover {
     transform: translateY(-2px);
     background-color: var(--button-hover);
     color: var(--white);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 
 h2 {
     font-size: 2.7rem !important;

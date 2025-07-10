@@ -1,8 +1,6 @@
 @import url(scrollanimation.css);
-
-
+/* Header */
 header {
-    /* background-image: linear-gradient(190deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.0)), url('../imgs/header.jpg'); */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -68,7 +66,6 @@ header .subtitle {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Videohoz */
 header {
     position: relative;
     height: 100vh;
@@ -125,12 +122,13 @@ header .container {
     }
 }
 
-/* Training */
 @media (max-width: 767px){
     #tanfolyamok{
         overflow: hidden;
     }
 }
+
+/* Training */
 
 .training h2 {
     margin: 45px 0 23px 0;
@@ -195,9 +193,7 @@ header .container {
 
 .card-text {
     flex-grow: 1;
-    /* Kitölti a helyet, hogy az alsó tartalom fixen lent legyen */
 }
-
 
 /* About US */
 
@@ -359,7 +355,6 @@ header .container {
 .logos:after {
     position: absolute;
     top: 0;
-    /* width: 75px; */
     height: 100%;
     content: "";
     z-index: 2;
@@ -374,10 +369,6 @@ header .container {
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
-
-/* .logos-slide:hover {
-    animation-play-state: paused;
-  } */
 
 .logos-slide {
     display: inline-block;

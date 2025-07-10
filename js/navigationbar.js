@@ -13,7 +13,6 @@ cancelBtn.onclick = () => {
     body.classList.remove("disabled");
     navbar.classList.remove("show");
     menuBtn.classList.remove("hide");
-    // menuBtn.classList.remove("nav-a-white");
 }
 window.onscroll = () => {
     this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");

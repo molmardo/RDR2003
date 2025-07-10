@@ -4,8 +4,6 @@
     padding: 2rem 1rem;
 }
 
-
-
 .service-card {
     background: #f9f9f9;
     border-radius: 1rem;
@@ -44,9 +42,6 @@
 .service-card:hover i, .service-card:hover span{
     color: white;
 }
-
-
-
 
 .service-card a{
     text-decoration: none;
