@@ -727,5 +727,90 @@ return [
         'gdprText' => 'Elfogadom az ',
         'gdprLink' => 'adatkezelési tájékoztatót',
         'sendBtn' => 'Küldés'
-    ]
+    ],
+    'employees' => [
+        'title' => 'Munkatársaink',
+        'list' => [
+            [
+                'name' => 'Erdei Péter',
+                'email' => 'erdei.peter@rdr2003.hu',
+                'position' => 'ügyvezető igazgató',
+                'img' => 'imgs/colleagues/erdei-peter.jpg',
+                'alt' => 'Erdei Péter portré',
+            ],
+            [
+                'name' => 'dr. Erdei Péter',
+                'email' => 'drerdeipeter@rdr2003.hu',
+                'position' => 'jogi szakértő, biztonsági tanácsadó',
+                'img' => 'imgs/colleagues/dr-erdei-peter.jpg',
+                'alt' => 'dr. Erdei Péter portré',
+            ],
+            [
+                'name' => 'Sándor Orsolya',
+                'email' => 'sandor.orsolya@rdr2003.hu',
+                'position' => 'tanfolyamszervező',
+                'img' => 'imgs/colleagues/sandor-orsolya.jpg',
+                'alt' => 'Sándor Orsolya portré',
+            ],
+            [
+                'name' => 'Kardos-Gál Anetta',
+                'email' => 'kardos-gal.anett@rdr2003.hu',
+                'position' => 'irodavezető',
+                'img' => 'imgs/colleagues/kardos-gal-anetta.jpg',
+                'alt' => 'Kardos-Gál Anetta portré',
+            ],
+            [
+                'name' => 'Előházi Regina',
+                'email' => 'elohazi.regina@rdr2003.hu',
+                'position' => 'tanfolyamszervező',
+                'img' => 'imgs/colleagues/elohazi-regina.jpg',
+                'alt' => 'Előházi Regina portré',
+            ],
+            [
+                'name' => 'Pósa Gergely',
+                'email' => 'posa.gergely@rdr2003.hu',
+                'position' => 'biztonsági tanácsadó',
+                'img' => 'imgs/colleagues/posa-gergely.jpg',
+                'alt' => 'Pósa Gergely portré',
+            ],
+            [
+                'name' => 'Raffai Péter',
+                'email' => 'raffai.peter@rdr2003.hu',
+                'position' => 'biztonsági tanácsadó',
+                'img' => 'imgs/colleagues/raffai-peter.jpg',
+                'alt' => 'Raffai Péter portré',
+            ],
+            [
+                'name' => 'Eckert Vilmos',
+                'email' => '',
+                'position' => 'jármű – és képzési koordinátor',
+                'img' => 'imgs/colleagues/eckert-vilmos.jpg',
+                'alt' => 'Eckert Vilmos portré',
+            ],
+        ]
+    ],
+    'hungarian-adr-courses' => [
+        'title' => 'Magyarországi Tanfolyamok',
+        'services' => [
+            'safety' => 'Biztonság',
+            'compliance' => 'Jogszabályi megfelelés',
+            'practical' => 'Gyakorlatias tudás',
+        ],
+        'section1' => [
+            'p1' => 'Az ADR 1.3 fejezete szerinti képzés azon munkavállalók számára kötelező, akik veszélyes áru szállításában, csomagolásában, rakodásában vagy adminisztrációjában vesznek részt – nem gépjárművezetőként.',
+            'p2' => 'A tanfolyam célja, hogy a résztvevők megismerjék az ADR alapvető előírásait, és biztonságosan végezhessék a rájuk bízott feladatokat. A tananyag minden esetben alkalmazkodik a munkakörhöz – legyen szó raktárosról, adminisztrátorról vagy csomagolóról.',
+            'p3' => 'A képzés végén minden résztvevő részére tanúsítványt/igazolást állítunk ki.',
+        ],
+        'section2' => [
+            'title' => 'Miért érdemes részt venni?',
+            'list' => [
+                'Elkerülhetők a bírságok.',
+                'Megfelelés az előírásoknak.',
+                'Valóban érthető és gyakorlatközpontú oktatás.',
+                'Rövid, egy napos képzési forma.',
+                'Oktatás kiszállással az Ön igényeire szabva.',
+            ]
+        ]
+    ],
+
 ];

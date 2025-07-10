@@ -5,6 +5,7 @@ $baseRoutes = [
     '/our-colleagues' => 'pages/our-colleagues.php',
     '/advice' => 'pages/advice.php',
     // Documents
+    '/documents' => 'pages/documents/documents-main.php',
     '/documents/cookie-policy' => 'pages/documents/cookie-policy.php',
     '/documents/impressum' => 'pages/documents/impressum.php',
     '/documents/gdpr' => 'pages/documents/gdpr.php',
@@ -14,6 +15,7 @@ $baseRoutes = [
     '/rent/classroom' => 'pages/rent/classroom.php',
     '/rent/van' => 'pages/rent/van.php',
     // Courses
+    '/courses' => 'pages/courses/courses.php',
     '/courses/austrian-adr-course' => 'pages/courses/austrian-adr-course.php',
     '/courses/av-course' => 'pages/courses/av-course.php',
     '/courses/courses-in-hungary' => 'pages/courses/courses-in-hungary.php',
@@ -23,6 +25,7 @@ $baseRoutes = [
     '/form_functions/basic-application-form_mail' => 'pages/form_functions/basic-application-form_mail.php',
     '/form_functions/course-application-form_mail' => 'pages/form_functions/course-application-form_mail.php',
     '/form_functions/send_contact_mail' => 'pages/form_functions/send_contact_mail.php',
+    //Error
     '/report' => 'pages/report.php',
     
 ];

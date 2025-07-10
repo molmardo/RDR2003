@@ -3,7 +3,7 @@
 
 <head>
     <?php include "include/head.php"; ?>
-    <title>Munkatársak | RDR2003</title>
+    <title><?= $lang['employees']['title']; ?> | RDR2003</title>
     <link rel="stylesheet" href="css/colleagues.css">
 </head>
 
@@ -12,92 +12,26 @@
 
     <div class="container">
         <div class="employees">
-            <h2>Munkatársaink</h2>
+            <h2><?= $lang['employees']['title'] ?></h2>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/erdei-peter.jpg" alt="Erdei Péter portré">
-                        <div>
-                            <span>Erdei Péter</span><br>
-                            <span>erdei.peter@rdr2003.hu</span><br>
-                            <span>ügyvezető igazgató</span><br>
+                <?php foreach ($lang['employees']['list'] as $employee): ?>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="employee-card">
+                            <img src="<?= $employee['img'] ?>" alt="<?= $employee['alt'] ?>">
+                            <div>
+                                <span><?= $employee['name'] ?></span><br>
+                                <?php if (!empty($employee['email'])): ?>
+                                    <span><?= $employee['email'] ?></span><br>
+                                <?php endif; ?>
+                                <span><?= $employee['position'] ?></span><br>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/dr-erdei-peter.jpg" alt="dr. Erdei Péter portré">
-                        <div>
-                            <span>dr. Erdei Péter</span><br>
-                            <span>drerdeipeter@rdr2003.hu</span><br>
-                            <span>jogi szakértő, biztonsági tanácsadó</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/sandor-orsolya.jpg" alt="Sándor Orsolya portré">
-                        <div>
-                            <span>Sándor Orsolya</span><br>
-                            <span>sandor.orsolya@rdr2003.hu</span><br>
-                            <span>tanfolyamszervező</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/kardos-gal-anetta.jpg" alt="Kardos-Gál Anetta portré">
-                        <div>
-                            <span>Kardos-Gál Anetta</span><br>
-                            <span>kardos-gal.anett@rdr2003.hu</span><br>
-                            <span>irodavezető</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/elohazi-regina.jpg" alt="Előházi Regina portré">
-                        <div>
-                            <span>Előházi Regina</span><br>
-                            <span>elohazi.regina@rdr2003.hu</span><br>
-                            <span>tanfolyamszervező</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/posa-gergely.jpg" alt="Pósa Gergely portré">
-                        <div>
-                            <span>Pósa Gergely</span><br>
-                            <span>posa.gergely@rdr2003.hu</span><br>
-                            <span>biztonsági tanácsadó</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/raffai-peter.jpg" alt="Raffai Péter portré">
-                        <div>
-                            <span>Raffai Péter</span><br>
-                            <span>raffai.peter@rdr2003.hu</span><br>
-                            <span>biztonsági tanácsadó</span><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="employee-card">
-                        <img src="imgs/colleagues/eckert-vilmos.jpg" alt="Eckert Vilmos portré">
-                        <div>
-                            <span>Eckert Vilmos</span><br>
-                            <span></span><br>
-                            <span>jármű – és képzési koordinátor</span><br>
-                        </div>
-                    </div>
-                </div>
-
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
+
 
     <?php include "include/footer.php"; ?>
 </body>
