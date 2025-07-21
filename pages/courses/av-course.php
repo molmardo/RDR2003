@@ -12,7 +12,7 @@
 
     <div class="container">
         <div class="adr">
-            <img src="imgs/pexels-quintingellar-2199293.jpg" alt="<?= $lang['av-page']['title'] ?>" class="header-img">
+            <img src="imgs/av.jpg" alt="<?= $lang['av-page']['title'] ?>" class="header-img">
             <div class="adr-data">
                 <h1 class="text-center"><?= $lang['av-page']['title'] ?></h1>
 

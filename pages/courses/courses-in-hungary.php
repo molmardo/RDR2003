@@ -5,7 +5,7 @@
     <?php include "include/head.php"; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $lang['courses']['courses-in-hungary']['h3'] ?> | RDR2003</title>
-    <link rel="stylesheet" href="css/magyarorszagi-tanfolyamok.css">
+    <link rel="stylesheet" href="css/courses-in-hungary.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                 <div>
                     <a href="<?= navLink('courses/av-course') ?>">
                         <div class="course">
-                            <img src="imgs/pexels-quintingellar-2199293.jpg" alt="<?= $lang['hu-courses']['iranyito']['title'] ?>">
+                            <img src="imgs/av.jpg" alt="<?= $lang['hu-courses']['iranyito']['title'] ?>">
                             <h3 class="mt-3"><?= $lang['hu-courses']['iranyito']['title'] ?></h3>
                             <p><?= $lang['hu-courses']['iranyito']['desc'] ?></p>
                         </div>
