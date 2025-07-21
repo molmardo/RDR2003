@@ -782,7 +782,7 @@ return [
             ],
             [
                 'name' => 'Eckert Vilmos',
-                'email' => '',
+                'email' => ' ',
                 'position' => 'jármű – és képzési koordinátor',
                 'img' => 'imgs/colleagues/eckert-vilmos.jpg',
                 'alt' => 'Eckert Vilmos portré',
