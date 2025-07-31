@@ -131,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
   <div class='email-container'>
     <div class='logo'>
-      <img src='https://rdr2003.weboldal-gyorsan.hu/imgs/logo.png' alt='Cég logó'>
+      <img src='https://rdr2003.hu/imgs/logo.png' alt='Cég logó'>
     </div>
     <div class='content'>
       <p>Kedves <strong>$keresztnev</strong>!</p>

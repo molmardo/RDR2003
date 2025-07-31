@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     try {
-      const response = await fetch("https://rdr2003.weboldal-gyorsan.hu/form_functions/basic-application-form_mail", {
+      const response = await fetch("https://rdr2003.hu/form_functions/basic-application-form_mail", {
         method: "POST",
         body: formData
       });

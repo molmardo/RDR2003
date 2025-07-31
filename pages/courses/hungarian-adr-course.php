@@ -55,6 +55,7 @@
     <?php include "include/basic-application-form.php"; ?>
     </div>
     </div>
+    <div class="mb-3"></div>
     <?php include "include/footer.php"; ?>
 </body>
 

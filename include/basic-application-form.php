@@ -129,7 +129,7 @@
             }
 
             try {
-                const response = await fetch("https://rdr2003.weboldal-gyorsan.hu/basic-application-form_mail", {
+                const response = await fetch("https://rdr2003.hu/basic-application-form_mail", {
                     method: "POST",
                     body: formData
                 });
