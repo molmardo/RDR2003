@@ -89,8 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </body>
 </html>
 ";
-
-    // Felhasználónak automatikus visszajelzés (opcionális)
     $userBody = "
 <html>
 <head>
