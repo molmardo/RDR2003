@@ -12,23 +12,28 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $phone = trim($_POST["phone"] ?? "");
     $message = trim($_POST["message"] ?? "");
 
+    // Kötelező mezők ellenőrzése
     if ($name === "" || $email === "" || $message === "") {
         http_response_code(400);
         echo "Kérlek, tölts ki minden kötelező mezőt!";
         exit;
     }
 
+    // Email ellenőrzése
     if (!isValidEmail($email)) {
         http_response_code(400);
         echo "Hibás email cím.";
         exit;
     }
 
-    $to = "molnar.mark@weboldal-gyorsan.hu"; // cseréld le a saját címedre
-    $subject = "Kapcsolati űrlap - RDR2003";
+    // Admin email adatok
+    $to = "rdr2003@rdr2003.hu";
+    $subject = "Kapcsolati űrlap - RDR2003 - " . $name;
+
     $body = "
 <html>
 <head>
+  <meta charset='UTF-8'>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -72,16 +77,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </body>
 </html>
 ";
-    $headers = 'Content-type: text/html; charset=UTF-8' . "\r\n";
-    $headers .= "From: RDR2003 noreply@domain.hu";
 
+    // Fejlécek beállítása
+    $headers  = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+    $headers .= "From: RDR2003 <weboldal@rdr2003.hu>\r\n";
+
+    // Küldés az adminnak
     if (mail($to, $subject, $body, $headers)) {
-        // echo "Adatok" . $subject . " " . $body;
 
-        $userBody =
-            "
+        // Felhasználói visszaigazolás
+        $userBody = "
 <html>
 <head>
+  <meta charset='UTF-8'>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -127,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <img src='https://rdr2003.hu/imgs/logo.png' alt='Cég logója'>
     </div>
     <div class='content'>
-        <h1>Kedves $name!</h1>
+      <h1>Kedves $name!</h1>
       <h2>Köszönjük, hogy kapcsolatba lépett velünk!</h2>
       <p>Üzenetét sikeresen megkaptuk, és hamarosan válaszolni fogunk Önnek.</p>
 
@@ -135,7 +144,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <div class='data'>
         <strong>Email:</strong> $email<br>
         <strong>Telefonszám:</strong> $phone<br>
-        <strong>Üzenet:</strong><br>" . nl2br(htmlspecialchars($message)) . "<br>
+        <strong>Üzenet:</strong><br>" . nl2br(htmlspecialchars($message)) . "
       </div>
 
       <div class='footer'>
@@ -146,7 +155,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </body>
 </html>
 ";
-        mail($email, $subject, $userBody, $headers);
+
+        // Felhasználói email elküldése – külön subject is lehetne
+        if (!mail($email, "Visszaigazolás – Kapcsolatfelvétel", $userBody, $headers)) {
+            error_log("Nem sikerült visszaigazolást küldeni $email címre.");
+        }
+
         echo "Sikeresen elküldtük az üzeneted!";
     } else {
         http_response_code(500);

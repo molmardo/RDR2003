@@ -27,10 +27,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $fullName = trim("$firstName $firstName2 $lastName");
 
 
-    $to_company = 'molnar.mark@weboldal-gyorsan.hu';
+    $to_company = 'rdr2003@rdr2003.hu';
     $to_user = $email;
 
-    $subject = 'Új jelentkezés - RDR2003';
+    $subject = 'Új jelentkezés - RDR2003 - ' . $lastName;
 
     // Üzenet
     $company_message = "
@@ -164,7 +164,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Fejlécek
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "From: RDR2003 <molnar.mark@weboldal-gyorsan.hu>" . "\r\n";
+    $headers .= "From: RDR2003 <weboldal@rdr2003.hu>" . "\r\n";
 
     // E-mailek küldése
     mail($to_company, $subject, $company_message, additional_headers: $headers);

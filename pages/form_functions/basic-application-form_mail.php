@@ -1,13 +1,14 @@
 <?php
 header("Content-Type: text/plain");
 
+// Adattisztítás
 function validate($value)
 {
     return htmlspecialchars(trim($value));
 }
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $source_page = $_POST['source_page'];
+    $source_page = $_POST['source_page'] ?? '';
     $vezeteknev = validate($_POST['vezeteknev'] ?? '');
     $keresztnev = validate($_POST['keresztnev'] ?? '');
     $keresztnev2 = validate($_POST['keresztnev2'] ?? '');
@@ -16,25 +17,29 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $telefon = validate($_POST['telefon'] ?? '');
     $uzenet = validate($_POST['uzenet'] ?? '');
 
+    // Kötelező mezők ellenőrzése
     if (!$vezeteknev || !$keresztnev || !$email || !$telefon || !$uzenet) {
         http_response_code(400);
         echo "Minden kötelező mezőt ki kell tölteni!";
         exit;
     }
 
+    // Email formátum ellenőrzése
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         http_response_code(400);
         echo "Hibás email formátum.";
         exit;
     }
 
-    $to = "molnar.mark@weboldal-gyorsan.hu";
-    $subject = "Új jelentkezés a weboldalon";
-    $headers = 'Content-type: text/html; charset=UTF-8' . "\r\n";
-    $headers .= "From: RDR2003 molnar.mark@weboldal-gyorsan.hu";
+    // Email címzett
+    $to = "rdr2003@rdr2003.hu";
+    $subject = "Új jelentkezés a weboldalon – " . $vezeteknev;
+
+    // HTML email adminnak
     $body = "
 <html>
 <head>
+  <meta charset='UTF-8'>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -75,23 +80,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
   <div class='container'>
     <div class='section-title'>Űrlap adatai</div>
-
     <div class='data-row'><strong>Név:</strong> $vezeteknev $keresztnev $keresztnev2</div>
     <div class='data-row'><strong>Cégnév:</strong> $cegnev</div>
     <div class='data-row'><strong>Email:</strong> $email</div>
     <div class='data-row'><strong>Telefon:</strong> $telefon</div>
     <div class='data-row'><strong>Üzenet:</strong><br>" . nl2br(htmlspecialchars($uzenet)) . "</div>
-
-    <div class='footer-note'>
-      Beküldve innen: <em>$source_page</em>
-    </div>
+    <div class='footer-note'>Beküldve innen: <em>$source_page</em></div>
   </div>
 </body>
 </html>
 ";
+
+    // HTML email felhasználónak
     $userBody = "
 <html>
 <head>
+  <meta charset='UTF-8'>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -135,11 +139,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>
     <div class='content'>
       <p>Kedves <strong>$keresztnev</strong>!</p>
-
       <p>Köszönjük jelentkezését. Hamarosan felvesszük Önnel a kapcsolatot.</p>
-
-      <p>Üdvözlettel,<br>
-      <strong>A csapat</strong></p>
+      <p>Üdvözlettel,<br><strong>A csapat</strong></p>
     </div>
     <div class='footer'>
       Kérjük, ne válaszoljon erre az automatikus üzenetre.
@@ -149,8 +150,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </html>
 ";
 
-    @mail($email, "Visszaigazolás", $userBody, $headers);
+    // Fejlécek beállítása
+    $headers  = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+    $headers .= "From: RDR2003 <weboldal@rdr2003.hu>\r\n";
 
+    // Visszaigazolás a felhasználónak
+    if (!mail($email, "Visszaigazolás – Jelentkezés", $userBody, $headers)) {
+        error_log("Nem sikerült visszaigazoló emailt küldeni a felhasználónak ($email).");
+    }
+
+    // Adminnak értesítés
     if (mail($to, $subject, $body, $headers)) {
         echo "Köszönjük, az űrlapot sikeresen elküldtük!";
     } else {

@@ -1,0 +1,91 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://rdr2003.hu/hu/home</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/home" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/home" />
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/our-colleagues</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/our-colleagues" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/our-colleagues" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/advice</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/advice" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/advice" />
+    <priority>0.80</priority>
+  </url>
+  
+  <url>
+    <loc>https://rdr2003.hu/hu/rent</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/rent" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/rent" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/rent/classroom</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/rent/classroom" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/rent/classroom" />
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/rent/van</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/rent/van" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/rent/van" />
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/courses</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/courses" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/courses" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/courses/austrian-adr-course</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/courses/austrian-adr-course" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/courses/austrian-adr-course" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/courses/av-course</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/courses/av-course" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/courses/av-course" />
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/courses/courses-in-hungary</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/courses/courses-in-hungary" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/courses/courses-in-hungary" />
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/courses/gki-course</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/courses/gki-course" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/courses/gki-course" />
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://rdr2003.hu/hu/courses/hungarian-adr-course</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://rdr2003.hu/hu/courses/hungarian-adr-course" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rdr2003.hu/en/courses/hungarian-adr-course" />
+    <priority>0.80</priority>
+  </url>
+
+</urlset>

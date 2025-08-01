@@ -25,9 +25,7 @@ $baseRoutes = [
     '/form_functions/basic-application-form_mail' => 'pages/form_functions/basic-application-form_mail.php',
     '/form_functions/course-application-form_mail' => 'pages/form_functions/course-application-form_mail.php',
     '/form_functions/send_contact_mail' => 'pages/form_functions/send_contact_mail.php',
-    //Error
-    '/report' => 'pages/report.php',
-    
+
 ];
 
 // Mivel az index.php már eltávolította a nyelvi előtagot az útvonalból,

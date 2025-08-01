@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /form_functions/
+Disallow: /documents/
+
+Sitemap: https://rdr2003.hu/sitemap.xml

@@ -321,7 +321,7 @@
         }
 
         try {
-            const response = await fetch("https://rdr2003.weboldal-gyorsan.hu/form_functions/send_contact_mail", {
+            const response = await fetch("https://rdr2003.hu/form_functions/send_contact_mail", {
                 method: "POST",
                 body: formData,
             });
